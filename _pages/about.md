@@ -31,7 +31,11 @@ please send me an [email](mailto:jiaoyanl@andrew.cmu.edu) with your CV and a sho
 I currently do not have any funding for postdoc positions.
 
 ## News 
-* \[CFP\] We are delighted and excited to send out the call for papers and participation for the [17th International Symposium on Combinatorial Search (SoCS)](https://socs24.search-conference.org/). The submission deadline is February 19, 2024. The conference will be held in Kananaskis, AB, Canada during June 6 and June 8, 2024. 
+* \[CFP\] We are delighted and excited to send out the call for papers and participation for the [17th International Symposium on Combinatorial Search (SoCS)](https://socs24.search-conference.org/). The submission deadline is February 19, 2024. The conference will be held in Kananaskis, AB, Canada during June 6 and June 8, 2024.
+* \[CFP\] We are delighted and excited to send out the call for papers and participation for the [15th Workshop on Optimization and Learning in Multiagent Systems (OptLearnMAS)](https://optlearnmas.github.io/) at [AAMAS-24](https://www.aamas2024-conference.auckland.ac.nz/). The submission deadline is February 5, 2024. 
+* \[2023/12\] Our team was the winner of [The League of Robot Runners](https://www.leagueofrobotrunners.org/), a competition sponsored by Amazon Robotics that focuses on the coordination of multiple moving robots. 
+              We ranked the first in both the overall best and the fast mover categories, as well as the second in line honours. See more details [here](https://www.leagueofrobotrunners.org/news). 
+* \[2023/12\] Our paper [Solving Multi-Agent Target Assignment and Path Finding with a Single Constraint Tree](https://jiaoyangli.me/publications/TangMRS23) was selected as the finalist for the [MRS-23](https://sites.bu.edu/mrs2023/program/awards/) Best Paper.
 * \[2023/10\] [One paper](https://jiaoyangli.me/publications/ZhangNeurIPS23) on environment generation accepted to [NeurIPS 2023](https://nips.cc/), 
               [one paper](https://jiaoyangli.me/publications/TangMRS23) on target assignment and pathfinding accepted to [MRS 2023](https://sites.bu.edu/mrs2023/),
               [one paper](https://jiaoyangli.me/publications/ZhangAR23) on task and motion planning published at [Autonomous Robots](https://www.springer.com/journal/10514), and
@@ -46,11 +50,13 @@ I currently do not have any funding for postdoc positions.
 * \[2023/05\] Honored to receive the USC Viterbi School of Engineering Best Dissertation Award, called the William F. Ballhaus, Jr. Prize for Excellence in Graduate Engineering Research, for [my dissertation](https://jiaoyangli.me/publications/LiPhD22)!
 * \[2023/04\] [Our paper](https://jiaoyangli.me/publications/ZhangIJCAI23) on layout optimization for multi-robot systems was accepted to [IJCAI 2023](https://ijcai-23.org/). 
 * \[2023/04\] Invited talk at Robotics and Controls Seminar at the University of North Carolina at Charlotte. 
-* \[2023/02\] Organizing AAAI-23 workshop on [Multi-Agent Path Finding](http://idm-lab.org/wiki/AAAI23-MAPF/index.php/Main/HomePage). 
-* \[2022/11\] [Our paper](https://jiaoyangli.me/publications/LiAAAI23) on MAPF for autonomous vehicle coordination was accepted to [AAAI 2023](https://aaai.org/Conferences/AAAI-23/). 
+* \[2023/02\] Organizing AAAI-23 workshop on [Multi-Agent Path Finding](http://idm-lab.org/wiki/AAAI23-MAPF/index.php/Main/HomePage).
 <details>
   <summary>Show more</summary>
   <ul>
+    <li>
+        [2022.11] <a href="https://jiaoyangli.me/publications/LiAAAI23">Our paper</a> on MAPF for autonomous vehicle coordination was accepted to <a href="https://aaai.org/Conferences/AAAI-23/">AAAI 2023</a>.
+    </li>
     <li>
         [2022.06] Invited talk at ICAPS-22 workshop on <a href="http://icaps22.icaps-conference.org/workshops/HSDIP/">Heuristics and Search for Domain-independent Planning</a>.
     </li>
@@ -64,7 +70,7 @@ I currently do not have any funding for postdoc positions.
         [2022.02] 4 papers accepted to <a href="https://sites.google.com/unibs.it/socs2022">SoCS 2022</a>.
     </li>
     <li>
-        [2022.02] 1 paper accepted to 、 <a href="https://www.icra2022.org/">ICRA 2022</a>.
+        [2022.02] 1 paper accepted to <a href="https://www.icra2022.org/">ICRA 2022</a>.
     </li>
     <li>
         [2021.12] Our paper on MAPF with precedence constraints was accepted to <a href="https://aamas2022-conference.auckland.ac.nz/">AAMAS 2022</a>.
