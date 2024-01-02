@@ -9,9 +9,9 @@ author_profile: true
 
 Yifan Su, Rishi Veerapaneni and **Jiaoyang Li**.      
 <i>AAAI Conference on Artificial Intelligence (**AAAI**)</i>, (in print), 2024.                           
+[[arXiv](https://arxiv.org/abs/2401.00315)]
 [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-SuAAAI24');">bibtex</a>]
-[[code](https://github.com/YifanSu1301/BTPG)]
-[[pdf](https://jiaoyang-li.github.io/files/SuAAAI24.pdf)]
+[[code](https://github.com/YifanSu1301/BTPG)]      
 <div id="bibtex-SuAAAI24" style="display:none">
 <pre>@inproceedings{SuAAAI24,
   author    = {Yifan Su and Rishi Veerapaneni and Jiaoyang Li},
