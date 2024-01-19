@@ -864,7 +864,7 @@ You can also find my articles on
 }
 </pre></div>   
 
-* [A New Constraint Satisfaction Perspective on Multi-Agent Path Finding](https://jiaoyangli.me/publications/WangAAMAS19)3.     
+* [A New Constraint Satisfaction Perspective on Multi-Agent Path Finding](https://jiaoyangli.me/publications/WangAAMAS19) (extended abstract).     
     Jiangxing Wang, **Jiaoyang Li**, Hang Ma, Sven Koenig and T. K. Satish Kumar.       
     <i>International Joint Conference on Autonomous Agents and Multi-Agent Systems (**AAMAS**)</i>, pages 2253-2255, 2019.     
     [[publisher](http://www.ifaamas.org/Proceedings/aamas2019/pdfs/p2253.pdf)]
