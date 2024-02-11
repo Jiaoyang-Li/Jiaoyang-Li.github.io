@@ -7,7 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-    
 Jingtian Yan and **Jiaoyang Li**.      
 <i>IEEE Robotics and Automation Letters</i>, (in print), 2024.      
 [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-YanRAL24');">bibtex</a>]
