@@ -10,38 +10,7 @@ You can also find my articles on
 
 {% include base_path %}
 
-[2024](#year2024) | [2023](#year2023) | [2022](#year2022) | [2021](#year2021) | [2020](#year2020) | [2019](#year2019) | [2018](year2018) | [2017](#year2017) | [Preprints](#preprints) | [Thesis](#thesis)
-
-## <a name="year2024"></a> 2024   
-* [Bidirectional Temporal Plan Graph: Enabling Switchable Passing Orders for More Efficient Multi-Agent Path Finding Plan Execution](https://jiaoyangli.me/publications/SuAAAI24).     
-    Yifan Su, Rishi Veerapaneni and **Jiaoyang Li**.      
-    <i>AAAI Conference on Artificial Intelligence (**AAAI**)</i>, (in print), 2024.    
-    [[arXiv](https://arxiv.org/abs/2401.00315)]
-    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-SuAAAI24');">bibtex</a>]
-    [[code](https://github.com/YifanSu1301/BTPG)]
-<div id="bibtex-SuAAAI24" style="display:none">
-<pre>@inproceedings{SuAAAI24,
-  author    = {Yifan Su and Rishi Veerapaneni and Jiaoyang Li},
-  title     = {Bidirectional Temporal Plan Graph: Enabling Switchable Passing Orders for More Efficient Multi-Agent Path Finding Plan Execution},
-  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-  year      = {2024}
-}
-</pre></div>  
-
-* [Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding](https://jiaoyangli.me/publications/ChenAAAI24).     
-    Zhe Chen, Daniel Harabor, **Jiaoyang Li** and Peter Stuckey.      
-    <i>AAAI Conference on Artificial Intelligence (**AAAI**)</i>, (in print), 2024.                           
-    [[arXiv](https://arxiv.org/abs/2308.11234)]
-    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ChenAAAI24');">bibtex</a>]
-    [[code](https://github.com/nobodyczcz/Guided-PIBT)]
-<div id="bibtex-ChenAAAI24" style="display:none">
-<pre>@inproceedings{ChenAAAI24,
-  author    = {Zhe Chen and Daniel Harabor and Jiaoyang Li and Peter Stuckey},
-  title     = {Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding},
-  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-  year      = {2024}
-}
-</pre></div>  
+ [2023](#year2023) | [2022](#year2022) | [2021](#year2021) | [2020](#year2020) | [2019](#year2019) | [2018](year2018) | [2017](#year2017) | [Preprints](#preprints) | [Thesis](#thesis)
 
 ## <a name="year2023"></a> 2023  
 * [Arbitrarily Scalable Environment Generators via Neural Cellular Automata](https://jiaoyangli.me/publications/ZhangNeurIPS23).     
