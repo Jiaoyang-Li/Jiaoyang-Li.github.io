@@ -12,8 +12,7 @@ You can also find my articles on
 
 [2024](#year2024) | [2023](#year2023) | [2022](#year2022) | [2021](#year2021) | [2020](#year2020) | [2019](#year2019) | [2018](year2018) | [2017](#year2017) | [Preprints](#preprints) | [Thesis](#thesis)
 
-## <a name="year2024"></a> 2024
-
+## <a name="year2024"></a> 2024   
 * [Bidirectional Temporal Plan Graph: Enabling Switchable Passing Orders for More Efficient Multi-Agent Path Finding Plan Execution](https://jiaoyangli.me/publications/SuAAAI24).     
     Yifan Su, Rishi Veerapaneni and **Jiaoyang Li**.      
     <i>AAAI Conference on Artificial Intelligence (**AAAI**)</i>, (in print), 2024.    
