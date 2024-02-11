@@ -1,7 +1,6 @@
 ---
 permalink: /
 title: "Jiaoyang Li"
-excerpt: "Homepage"
 layout: archive
 author_profile: true
 redirect_from: 
