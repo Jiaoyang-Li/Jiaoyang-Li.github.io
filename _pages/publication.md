@@ -13,6 +13,22 @@ You can also find my articles on
 [2024](#year2024) | [2023](#year2023) | [2022](#year2022) | [2021](#year2021) | [2020](#year2020) | [2019](#year2019) | [2018](year2018) | [2017](#year2017) | [Preprints](#preprints) | [Thesis](#thesis)
 
 ## <a name="year2024"></a> 2024  
+* [Multi-Agent Motion Planning With Bézier Curve Optimization Under Kinodynamic Constraints](https://jiaoyangli.me/publications/YanRAL24).     
+    Jingtian Yan and **Jiaoyang Li**.      
+    <i>IEEE Robotics and Automation Letters</i>, (in print), 2024.      
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-YanRAL24');">bibtex</a>]
+    [[code](https://github.com/JingtianYan/PSB-RAL)]
+    [[publisher](https://ieeexplore.ieee.org/document/10423806)]    
+<div id="bibtex-YanRAL24" style="display:none">
+<pre>@article{YanRAL24,
+  author    = {Jingtian Yan and Jiaoyang Li},
+  title     = {Multi-Agent Motion Planning With Bézier Curve Optimization Under Kinodynamic Constraints},
+  journal   = {IEEE Robotics and Automation Letters},
+  doi       = {https://doi.org/10.1109/LRA.2024.3363543},
+  year      = {2024}
+}
+</pre></div> 
+
 * [Bidirectional Temporal Plan Graph: Enabling Switchable Passing Orders for More Efficient Multi-Agent Path Finding Plan Execution](https://jiaoyangli.me/publications/SuAAAI24).     
     Yifan Su, Rishi Veerapaneni and **Jiaoyang Li**.      
     <i>AAAI Conference on Artificial Intelligence (**AAAI**)</i>, (in print), 2024.    
