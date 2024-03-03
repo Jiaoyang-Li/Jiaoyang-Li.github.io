@@ -30,6 +30,7 @@ please send me an [email](mailto:jiaoyanl@andrew.cmu.edu) with your CV and a sho
 I currently do not have any funding for postdoc positions.
 
 ## News 
+* \[CFP\] We are delighted and excited to send out the call for papers and participation for [ICAPS-24 System Demonstration track](https://icaps24.icaps-conference.org/calls/demos/). The submission deadline is March 25, 2024.
 * \[CFP\] We are delighted and excited to send out the call for papers and participation for the [17th International Symposium on Combinatorial Search (SoCS)](https://socs24.search-conference.org/). The submission deadline is February 19, 2024. The conference will be held in Kananaskis, AB, Canada from June 6 to June 8, 2024.
 * \[CFP\] We are delighted and excited to send out the call for papers and participation for the [15th Workshop on Optimization and Learning in Multiagent Systems (OptLearnMAS)](https://optlearnmas.github.io/) at [AAMAS-24](https://www.aamas2024-conference.auckland.ac.nz/). The submission deadline is extended to February 19, 2024. 
 * \[2023/12\] Two papers ([one](https://jiaoyangli.me/publications/SuAAAI24) on multi-agent plan execution and [the other](https://jiaoyangli.me/publications/ChenAAAI24) on traffic assignment) accepted to [AAAI-24](https://aaai.org/aaai-conference/).

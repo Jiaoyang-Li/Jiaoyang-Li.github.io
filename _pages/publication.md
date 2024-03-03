@@ -12,22 +12,105 @@ You can also find my articles on
 
 [2024](#year2024) | [2023](#year2023) | [2022](#year2022) | [2021](#year2021) | [2020](#year2020) | [2019](#year2019) | [2018](year2018) | [2017](#year2017) | [Preprints](#preprints) | [Thesis](#thesis)
 
-## <a name="year2024"></a> 2024  
+## <a name="year2024"></a> 2024 
+
+* A Real-Time Rescheduling Algorithm for Multi-robot Plan Execution.           
+    Ying Feng, Adittyo Paul, Zhe Chen and **Jiaoyang Li**.       
+    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.      
+    A [short version](https://doi.org/10.1609/socs.v16i1.27301 "Download pdf") appeared at <i>Symposium on Combinatorial Search (**SoCS**)</i>, pages 175-176, 2023.   
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-FengICAPS24');">bibtex</a>] 
+<div id="bibtex-FengICAPS24" style="display:none">
+<pre>@inproceedings{FengICAPS24,
+  author    = {Ying Feng and Adittyo Paul and Zhe Chen and Jiaoyang Li},
+  title     = {A Fast Rescheduling Algorithm for Real-Time Multi-Robot Coordination},
+  booktitle = {Proceedings of the International Conference on Automated Planning and Scheduling (ICAPS)},
+  year      = {2024}
+}
+</pre></div>  
+
+* MAPF in 3D Warehouses: Dataset and Analysis.     
+    Qian Wang, Rishi Veerapaneni, Yu Wu, **Jiaoyang Li** and Maxim Likhachev.      
+    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.     
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-WangICAPS24mapf3d');">bibtex</a>]
+<div id="bibtex-WangICAPS24mapf3d" style="display:none">
+<pre>@inproceedings{WangICAPS24mapf3d,
+  author    = {Qian Wang and Rishi Veerapaneni and Yu Wu and Jiaoyang Li and Maxim Likhachev},
+  title     = {MAPF in 3D Warehouses: Dataset and Analysis},
+  booktitle = {Proceedings of the International Conference on Automated Planning and Scheduling (ICAPS)},
+  year      = {2024}
+}
+</pre></div>  
+
+* Improving Learnt Local MAPF Policies with Heuristic Search.     
+    Rishi Veerapaneni, Qian Wang, Kevin Ren, Arthur Jakobsson, **Jiaoyang Li** and Maxim Likhachev.      
+    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.     
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-VeerapaneniICAPS24');">bibtex</a>]
+<div id="bibtex-VeerapaneniICAPS24" style="display:none">
+<pre>@inproceedings{VeerapaneniICAPS24,
+  author    = {Rishi Veerapaneni and Qian Wang and Kevin Ren and Arthur Jakobsson and Jiaoyang Li and Maxim Likhachev},
+  title     = {Improving Learnt Local MAPF Policies with Heuristic Search},
+  booktitle = {Proceedings of the International Conference on Automated Planning and Scheduling (ICAPS)},
+  year      = {2024}
+}
+</pre></div> 
+
+* Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences.     
+    Yorai Shaoul, Itamar Mishani, Maxim Likhachev and **Jiaoyang Li**.      
+    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.     
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ShaoulICAPS24');">bibtex</a>]
+<div id="bibtex-ShaoulICAPS24" style="display:none">
+<pre>@inproceedings{ShaoulICAPS24,
+  author    = {Yorai Shaoul and Itamar Mishani and Maxim Likhachev and Jiaoyang Li},
+  title     = {Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences},
+  booktitle = {Proceedings of the International Conference on Automated Planning and Scheduling (ICAPS)},
+  year      = {2024}
+}
+</pre></div> 
+
+* Efficient Approximate Search for Multi-Objective Multi-Agent Path Finding.     
+    Fangji Wang, Han Zhang, Sven Koenig and **Jiaoyang Li**.      
+    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.     
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-WangICAPS24momapf');">bibtex</a>]
+<div id="bibtex-WangICAPS24momapf" style="display:none">
+
+<pre>@inproceedings{WangICAPS24momapf,
+  author    = {Fangji Wang and Han Zhang and Sven Koenig and Jiaoyang Li},
+  title     = {Efficient Approximate Search for Multi-Objective Multi-Agent Path Finding},
+  booktitle = {Proceedings of the International Conference on Automated Planning and Scheduling (ICAPS)},
+  year      = {2024}
+}
+</pre></div> 
 * [Multi-Agent Motion Planning With Bézier Curve Optimization Under Kinodynamic Constraints](https://jiaoyangli.me/publications/YanRAL24).     
     Jingtian Yan and **Jiaoyang Li**.      
-    <i>IEEE Robotics and Automation Letters</i>, (in print), 2024.      
+    <i>IEEE Robotics and Automation Letters</i>, volume 9, number 3, pages 3021-3028, 2024.      
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-YanRAL24');">bibtex</a>]
     [[code](https://github.com/JingtianYan/PSB-RAL)]
-    [[publisher](https://ieeexplore.ieee.org/document/10423806)]    
+    [[publisher](https://doi.org/10.1109/LRA.2024.3363543)]    
 <div id="bibtex-YanRAL24" style="display:none">
 <pre>@article{YanRAL24,
   author    = {Jingtian Yan and Jiaoyang Li},
   title     = {Multi-Agent Motion Planning With Bézier Curve Optimization Under Kinodynamic Constraints},
   journal   = {IEEE Robotics and Automation Letters},
-  doi       = {https://doi.org/10.1109/LRA.2024.3363543},
-  year      = {2024}
+  year      = {2024},
+  volume    = {9},
+  number    = {3},
+  pages     = {3021--3028},
+  doi       = {10.1109/LRA.2024.3363543}
 }
 </pre></div> 
+
+* [Optimal Task Assignment and Path Planning using Conflict-Based Search with Precedence and Temporal Constraints](https://jiaoyangli.me/publications/ChongAAMAS19) (extended abstract).     
+    Yu Quan Chong, **Jiaoyang Li** and Katia Sycara.       
+    <i>International Joint Conference on Autonomous Agents and Multi-Agent Systems (**AAMAS**)</i>, (in print), 2024.      
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ChongAAMAS24');">bibtex</a>]
+<div id="bibtex-ChongAAMAS24" style="display:none">
+<pre>@inproceedings{ChongAAMAS24,
+  author    = {Yu Quan Chong and Jiaoyang Li and Katia Sycara},
+  title     = {Optimal Task Assignment and Path Planning using Conflict-Based Search with Precedence and Temporal Constraints},
+  booktitle = {Proceedings of the International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS)},
+  year      = {2024}
+}
+</pre></div>
 
 * [Bidirectional Temporal Plan Graph: Enabling Switchable Passing Orders for More Efficient Multi-Agent Path Finding Plan Execution](https://jiaoyangli.me/publications/SuAAAI24).     
     Yifan Su, Rishi Veerapaneni and **Jiaoyang Li**.      
@@ -62,22 +145,24 @@ You can also find my articles on
 ## <a name="year2023"></a> 2023  
 * [Arbitrarily Scalable Environment Generators via Neural Cellular Automata](https://jiaoyangli.me/publications/ZhangNeurIPS23).     
     Yulun Zhang, Matthew C. Fontaine, Varun Bhatt, Stefanos Nikolaidis and **Jiaoyang Li**.       
-    <i>Conference on Neural Information Processing Systems (**NeurIPS**)</i>, (in print), 2023.            
+    <i>Conference on Neural Information Processing Systems (**NeurIPS**)</i>, pages 57212-57225, 2023.            
     [[arXiv](https://arxiv.org/abs/2310.18622)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ZhangNeurIPS23');">bibtex</a>]
-    [[code](https://github.com/lunjohnzhang/warehouse_env_gen_nca_public)]        
+    [[code](https://github.com/lunjohnzhang/warehouse_env_gen_nca_public)]
+    [[publisher](https://papers.nips.cc/paper_files/paper/2023/hash/b2fbf1c9bc92e7ef2f6cab2e8a3e09af-Abstract-Conference.html)]    
 <div id="bibtex-ZhangNeurIPS23" style="display:none">
 <pre>@inproceedings{ZhangNeurIPS23,
   author    = {Yulun Zhang and Matthew C. Fontaine and Varun Bhatt and Stefanos Nikolaidis and Jiaoyang Li},
   title     = {Arbitrarily Scalable Environment Generators via Neural Cellular Automata},
   booktitle = {Proceedings of the Annual Conference on Neural Information Processing Systems (NeurIPS)},
+  pages     = {57212--57225},
   year      = {2023}
 }
 </pre></div>
 
 * [Multi-Robot Geometric Task-and-Motion Planning for Collaborative Manipulation Tasks](https://jiaoyangli.me/publications/ZhangAR23).          
     Hejia Zhang, Shao-Hung Chan, Jie Zhong,  **Jiaoyang Li**, Peter Kolapo, Sven Koenig, Zach Agioutantis, Steven Schafrik and Stefanos Nikolaidis.            
-    <i>Autonomous Robots</i>, (in print), 2023.               
+    <i>Autonomous Robots</i>, volume 47, pages 1537-1558, 2023.               
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ZhangAR23');">bibtex</a>]
     [[publisher](https://doi.org/10.1007/s10514-023-10148-y)]
 <div id="bibtex-ZhangAR23" style="display:none">
@@ -86,7 +171,9 @@ You can also find my articles on
   title     = {Multi-robot geometric task-and-motion planning for collaborative manipulation tasks},
   journal   = {Autonomous Robots},
   year      = {2023},
-  doi       = {https://doi.org/10.1007/s10514-023-10148-y},
+  volume    = {47},
+  pages     = {1537--1558},
+  doi       = {10.1007/s10514-023-10148-y},
 }
 </pre></div>
 
@@ -138,23 +225,7 @@ You can also find my articles on
   pages     = {5503--5511},
   year      = {2023}
 }
-</pre></div> 
-
-* [A Fast Rescheduling Algorithm for Real-Time Multi-Robot Coordination](https://jiaoyangli.me/publications/PaulSoCS23) (extended abstract).           
-    Adittyo Paul*, Ying Feng* and **Jiaoyang Li**.       
-    <i>Symposium on Combinatorial Search (**SoCS**)</i>, pages 175-176, 2023.   
-    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-PaulSoCS23');">bibtex</a>]
-    [[pdf](https://jiaoyang-li.github.io/files/PaulSoCS23.pdf)]
-    [[publisher](https://doi.org/10.1609/socs.v16i1.27301)]     
-<div id="bibtex-PaulSoCS23" style="display:none">
-<pre>@inproceedings{PaulSoCS23,
-  author    = {Adittyo Paul and Ying Feng and Jiaoyang Li},
-  title     = {A Fast Rescheduling Algorithm for Real-Time Multi-Robot Coordination},
-  booktitle = {Proceedings of the Symposium on Combinatorial Search (SoCS)},
-  pages     = {175--176},
-  year      = {2023}
-}
-</pre></div>  
+</pre></div>
 
 * [Exact Anytime Multi-Agent Path Finding Using Branch-and-Cut-and-Price and Large Neighborhood Search](https://jiaoyangli.me/publications/LamICAPS23).     
     Edward Lam, Daniel Harabor, Peter J. Stuckey and **Jiaoyang Li**.      
