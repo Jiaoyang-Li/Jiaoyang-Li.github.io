@@ -67,6 +67,7 @@ author_profile: true
     His research interests include multi-robot coordination, autonomous exploration, and Multi-Agent Path Finding.
 </p>
 <br clear="all">
+
 ### Undergraduate Students
 
 - [Ying Feng](https://www.linkedin.com/in/yinggggfeng) (CS undergraduate, Class 2024)
@@ -74,6 +75,10 @@ author_profile: true
 <img src="https://jiaoyangli.me/images/yingfeng.jpeg" style="float:left;width:100pt;padding-right:10px;"  alt="Ying Feng"/>
 <br clear="all">
 
+- [Yifan Su](https://yifansu1301.github.io/) (CS undergraduate, Class 2025)
+
+<img src="https://jiaoyangli.me/images/yifansu.jpg" style="float:left;width:100pt;padding-right:10px;"  alt="Yifan Su"/>
+<br clear="all">
 
 ### Alumni
 - [Shravan Kumar Gulvadi](https://shravangulvadi.wixsite.com/website) (Mechanical Engineering Masters, Class 2022)
