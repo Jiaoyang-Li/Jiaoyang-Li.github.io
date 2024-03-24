@@ -80,15 +80,27 @@ author_profile: true
 <img src="https://jiaoyangli.me/images/yifansu.jpg" style="float:left;width:100pt;padding-right:10px;"  alt="Yifan Su"/>
 <br clear="all">
 
+### Visitors
+
+- [Yutong Wang](https://wyt2019suzhou.github.io/) (Visiting PhD Student)
+
+<img src="https://jiaoyangli.me/images/yutongwang.jpg" style="float:left;width:100pt;padding-right:10px;"  alt="Yutong Wang"/>
+<p>
+    Yutong received a B.Sc. from Shanghai University in 2020 and an M.Sc. from National University of Singapore in 2021. 
+    She is currently a third-year PhD student at National University of Singapore and began visiting Carnegie Mellon University in January 2024. 
+    Her research interests include Multi-Agent Reinforcement Learning, Multi-Agent Path Finding and Multi-Robot Coordination.
+</p>
+<br clear="all">
+
 ### Alumni
-- [Shravan Kumar Gulvadi](https://shravangulvadi.wixsite.com/website) (Mechanical Engineering Masters, Class 2022)
+<!-- - [Shravan Kumar Gulvadi](https://shravangulvadi.wixsite.com/website) (Mechanical Engineering Masters, Class 2022)
 
 <img src="https://jiaoyangli.me/images/shravan.jpg" style="float:left;width:100pt;padding-right:10px;" alt="Shravan Kumar Gulvadi"/>
 <p>
     Shravan received a B.Eng. in Mechanical Engineering from The National Institute of Engineering, Mysore, India in 2016 
     and is interested in Robot Autonomy, Control, Reinforcement Learning, Multi-Robot Coordination and Artificial Intelligence.
 </p>
-<br clear="all">
+<br clear="all"> -->
 
 - [Yimin Tang](https://github.com/TachikakaMin) (Master of Science in Robotics, Class 2023)
 
