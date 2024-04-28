@@ -30,9 +30,21 @@ please send me an [email](mailto:jiaoyanl@andrew.cmu.edu) with your CV and a sho
 I currently do not have any funding for postdoc positions.
 
 ## News 
-* \[CFP\] We are delighted and excited to send out the call for papers and participation for [ICAPS-24 System Demonstration track](https://icaps24.icaps-conference.org/calls/demos/). The submission deadline is March 25, 2024.
-* \[CFP\] We are delighted and excited to send out the call for papers and participation for the [17th International Symposium on Combinatorial Search (SoCS)](https://socs24.search-conference.org/). The submission deadline is February 19, 2024. The conference will be held in Kananaskis, AB, Canada from June 6 to June 8, 2024.
-* \[CFP\] We are delighted and excited to send out the call for papers and participation for the [15th Workshop on Optimization and Learning in Multiagent Systems (OptLearnMAS)](https://optlearnmas.github.io/) at [AAMAS-24](https://www.aamas2024-conference.auckland.ac.nz/). The submission deadline is extended to February 19, 2024. 
+* \[CFP\] We are delighted and excited to send out the call for papers and participation for [ICAPS-24 System Demonstration track](https://icaps24.icaps-conference.org/calls/demos/).
+* \[CFP\] We are delighted and excited to send out the call for papers and participation for the [17th International Symposium on Combinatorial Search (SoCS)](https://socs24.search-conference.org/). The conference will be held in Kananaskis, AB, Canada from June 6 to June 8, 2024.
+* \[CFP\] We are delighted and excited to send out the call for papers and participation for the [15th Workshop on Optimization and Learning in Multiagent Systems (OptLearnMAS)](https://optlearnmas.github.io/) at [AAMAS-24](https://www.aamas2024-conference.auckland.ac.nz/). The workshop will be head on May 7, 2024.
+* \[2024/04\] Our paper [Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences](https://jiaoyangli.me/publications/ShaoulICAPS24) won the best student paper award of [ICAPS-24](https://icaps24.icaps-conference.org/).
+* \[2024/04\] Two papers (one on [guidance graph optimization](https://jiaoyangli.me/publications/ZhangIJCAI24) and one on [mechanism design](https://jiaoyangli.me/publications/FriedrichIJCAI24)) accepted to [IJCAI-24](https://ijcai24.org/).
+* \[2024/03\] Three papers (one on [combined target assignment and pathfinding](https://jiaoyangli.me/publications/TangSoCS24),
+              one on [MAPF competition](https://jiaoyangli.me/publications/JiangSoCS24), and 
+              one on [multi-arm motion planning](https://jiaoyangli.me/publications/ShaoulSoCS24)) accepted to [SoCS-24](https://socs24.search-conference.org/).
+* \[2024/02\] Five papers (one on [multi-robot plan execution](https://jiaoyangli.me/publications/FengICAPS24), 
+              one on [multi-arm motion planning](https://jiaoyangli.me/publications/ShaoulICAPS24), 
+              one on [3D warehouses](https://jiaoyangli.me/publications/WangICAPS24mapf3d), 
+              one on [multi-objective search](https://jiaoyangli.me/publications/WangICAPS24momapf), and 
+              and one on [learnt policy postprocessing](https://jiaoyangli.me/publications/VeerapaneniICAPS24)) accepted to [ICAPS-24](https://icaps24.icaps-conference.org/).
+* \[2024/02\] Seminar talks at CCFAI, [Autonomy Talks](https://youtu.be/QnQj3I2dfS0?feature=shared), CMU RI seminar, and Simon Fraser University.
+* \[2023/12\] Invited talk at Amazon Robotics.
 * \[2023/12\] Two papers ([one](https://jiaoyangli.me/publications/SuAAAI24) on multi-agent plan execution and [the other](https://jiaoyangli.me/publications/ChenAAAI24) on traffic assignment) accepted to [AAAI-24](https://aaai.org/aaai-conference/).
 * \[2023/12\] Our team was the winner of [The League of Robot Runners](https://www.leagueofrobotrunners.org/), a competition sponsored by Amazon Robotics that focuses on the coordination of multiple moving robots. 
               We ranked the first in both the overall best and the fast mover categories, as well as the second in line honours. See more details [here](https://www.leagueofrobotrunners.org/news). 
@@ -41,7 +53,7 @@ I currently do not have any funding for postdoc positions.
               [one paper](https://jiaoyangli.me/publications/TangMRS23) on target assignment and pathfinding accepted to [MRS 2023](https://sites.bu.edu/mrs2023/),
               [one paper](https://jiaoyangli.me/publications/ZhangAR23) on task and motion planning published at [Autonomous Robots](https://www.springer.com/journal/10514), and
               [one paper](https://jiaoyangli.me/publications/AtzmonAIJ23) on multi-agent meeting published at [Artificial Intelligence](https://www.sciencedirect.com/journal/artificial-intelligence).
-* \[2023/10\] Organizing AAAI-23 Fall Symposium Series on [Agent Teaming in Mixed-Motive Situations](https://successmuri.org/workshops/fss23/).
+* \[2023/10\] Organized AAAI-23 Fall Symposium Series on [Agent Teaming in Mixed-Motive Situations](https://successmuri.org/workshops/fss23/).
 * \[2023/07\] Honored to receive the [ICAPS-23 Best Dissertation Award](https://www.icaps-conference.org/icaps-awards/) for [my dissertation](https://jiaoyangli.me/publications/LiPhD22)!
 * \[2023/07\] Our paper [Deadline-Aware Multi-Agent Tour Planning](https://jiaoyangli.me/publications/HuangICAPS23) received the Best Student Paper Honorable Mention at [ICAPS-23](https://icaps23.icaps-conference.org/)!
 * \[2023/07\] Organizing SoCS-23 [Doctoral Consortium](https://socs23.search-conference.org/doctoral-consortium).
@@ -49,12 +61,18 @@ I currently do not have any funding for postdoc positions.
 * \[2023/05\] Organizing AAMAS-23 workshop on [Optimization and Learning in Multiagent Systems](https://optlearnmas23.github.io/). 
 * \[2023/05\] Invited talk at OMRON innovation center.
 * \[2023/05\] Honored to receive the USC Viterbi School of Engineering Best Dissertation Award, called the William F. Ballhaus, Jr. Prize for Excellence in Graduate Engineering Research, for [my dissertation](https://jiaoyangli.me/publications/LiPhD22)!
-* \[2023/04\] [Our paper](https://jiaoyangli.me/publications/ZhangIJCAI23) on layout optimization for multi-robot systems was accepted to [IJCAI 2023](https://ijcai-23.org/). 
-* \[2023/04\] Invited talk at Robotics and Controls Seminar at the University of North Carolina at Charlotte. 
-* \[2023/02\] Organizing AAAI-23 workshop on [Multi-Agent Path Finding](http://idm-lab.org/wiki/AAAI23-MAPF/index.php/Main/HomePage).
 <details>
   <summary>Show more</summary>
   <ul>
+    <li>
+        [2023.04] <a href="https://jiaoyangli.me/publications/ZhangIJCAI23">Our paper</a> on layout optimization for multi-robot systems was accepted to <a href="https://ijcai-23.org/">IJCAI-23</a>.
+    </li>
+    <li>
+        [2023.04] Invited talk at Robotics and Controls Seminar at the University of North Carolina at Charlotte.
+    </li>
+    <li>
+        [2023.02] Organized <a href="http://idm-lab.org/wiki/AAAI23-MAPF/index.php/Main/HomePage">AAAI-23 workshop on Multi-Agent Path Finding</a>.
+    </li>
     <li>
         [2022.11] <a href="https://jiaoyangli.me/publications/LiAAAI23">Our paper</a> on MAPF for autonomous vehicle coordination was accepted to <a href="https://aaai.org/Conferences/AAAI-23/">AAAI 2023</a>.
     </li>
@@ -62,10 +80,10 @@ I currently do not have any funding for postdoc positions.
         [2022.06] Invited talk at ICAPS-22 workshop on <a href="http://icaps22.icaps-conference.org/workshops/HSDIP/">Heuristics and Search for Domain-independent Planning</a>.
     </li>
     <li>
-        [2022.05] Organizing AAMAS-22 workshop on <a href="https://optlearnmas22.github.io/">Optimization and Learning in Multiagent Systems</a>.
+        [2022.05] Organized AAMAS-22 workshop on <a href="https://optlearnmas22.github.io/">Optimization and Learning in Multiagent Systems</a>.
     </li>
     <li>
-        [2022.05] Organizing AAMAS-22 tutorial on <a href="http://mapf.info/index.php/Tutorial/AAMAS-22">Recent Advances in Multi-Agent Path Finding</a>.
+        [2022.05] Organized AAMAS-22 tutorial on <a href="http://mapf.info/index.php/Tutorial/AAMAS-22">Recent Advances in Multi-Agent Path Finding</a>.
     </li>
     <li>
         [2022.02] 4 papers accepted to <a href="https://sites.google.com/unibs.it/socs2022">SoCS 2022</a>.
@@ -122,7 +140,7 @@ I currently do not have any funding for postdoc positions.
       [2020.04] 2 papers accepted to <a href="https://www.ijcai20.org/"> IJCAI 2020</a>.
     </li>
      <li>
-      [2020.02] Visiting the <a href="https://www.monash.edu/it/dsai/optimisation"> Optimization Research Group</a> for 6 months at Monash University, Melbourne, VIC, Australia.
+      [2020.02] Visited the <a href="https://www.monash.edu/it/dsai/optimisation"> Optimization Research Group</a> for 6 months at Monash University, Melbourne, VIC, Australia.
     </li>
     <li>
       [2020.02] A talk at <a href="https://pages.mtu.edu/~lebrown/eaai/"> EAAI 2020</a> in New York, NY, USA.

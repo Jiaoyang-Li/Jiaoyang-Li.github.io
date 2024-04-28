@@ -14,6 +14,80 @@ You can also find my articles on
 
 ## <a name="year2024"></a> 2024 
 
+* [Guidance Graph Optimization for Lifelong Multi-Agent Path Finding](https://jiaoyangli.me/publications/ZhangIJCAI24).     
+    Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis and **Jiaoyang Li**.       
+    <i>International Joint Conference on Artificial Intelligence (**IJCAI**)</i>, (in print), 2024.         
+    [[arXiv](https://arxiv.org/abs/2402.01446)]
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ZhangIJCAI24');">bibtex</a>]
+    [[code](https://github.com/lunjohnzhang/ggo_public)]         
+<div id="bibtex-ZhangIJCAI24" style="display:none">
+<pre>@inproceedings{ZhangIJCAI24,
+  author    = {Yulun Zhang and He Jiang and Varun Bhatt and Stefanos Nikolaidis and Jiaoyang Li},
+  title     = {Guidance Graph Optimization for Lifelong Multi-Agent Path Finding},
+  booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
+  year      = {2024}
+}
+</pre></div>
+
+* [Scalable Mechanism Design for Multi-Agent Path Finding](https://jiaoyangli.me/publications/FriedrichIJCAI24).     
+    Paul Friedrich*, Yulun Zhang*, Michael Curry, Ludwig Dierks, Stephen McAleer, **Jiaoyang Li**, Tuomas Sandholm and Sven Seuken.       
+    <i>International Joint Conference on Artificial Intelligence (**IJCAI**)</i>, (in print), 2024.         
+    [[arXiv](https://arxiv.org/abs/2401.17044)]
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-FriedrichIJCAI24');">bibtex</a>]
+    [[code](https://github.com/lunjohnzhang/MAPF-Mechanism)]         
+<div id="bibtex-FriedrichIJCAI24" style="display:none">
+<pre>@inproceedings{FriedrichIJCAI24,
+  author    = {Paul Friedrich and Yulun Zhang and Michael Curry and Ludwig Dierks and Stephen McAleer and Jiaoyang Li and Tuomas Sandholm and Sven Seuken},
+  title     = {Scalable Mechanism Design for Multi-Agent Path Finding},
+  booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
+  year      = {2024}
+}
+</pre></div>
+
+
+* [Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities](https://jiaoyangli.me/publications/JiangSoCS24) (**Winner of 2023 League of Robot Runners**)      
+    He Jiang, Yulun Zhang, Rishi Veerapaneni and **Jiaoyang Li**.       
+    <i>Symposium on Combinatorial Search (**SoCS**)</i>, (in print), 2024.   
+    [[arXiv](https://arxiv.org/abs/2404.16162)]
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-JiangSoCS24');">bibtex</a>]
+    [[code](https://github.com/DiligentPanda/MAPF-LRR2023)]    
+<div id="bibtex-JiangSoCS24" style="display:none">
+<pre>@inproceedings{JiangSoCS24,
+  author    = {He Jiang and Yulun Zhang and Rishi Veerapaneni and Jiaoyang Li},
+  title     = {Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities},
+  booktitle = {Proceedings of the Symposium on Combinatorial Search (SoCS)},
+  year      = {2024}
+}
+</pre></div>
+
+* [Unconstraining Multi-Robot Manipulation: Enabling Arbitrary Constraints in ECBS with Bounded Sub-Optimality](https://jiaoyangli.me/publications/ShaoulSoCS24).         
+    Yorai Shaoul, Rishi Veerapaneni, Maxim Likhachev and **Jiaoyang Li**.       
+    <i>Symposium on Combinatorial Search (**SoCS**)</i>, (in print), 2024.     
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ShaoulSoCS24');">bibtex</a>]        
+<div id="bibtex-ShaoulSoCS24" style="display:none">
+<pre>@inproceedings{ShaoulSoCS24,
+  author    = {Yorai Shaoul and Rishi Veerapaneni and Maxim Likhachev and Jiaoyang Li},
+  title     = {Unconstraining Multi-Robot Manipulation: Enabling Arbitrary Constraints in {ECBS} with Bounded Sub-Optimality},
+  booktitle = {Proceedings of the Symposium on Combinatorial Search (SoCS)},
+  year      = {2024}
+}
+</pre></div> 
+
+* [ITA-ECBS: A Bounded-Suboptimal Algorithm for The Combined Target-Assignment and Path-Finding Problem](https://jiaoyangli.me/publications/TangSoCS24).        
+    Yimin Tang, Sven Koenig and **Jiaoyang Li**.       
+    <i>Symposium on Combinatorial Search (**SoCS**)</i>, (in print), 2024.     
+    [[arXiv](https://arxiv.org/abs/2404.05223)]
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-TangSoCS24');">bibtex</a>]
+    [[code](https://github.com/TachikakaMin/ITA-CBS2)]        
+<div id="bibtex-TangSoCS24" style="display:none">
+<pre>@inproceedings{TangSoCS24,
+  author    = {Yimin Tang and Sven Koenig and Jiaoyang Li},
+  title     = { {ITA-ECBS}: A Bounded-Suboptimal Algorithm for The Combined Target-Assignment and Path-Finding Problem},
+  booktitle = {Proceedings of the Symposium on Combinatorial Search (SoCS)},
+  year      = {2024}
+}
+</pre></div> 
+
 * [A Real-Time Rescheduling Algorithm for Multi-robot Plan Execution](https://jiaoyangli.me/publications/FengICAPS24).           
     Ying Feng, Adittyo Paul, Zhe Chen and **Jiaoyang Li**.       
     <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.      
@@ -29,10 +103,11 @@ You can also find my articles on
 }
 </pre></div>  
 
-* MAPF in 3D Warehouses: Dataset and Analysis.     
+* [MAPF in 3D Warehouses: Dataset and Analysis](https://jiaoyangli.me/publications/WangICAPS24mapf3d).     
     Qian Wang, Rishi Veerapaneni, Yu Wu, **Jiaoyang Li** and Maxim Likhachev.      
     <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.     
-    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-WangICAPS24mapf3d');">bibtex</a>]
+    [[benchmark page](http://mapf.info/index.php/Main/Benchmarks)]
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-WangICAPS24mapf3d');">bibtex</a>]      
 <div id="bibtex-WangICAPS24mapf3d" style="display:none">
 <pre>@inproceedings{WangICAPS24mapf3d,
   author    = {Qian Wang and Rishi Veerapaneni and Yu Wu and Jiaoyang Li and Maxim Likhachev},
@@ -42,9 +117,10 @@ You can also find my articles on
 }
 </pre></div>  
 
-* Improving Learnt Local MAPF Policies with Heuristic Search.     
+* [Improving Learnt Local MAPF Policies with Heuristic Search](https://jiaoyangli.me/publications/VeerapaneniICAPS24).     
     Rishi Veerapaneni, Qian Wang, Kevin Ren, Arthur Jakobsson, **Jiaoyang Li** and Maxim Likhachev.      
     <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.     
+    [[arXiv](https://arxiv.org/abs/2403.20300)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-VeerapaneniICAPS24');">bibtex</a>]
 <div id="bibtex-VeerapaneniICAPS24" style="display:none">
 <pre>@inproceedings{VeerapaneniICAPS24,
@@ -55,9 +131,10 @@ You can also find my articles on
 }
 </pre></div> 
 
-* Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences.     
+* [Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences](https://jiaoyangli.me/publications/ShaoulICAPS24) (**Best Student Paper**).     
     Yorai Shaoul, Itamar Mishani, Maxim Likhachev and **Jiaoyang Li**.      
     <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.     
+    [[arXiv](https://arxiv.org/abs/2404.00143)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ShaoulICAPS24');">bibtex</a>]
 <div id="bibtex-ShaoulICAPS24" style="display:none">
 <pre>@inproceedings{ShaoulICAPS24,
@@ -68,12 +145,12 @@ You can also find my articles on
 }
 </pre></div> 
 
-* Efficient Approximate Search for Multi-Objective Multi-Agent Path Finding.     
-    Fangji Wang, Han Zhang, Sven Koenig and **Jiaoyang Li**.      
+* [Efficient Approximate Search for Multi-Objective Multi-Agent Path Finding](https://jiaoyangli.me/publications/WangICAPS24momapf).     
+    Fangji Wang*, Han Zhang*, Sven Koenig and **Jiaoyang Li**.      
     <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.     
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-WangICAPS24momapf');">bibtex</a>]
+    [[code](https://github.com/FangjiW/BBMOCBS-approx)]         
 <div id="bibtex-WangICAPS24momapf" style="display:none">
-
 <pre>@inproceedings{WangICAPS24momapf,
   author    = {Fangji Wang and Han Zhang and Sven Koenig and Jiaoyang Li},
   title     = {Efficient Approximate Search for Multi-Objective Multi-Agent Path Finding},
@@ -81,6 +158,7 @@ You can also find my articles on
   year      = {2024}
 }
 </pre></div> 
+
 * [Multi-Agent Motion Planning With Bézier Curve Optimization Under Kinodynamic Constraints](https://jiaoyangli.me/publications/YanRAL24).     
     Jingtian Yan and **Jiaoyang Li**.      
     <i>IEEE Robotics and Automation Letters</i>, volume 9, number 3, pages 3021-3028, 2024.      
