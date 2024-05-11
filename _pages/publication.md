@@ -63,6 +63,7 @@ You can also find my articles on
 * [Unconstraining Multi-Robot Manipulation: Enabling Arbitrary Constraints in ECBS with Bounded Sub-Optimality](https://jiaoyangli.me/publications/ShaoulSoCS24).         
     Yorai Shaoul, Rishi Veerapaneni, Maxim Likhachev and **Jiaoyang Li**.       
     <i>Symposium on Combinatorial Search (**SoCS**)</i>, (in print), 2024.     
+    [[arXiv](https://arxiv.org/abs/2405.01772)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ShaoulSoCS24');">bibtex</a>]        
 <div id="bibtex-ShaoulSoCS24" style="display:none">
 <pre>@inproceedings{ShaoulSoCS24,
