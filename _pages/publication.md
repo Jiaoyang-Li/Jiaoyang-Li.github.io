@@ -30,7 +30,7 @@ You can also find my articles on
 </pre></div>
 
 * [Scalable Mechanism Design for Multi-Agent Path Finding](https://jiaoyangli.me/publications/FriedrichIJCAI24).     
-    Paul Friedrich*, Yulun Zhang*, Michael Curry, Ludwig Dierks, Stephen McAleer, **Jiaoyang Li**, Tuomas Sandholm and Sven Seuken.       
+    Paul Friedrich\*, Yulun Zhang\*, Michael Curry, Ludwig Dierks, Stephen McAleer, **Jiaoyang Li**, Tuomas Sandholm and Sven Seuken.       
     <i>International Joint Conference on Artificial Intelligence (**IJCAI**)</i>, (in print), 2024.         
     [[arXiv](https://arxiv.org/abs/2401.17044)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-FriedrichIJCAI24');">bibtex</a>]
@@ -47,44 +47,53 @@ You can also find my articles on
 
 * [Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities](https://jiaoyangli.me/publications/JiangSoCS24) (**Winner of 2023 League of Robot Runners**)      
     He Jiang, Yulun Zhang, Rishi Veerapaneni and **Jiaoyang Li**.       
-    <i>Symposium on Combinatorial Search (**SoCS**)</i>, (in print), 2024.   
+    <i>Symposium on Combinatorial Search (**SoCS**)</i>, pages 234-242, 2024.   
     [[arXiv](https://arxiv.org/abs/2404.16162)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-JiangSoCS24');">bibtex</a>]
-    [[code](https://github.com/DiligentPanda/MAPF-LRR2023)]    
+    [[code](https://github.com/DiligentPanda/MAPF-LRR2023)] 
+    [[publisher](https://doi.org/10.1609/socs.v17i1.31565)]       
 <div id="bibtex-JiangSoCS24" style="display:none">
 <pre>@inproceedings{JiangSoCS24,
   author    = {He Jiang and Yulun Zhang and Rishi Veerapaneni and Jiaoyang Li},
   title     = {Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities},
   booktitle = {Proceedings of the Symposium on Combinatorial Search (SoCS)},
+  pages     = {234--242},
+  doi       = {10.1609/socs.v17i1.31565},
   year      = {2024}
 }
 </pre></div>
 
 * [Unconstraining Multi-Robot Manipulation: Enabling Arbitrary Constraints in ECBS with Bounded Sub-Optimality](https://jiaoyangli.me/publications/ShaoulSoCS24).         
     Yorai Shaoul, Rishi Veerapaneni, Maxim Likhachev and **Jiaoyang Li**.       
-    <i>Symposium on Combinatorial Search (**SoCS**)</i>, (in print), 2024.     
+    <i>Symposium on Combinatorial Search (**SoCS**)</i>, pages 109-117, 2024.     
     [[arXiv](https://arxiv.org/abs/2405.01772)]
-    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ShaoulSoCS24');">bibtex</a>]        
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ShaoulSoCS24');">bibtex</a>]
+    [[publisher](https://doi.org/10.1609/socs.v17i1.31548)]       
 <div id="bibtex-ShaoulSoCS24" style="display:none">
 <pre>@inproceedings{ShaoulSoCS24,
   author    = {Yorai Shaoul and Rishi Veerapaneni and Maxim Likhachev and Jiaoyang Li},
   title     = {Unconstraining Multi-Robot Manipulation: Enabling Arbitrary Constraints in {ECBS} with Bounded Sub-Optimality},
   booktitle = {Proceedings of the Symposium on Combinatorial Search (SoCS)},
+  pages     = {109--117},
+  doi       = {10.1609/socs.v17i1.31548},
   year      = {2024}
 }
 </pre></div> 
 
 * [ITA-ECBS: A Bounded-Suboptimal Algorithm for The Combined Target-Assignment and Path-Finding Problem](https://jiaoyangli.me/publications/TangSoCS24).        
     Yimin Tang, Sven Koenig and **Jiaoyang Li**.       
-    <i>Symposium on Combinatorial Search (**SoCS**)</i>, (in print), 2024.     
+    <i>Symposium on Combinatorial Search (**SoCS**)</i>, pages 134-142, 2024.     
     [[arXiv](https://arxiv.org/abs/2404.05223)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-TangSoCS24');">bibtex</a>]
-    [[code](https://github.com/TachikakaMin/ITA-CBS2)]        
+    [[code](https://github.com/TachikakaMin/ITA-CBS2)]
+    [[publisher](https://doi.org/10.1609/socs.v17i1.31551)]
 <div id="bibtex-TangSoCS24" style="display:none">
 <pre>@inproceedings{TangSoCS24,
   author    = {Yimin Tang and Sven Koenig and Jiaoyang Li},
   title     = { {ITA-ECBS}: A Bounded-Suboptimal Algorithm for The Combined Target-Assignment and Path-Finding Problem},
   booktitle = {Proceedings of the Symposium on Combinatorial Search (SoCS)},
+  pages     = {134--142},
+  doi       = {10.1609/socs.v17i1.31551},
   year      = {2024}
 }
 </pre></div> 
@@ -119,7 +128,7 @@ You can also find my articles on
 </pre></div>  
 
 * [Improving Learnt Local MAPF Policies with Heuristic Search](https://jiaoyangli.me/publications/VeerapaneniICAPS24).     
-    Rishi Veerapaneni, Qian Wang, Kevin Ren, Arthur Jakobsson, **Jiaoyang Li** and Maxim Likhachev.      
+    Rishi Veerapaneni\*, Qian Wang\*, Kevin Ren\*, Arthur Jakobsson\*, **Jiaoyang Li** and Maxim Likhachev.      
     <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.     
     [[arXiv](https://arxiv.org/abs/2403.20300)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-VeerapaneniICAPS24');">bibtex</a>]
@@ -181,13 +190,14 @@ You can also find my articles on
 
 * [Optimal Task Assignment and Path Planning using Conflict-Based Search with Precedence and Temporal Constraints](https://jiaoyangli.me/publications/ChongAAMAS19) (extended abstract).     
     Yu Quan Chong, **Jiaoyang Li** and Katia Sycara.       
-    <i>International Joint Conference on Autonomous Agents and Multi-Agent Systems (**AAMAS**)</i>, (in print), 2024.      
+    <i>International Joint Conference on Autonomous Agents and Multi-Agent Systems (**AAMAS**)</i>, pages 2210-2212, 2024.      
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ChongAAMAS24');">bibtex</a>]
 <div id="bibtex-ChongAAMAS24" style="display:none">
 <pre>@inproceedings{ChongAAMAS24,
   author    = {Yu Quan Chong and Jiaoyang Li and Katia Sycara},
   title     = {Optimal Task Assignment and Path Planning using Conflict-Based Search with Precedence and Temporal Constraints},
   booktitle = {Proceedings of the International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS)},
+  pages     = {2210-2212},
   year      = {2024}
 }
 </pre></div>
