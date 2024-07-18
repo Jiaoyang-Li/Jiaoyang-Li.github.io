@@ -100,71 +100,86 @@ You can also find my articles on
 
 * [A Real-Time Rescheduling Algorithm for Multi-robot Plan Execution](https://jiaoyangli.me/publications/FengICAPS24).           
     Ying Feng, Adittyo Paul, Zhe Chen and **Jiaoyang Li**.       
-    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.      
+    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, pages 201-209, 2024.      
     A [short version](https://doi.org/10.1609/socs.v16i1.27301 "Download pdf") appeared at <i>Symposium on Combinatorial Search (**SoCS**)</i>, pages 175-176, 2023.   
     [[arXiv](https://arxiv.org/abs/2403.18145)] 
-    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-FengICAPS24');">bibtex</a>] 
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-FengICAPS24');">bibtex</a>]
+    [[publisher](https://doi.org/10.1609/icaps.v34i1.31477)]
 <div id="bibtex-FengICAPS24" style="display:none">
 <pre>@inproceedings{FengICAPS24,
   author    = {Ying Feng and Adittyo Paul and Zhe Chen and Jiaoyang Li},
   title     = {A Fast Rescheduling Algorithm for Real-Time Multi-Robot Coordination},
   booktitle = {Proceedings of the International Conference on Automated Planning and Scheduling (ICAPS)},
+  pages     = {201--209},
+  doi       = {10.1609/icaps.v34i1.31477},
   year      = {2024}
 }
 </pre></div>  
 
 * [MAPF in 3D Warehouses: Dataset and Analysis](https://jiaoyangli.me/publications/WangICAPS24mapf3d).     
     Qian Wang, Rishi Veerapaneni, Yu Wu, **Jiaoyang Li** and Maxim Likhachev.      
-    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.     
+    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, pages 623-632, 2024.     
     [[benchmark page](http://mapf.info/index.php/Main/Benchmarks)]
-    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-WangICAPS24mapf3d');">bibtex</a>]      
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-WangICAPS24mapf3d');">bibtex</a>]
+    [[publisher](https://doi.org/10.1609/icaps.v34i1.31525)]
 <div id="bibtex-WangICAPS24mapf3d" style="display:none">
 <pre>@inproceedings{WangICAPS24mapf3d,
   author    = {Qian Wang and Rishi Veerapaneni and Yu Wu and Jiaoyang Li and Maxim Likhachev},
   title     = {MAPF in 3D Warehouses: Dataset and Analysis},
   booktitle = {Proceedings of the International Conference on Automated Planning and Scheduling (ICAPS)},
+  pages     = {623--632},
+  doi       = {10.1609/icaps.v34i1.31525},
   year      = {2024}
 }
 </pre></div>  
 
 * [Improving Learnt Local MAPF Policies with Heuristic Search](https://jiaoyangli.me/publications/VeerapaneniICAPS24).     
     Rishi Veerapaneni\*, Qian Wang\*, Kevin Ren\*, Arthur Jakobsson\*, **Jiaoyang Li** and Maxim Likhachev.      
-    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.     
+    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, pages 597-606, 2024.     
     [[arXiv](https://arxiv.org/abs/2403.20300)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-VeerapaneniICAPS24');">bibtex</a>]
+    [[publisher](https://doi.org/10.1609/icaps.v34i1.31522)]
 <div id="bibtex-VeerapaneniICAPS24" style="display:none">
 <pre>@inproceedings{VeerapaneniICAPS24,
   author    = {Rishi Veerapaneni and Qian Wang and Kevin Ren and Arthur Jakobsson and Jiaoyang Li and Maxim Likhachev},
   title     = {Improving Learnt Local MAPF Policies with Heuristic Search},
   booktitle = {Proceedings of the International Conference on Automated Planning and Scheduling (ICAPS)},
+  pages     = {597--606},
+  doi       = {10.1609/icaps.v34i1.31522},
   year      = {2024}
 }
 </pre></div> 
 
 * [Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences](https://jiaoyangli.me/publications/ShaoulICAPS24) (**Best Student Paper**).     
     Yorai Shaoul, Itamar Mishani, Maxim Likhachev and **Jiaoyang Li**.      
-    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.     
+    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, pages 523-531, 2024.     
     [[arXiv](https://arxiv.org/abs/2404.00143)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ShaoulICAPS24');">bibtex</a>]
+    [[publisher](https://doi.org/10.1609/icaps.v34i1.31513)]
 <div id="bibtex-ShaoulICAPS24" style="display:none">
 <pre>@inproceedings{ShaoulICAPS24,
   author    = {Yorai Shaoul and Itamar Mishani and Maxim Likhachev and Jiaoyang Li},
   title     = {Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences},
   booktitle = {Proceedings of the International Conference on Automated Planning and Scheduling (ICAPS)},
+  pages     = {523--531],
+  doi       = {10.1609/icaps.v34i1.31513},
   year      = {2024}
 }
 </pre></div> 
 
 * [Efficient Approximate Search for Multi-Objective Multi-Agent Path Finding](https://jiaoyangli.me/publications/WangICAPS24momapf).     
     Fangji Wang\*, Han Zhang\*, Sven Koenig and **Jiaoyang Li**.      
-    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, (in print), 2024.     
+    <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, pages 613-622, 2024.     
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-WangICAPS24momapf');">bibtex</a>]
-    [[code](https://github.com/FangjiW/BBMOCBS-approx)]         
+    [[code](https://github.com/FangjiW/BBMOCBS-approx)]
+    [[publisher](https://doi.org/10.1609/icaps.v34i1.31524)]
 <div id="bibtex-WangICAPS24momapf" style="display:none">
 <pre>@inproceedings{WangICAPS24momapf,
   author    = {Fangji Wang and Han Zhang and Sven Koenig and Jiaoyang Li},
   title     = {Efficient Approximate Search for Multi-Objective Multi-Agent Path Finding},
   booktitle = {Proceedings of the International Conference on Automated Planning and Scheduling (ICAPS)},
+  pages     = {613--622},
+  doi       = {10.1609/icaps.v34i1.31524},
   year      = {2024}
 }
 </pre></div> 
