@@ -117,7 +117,7 @@ You can also find my articles on
 </pre></div>  
 
 * [MAPF in 3D Warehouses: Dataset and Analysis](https://jiaoyangli.me/publications/WangICAPS24mapf3d).     
-    Qian Wang, Rishi Veerapaneni, Yu Wu, **Jiaoyang Li** and Maxim Likhachev.      
+    Qian Wang\*, Rishi Veerapaneni\*, Yu Wu, **Jiaoyang Li** and Maxim Likhachev.      
     <i>International Conference on Automated Planning and Scheduling (**ICAPS**)</i>, pages 623-632, 2024.     
     [[benchmark page](http://mapf.info/index.php/Main/Benchmarks)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-WangICAPS24mapf3d');">bibtex</a>]
