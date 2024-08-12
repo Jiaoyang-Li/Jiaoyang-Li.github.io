@@ -32,6 +32,17 @@ author_profile: true
 </p>
 <br clear="all">
 
+- [Rishi Veerapaneni](https://rishi-v.github.io/) (RI PhD, Fall 2019)
+
+<img src="https://jiaoyangli.me/images/rishiveerapaneni.png" style="float:left;width:100pt;padding-right:10px;"  alt="Rishi Veerapaneni"/>
+<p>
+    Rishi works with Professors Maxim Likhachev and Jiaoyang Li in the Robotics Institute at CMU and is supported by the NSF Graduate Research Fellowship. 
+    His specific research interest is in (1) designing better heuristic search algorithms, (2) multi-agent motion planning and coordination (e.g. MAPF), and (3) combining search with machine learning. 
+    Previously, he double majored in EECS and Applied Math at UC Berkeley and was very active in teaching (EE16A, CS188, CS170 x2).
+</p>
+<br clear="all">
+
+
 - [Yulun Zhang](https://yulunzhang.net/) (RI PhD, Fall 2022)
 
 <img src="https://jiaoyangli.me/images/yulunzhang.jpg" style="float:left;width:100pt;padding-right:10px;"  alt="Yulun Zhang"/>
@@ -70,11 +81,6 @@ author_profile: true
 
 ### Undergraduate Students
 
-- [Ying Feng](https://www.linkedin.com/in/yinggggfeng) (CS undergraduate, Class 2024)
-
-<img src="https://jiaoyangli.me/images/yingfeng.jpeg" style="float:left;width:100pt;padding-right:10px;"  alt="Ying Feng"/>
-<br clear="all">
-
 - [Yifan Su](https://yifansu1301.github.io/) (CS undergraduate, Class 2025)
 
 <img src="https://jiaoyangli.me/images/yifansu.jpg" style="float:left;width:100pt;padding-right:10px;"  alt="Yifan Su"/>
@@ -102,7 +108,13 @@ author_profile: true
 </p>
 <br clear="all"> -->
 
-- [Yimin Tang](https://github.com/TachikakaMin) (Master of Science in Robotics, Class 2023)
+
+- [Ying Feng](https://www.linkedin.com/in/yinggggfeng) (CS undergraduate, graduated in 2024, now PhD student at MIT)
+
+<img src="https://jiaoyangli.me/images/yingfeng.jpeg" style="float:left;width:100pt;padding-right:10px;"  alt="Ying Feng"/>
+<br clear="all">
+
+- [Yimin Tang](https://github.com/TachikakaMin) (Master of Science in Robotics, graduated in 2023, now PhD student at USC)
 
 <img src="https://jiaoyangli.me/images/yimintang.png" style="float:left;width:100pt;padding-right:10px;" alt="Yimin Tang"/>
 <p>
