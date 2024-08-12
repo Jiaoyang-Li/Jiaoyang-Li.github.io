@@ -32,7 +32,7 @@ author_profile: true
 </p>
 <br clear="all">
 
-- [Rishi Veerapaneni](https://rishi-v.github.io/) (RI PhD, Fall 2019)
+- [Rishi Veerapaneni](https://rishi-v.github.io/) (RI PhD, Fall 2020)
 
 <img src="https://jiaoyangli.me/images/rishiveerapaneni.png" style="float:left;width:100pt;padding-right:10px;"  alt="Rishi Veerapaneni"/>
 <p>
