@@ -16,34 +16,39 @@ You can also find my articles on
 
 * [Guidance Graph Optimization for Lifelong Multi-Agent Path Finding](https://jiaoyangli.me/publications/ZhangIJCAI24).     
     Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis and **Jiaoyang Li**.       
-    <i>International Joint Conference on Artificial Intelligence (**IJCAI**)</i>, (in print), 2024.         
+    <i>International Joint Conference on Artificial Intelligence (**IJCAI**)</i>, pages 311-320, 2024.         
     [[arXiv](https://arxiv.org/abs/2402.01446)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ZhangIJCAI24');">bibtex</a>]
-    [[code](https://github.com/lunjohnzhang/ggo_public)]         
+    [[code](https://github.com/lunjohnzhang/ggo_public)]
+    [[publisher](https://doi.org/10.24963/ijcai.2024/35)]
 <div id="bibtex-ZhangIJCAI24" style="display:none">
 <pre>@inproceedings{ZhangIJCAI24,
   author    = {Yulun Zhang and He Jiang and Varun Bhatt and Stefanos Nikolaidis and Jiaoyang Li},
   title     = {Guidance Graph Optimization for Lifelong Multi-Agent Path Finding},
   booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
-  year      = {2024}
+  pages     = {311--320},
+  year      = {2024},
+  doi       = {10.24963/ijcai.2024/35}
 }
 </pre></div>
 
 * [Scalable Mechanism Design for Multi-Agent Path Finding](https://jiaoyangli.me/publications/FriedrichIJCAI24).     
     Paul Friedrich\*, Yulun Zhang\*, Michael Curry, Ludwig Dierks, Stephen McAleer, **Jiaoyang Li**, Tuomas Sandholm and Sven Seuken.       
-    <i>International Joint Conference on Artificial Intelligence (**IJCAI**)</i>, (in print), 2024.         
+    <i>International Joint Conference on Artificial Intelligence (**IJCAI**)</i>, pages 58-66, 22024.         
     [[arXiv](https://arxiv.org/abs/2401.17044)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-FriedrichIJCAI24');">bibtex</a>]
-    [[code](https://github.com/lunjohnzhang/MAPF-Mechanism)]         
+    [[code](https://github.com/lunjohnzhang/MAPF-Mechanism)] 
+    [[publisher](https://doi.org/10.24963/ijcai.2024/7)]
 <div id="bibtex-FriedrichIJCAI24" style="display:none">
 <pre>@inproceedings{FriedrichIJCAI24,
   author    = {Paul Friedrich and Yulun Zhang and Michael Curry and Ludwig Dierks and Stephen McAleer and Jiaoyang Li and Tuomas Sandholm and Sven Seuken},
   title     = {Scalable Mechanism Design for Multi-Agent Path Finding},
   booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
+  pages     = {58--66},
+  doi       = {10.24963/ijcai.2024/7},
   year      = {2024}
 }
 </pre></div>
-
 
 * [Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities](https://jiaoyangli.me/publications/JiangSoCS24) (**Winner of 2023 League of Robot Runners**)      
     He Jiang, Yulun Zhang, Rishi Veerapaneni and **Jiaoyang Li**.       

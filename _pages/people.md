@@ -30,6 +30,21 @@ author_profile: true
     His research interests span multi-robot task and motion planning, robotic manipulation, statistical learning, and computer vision. 
     He works to harness insights from established planning algorithms to address messy real-world challenges in manipulation.
 </p>
+<details>
+  <summary>Publications</summary>
+  <ul>
+    <li>
+        <a href="https://jiaoyangli.me/publications/ShaoulSoCS24">Unconstraining Multi-Robot Manipulation: Enabling Arbitrary Constraints in ECBS with Bounded Sub-Optimality</a>.         
+        Yorai Shaoul, Rishi Veerapaneni, Maxim Likhachev and Jiaoyang Li.
+        Symposium on Combinatorial Search (SoCS), pages 109-117, 2024.
+    </li>
+    <li>
+        <a href="https://jiaoyangli.me/publications/ShaoulICAPS24">Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences</a> (Best Student Paper).     
+        Yorai Shaoul, Itamar Mishani, Maxim Likhachev and Jiaoyang Li.      
+        International Conference on Automated Planning and Scheduling (ICAPS), pages 523-531, 2024.    
+    </li>
+  </ul>
+</details>
 <br clear="all">
 
 - [Rishi Veerapaneni](https://rishi-v.github.io/) (RI PhD, Fall 2020)
@@ -40,6 +55,36 @@ author_profile: true
     His specific research interest is in (1) designing better heuristic search algorithms, (2) multi-agent motion planning and coordination (e.g. MAPF), and (3) combining search with machine learning. 
     Previously, he double majored in EECS and Applied Math at UC Berkeley and was very active in teaching (EE16A, CS188, CS170 x2).
 </p>
+<details>
+  <summary>Publications</summary>
+  <ul>
+    <li>
+        <a href="https://jiaoyangli.me/publications/JiangSoCS24">Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities</a> (Winner of 2023 League of Robot Runners).      
+        He Jiang, Yulun Zhang, Rishi Veerapaneni and Jiaoyang Li.       
+        Symposium on Combinatorial Search (SoCS), pages 234-242, 2024. 
+    </li>
+    <li>
+        <a href="https://jiaoyangli.me/publications/ShaoulSoCS24">Unconstraining Multi-Robot Manipulation: Enabling Arbitrary Constraints in ECBS with Bounded Sub-Optimality</a>.         
+        Yorai Shaoul, Rishi Veerapaneni, Maxim Likhachev and Jiaoyang Li.       
+        Symposium on Combinatorial Search (SoCS), pages 109-117, 2024.     
+    </li>
+    <li>
+        <a href="https://jiaoyangli.me/publications/WangICAPS24mapf3d">MAPF in 3D Warehouses: Dataset and Analysis</a>.     
+        Qian Wang*, Rishi Veerapaneni*, Yu Wu, Jiaoyang Li and Maxim Likhachev.      
+        International Conference on Automated Planning and Scheduling (ICAPS), pages 623-632, 2024.     
+    </li>
+    <li>
+        <a href="https://jiaoyangli.me/publications/VeerapaneniICAPS24">Improving Learnt Local MAPF Policies with Heuristic Search</a>.     
+        Rishi Veerapaneni*, Qian Wang*, Kevin Ren*, Arthur Jakobsson*, Jiaoyang Li and Maxim Likhachev.      
+        International Conference on Automated Planning and Scheduling (ICAPS), pages 597-606, 2024.    
+    </li>
+    <li>
+        <a href="https://jiaoyangli.me/publications/SuAAAI24">Bidirectional Temporal Plan Graph: Enabling Switchable Passing Orders for More Efficient Multi-Agent Path Finding Plan Execution</a>.     
+        Yifan Su, Rishi Veerapaneni and Jiaoyang Li.      
+        AAAI Conference on Artificial Intelligence (AAAI), pages 17559-17566, 2024.    
+    </li>
+  </ul>
+</details>
 <br clear="all">
 
 
@@ -53,6 +98,36 @@ author_profile: true
     As a long-term goal, his research focuses on bringing Quality Diversity Optimization and Evolutionary Optimization 
     to Robotics, expanding their applicability and scalability.
 </p>
+<details>
+  <summary>Publications</summary>
+  <ul>
+    <li>
+        <a href="https://jiaoyangli.me/publications/ZhangIJCAI24">Guidance Graph Optimization for Lifelong Multi-Agent Path Finding</a>.     
+        Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis and Jiaoyang Li.       
+        International Joint Conference on Artificial Intelligence (IJCAI), pages 311-320, 2024.            
+    </li>
+    <li>
+        <a href="https://jiaoyangli.me/publications/FriedrichIJCAI24">Scalable Mechanism Design for Multi-Agent Path Finding</a>.     
+        Paul Friedrich*, Yulun Zhang*, Michael Curry, Ludwig Dierks, Stephen McAleer, Jiaoyang Li, Tuomas Sandholm and Sven Seuken.       
+        International Joint Conference on Artificial Intelligence (IJCAI), pages 58-66, 22024.         
+    </li>
+    <li>
+        <a href="https://jiaoyangli.me/publications/JiangSoCS24">Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities</a> (Winner of 2023 League of Robot Runners).      
+        He Jiang, Yulun Zhang, Rishi Veerapaneni and Jiaoyang Li.       
+        Symposium on Combinatorial Search (SoCS), pages 234-242, 2024. 
+    </li>
+    <li>
+        <a href="https://jiaoyangli.me/publications/ZhangNeurIPS23">Arbitrarily Scalable Environment Generators via Neural Cellular Automata</a>.     
+        Yulun Zhang, Matthew C. Fontaine, Varun Bhatt, Stefanos Nikolaidis and Jiaoyang Li.       
+        Conference on Neural Information Processing Systems (NeurIPS), pages 57212-57225, 2023.   
+    </li>
+    <li>
+        <a href="https://jiaoyangli.me/publications/ZhangIJCAI23">Multi-Robot Coordination and Layout Design for Automated Warehousing</a>.     
+        Yulun Zhang, Matthew C. Fontaine, Varun Bhatt, Stefanos Nikolaidis and Jiaoyang Li.       
+        International Joint Conference on Artificial Intelligence (IJCAI), pages 5503-5511, 2023.  
+    </li>
+  </ul>
+</details>
 <br clear="all">
 
 ### Masters Students
@@ -68,6 +143,21 @@ author_profile: true
     Hopefully, he can enjoy his days at CMU and do some meaningful work.  
     He is also interested in Soccer, Poker, Chinese Chess & Nintendo Switch, by the way.
 </p>
+<details>
+  <summary>Publications</summary>
+  <ul>
+    <li>
+        <a href="https://jiaoyangli.me/publications/ZhangIJCAI24">Guidance Graph Optimization for Lifelong Multi-Agent Path Finding</a>.     
+        Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis and Jiaoyang Li.       
+        International Joint Conference on Artificial Intelligence (IJCAI), pages 311-320, 2024.            
+    </li>
+    <li>
+        <a href="https://jiaoyangli.me/publications/JiangSoCS24">Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities</a> (Winner of 2023 League of Robot Runners).      
+        He Jiang, Yulun Zhang, Rishi Veerapaneni and Jiaoyang Li.       
+        Symposium on Combinatorial Search (SoCS), pages 234-242, 2024. 
+    </li>
+  </ul>
+</details>
 <br clear="all">
 
 - [Jingtian Yan](https://scholar.google.com/citations?user=JjaOG98AAAAJ&hl=en) (Research Assistant)
@@ -77,6 +167,16 @@ author_profile: true
     Jingtian received a B.Sc. from Zhejiang University in 2020 and an M.Sc. from the Carnegie Mellon University in 2023. 
     His research interests include multi-robot coordination, autonomous exploration, and Multi-Agent Path Finding.
 </p>
+<details>
+  <summary>Publications</summary>
+  <ul>
+    <li>
+        <a href="https://jiaoyangli.me/publications/YanRAL24">Multi-Agent Motion Planning With Bézier Curve Optimization Under Kinodynamic Constraints</a>.     
+        Jingtian Yan and Jiaoyang Li.      
+        IEEE Robotics and Automation Letters, volume 9, number 3, pages 3021-3028, 2024.        
+    </li>
+  </ul>
+</details>
 <br clear="all">
 
 ### Undergraduate Students
@@ -84,6 +184,16 @@ author_profile: true
 - [Yifan Su](https://yifansu1301.github.io/) (CS undergraduate, Class 2025)
 
 <img src="https://jiaoyangli.me/images/yifansu.jpg" style="float:left;width:100pt;padding-right:10px;"  alt="Yifan Su"/>
+<details>
+  <summary>Publications</summary>
+  <ul>
+    <li>
+        <a href="https://jiaoyangli.me/publications/SuAAAI24">Bidirectional Temporal Plan Graph: Enabling Switchable Passing Orders for More Efficient Multi-Agent Path Finding Plan Execution</a>.     
+        Yifan Su, Rishi Veerapaneni and Jiaoyang Li.      
+        AAAI Conference on Artificial Intelligence (AAAI), pages 17559-17566, 2024.    
+    </li>
+  </ul>
+</details>
 <br clear="all">
 
 ### Visitors
@@ -112,6 +222,16 @@ author_profile: true
 - [Ying Feng](https://www.linkedin.com/in/yinggggfeng) (CS undergraduate, graduated in 2024, now PhD student at MIT)
 
 <img src="https://jiaoyangli.me/images/yingfeng.jpeg" style="float:left;width:100pt;padding-right:10px;"  alt="Ying Feng"/>
+<details>
+  <summary>Publications</summary>
+  <ul>
+    <li>
+        <a href="https://jiaoyangli.me/publications/FengICAPS24">A Real-Time Rescheduling Algorithm for Multi-robot Plan Execution</a>.           
+        Ying Feng, Adittyo Paul, Zhe Chen and Jiaoyang Li.       
+        International Conference on Automated Planning and Scheduling (ICAPS), pages 201-209, 2024.        
+    </li>
+  </ul>
+</details>
 <br clear="all">
 
 - [Yimin Tang](https://github.com/TachikakaMin) (Master of Science in Robotics, graduated in 2023, now PhD student at USC)
@@ -124,4 +244,19 @@ author_profile: true
     He also participated in some publications related to grasping and human-computer interaction in ICRA and CHI. 
     He is familiar with traditional data structures and algorithms and has several prizes in NOIP, NOI, and ICPC.
 </p>
+<details>
+  <summary>Publications</summary>
+  <ul>
+    <li>
+        <a href="https://jiaoyangli.me/publications/TangSoCS24">ITA-ECBS: A Bounded-Suboptimal Algorithm for The Combined Target-Assignment and Path-Finding Problem</a>.        
+        Yimin Tang, Sven Koenig and Jiaoyang Li.       
+        Symposium on Combinatorial Search (SoCS), pages 134-142, 2024.        
+    </li>
+    <li>
+        <a href="https://jiaoyangli.me/publications/TangMRS23">Solving Multi-Agent Target Assignment and Path Finding with a Single Constraint Tree</a> (**Best Paper Finalist**).         
+        Yimin Tang, Zhongqiang Ren, Jiaoyang Li and Katia Sycara.       
+        International Symposium on Multi-Robot and Multi-Agent Systems (MRS), pages 8-14, 2023.       
+    </li>
+  </ul>
+</details>
 <br clear="all">
