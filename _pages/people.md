@@ -109,7 +109,7 @@ author_profile: true
     <li>
         <a href="https://jiaoyangli.me/publications/FriedrichIJCAI24">Scalable Mechanism Design for Multi-Agent Path Finding</a>.     
         Paul Friedrich*, Yulun Zhang*, Michael Curry, Ludwig Dierks, Stephen McAleer, Jiaoyang Li, Tuomas Sandholm and Sven Seuken.       
-        International Joint Conference on Artificial Intelligence (IJCAI), pages 58-66, 22024.         
+        International Joint Conference on Artificial Intelligence (IJCAI), pages 58-66, 2024.         
     </li>
     <li>
         <a href="https://jiaoyangli.me/publications/JiangSoCS24">Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities</a> (Winner of 2023 League of Robot Runners).      

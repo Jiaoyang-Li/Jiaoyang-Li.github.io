@@ -34,7 +34,7 @@ You can also find my articles on
 
 * [Scalable Mechanism Design for Multi-Agent Path Finding](https://jiaoyangli.me/publications/FriedrichIJCAI24).     
     Paul Friedrich\*, Yulun Zhang\*, Michael Curry, Ludwig Dierks, Stephen McAleer, **Jiaoyang Li**, Tuomas Sandholm and Sven Seuken.       
-    <i>International Joint Conference on Artificial Intelligence (**IJCAI**)</i>, pages 58-66, 22024.         
+    <i>International Joint Conference on Artificial Intelligence (**IJCAI**)</i>, pages 58-66, 2024.         
     [[arXiv](https://arxiv.org/abs/2401.17044)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-FriedrichIJCAI24');">bibtex</a>]
     [[code](https://github.com/lunjohnzhang/MAPF-Mechanism)] 
