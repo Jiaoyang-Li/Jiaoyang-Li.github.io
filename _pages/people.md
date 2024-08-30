@@ -10,6 +10,11 @@ author_profile: true
 
 <img src="https://jiaoyangli.me/images/logo-white-background.png" title="logo" width="800pt" alt="ARCS Lab"/>
 
+A summary of each member's ongoing research can be found 
+[here](https://jiaoyang-li.github.io/files/ARCS-2024-Orientation-Poster.pdf "Download poster") 
+(updated date: August 2024).
+
+
 <!-- ## Current Members -->
 ### PhD Students
 - [Philip Huang](https://philip-huang.github.io/) (RI PhD, Fall 2023)
