@@ -16,9 +16,7 @@ excerpt: "This is a page not in the main menu"-->
     <td>
         Guidance Graph Optimization for Lifelong Multi-Agent Path Finding
         <br>
-        <div>
-            Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis and Jiaoyang Li
-        </div>
+        Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis and Jiaoyang Li
     </td>
 </tr>
 
