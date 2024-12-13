@@ -1,6 +1,6 @@
 <tr>
     {% if pub.img %}
-        <td class='pubimg' width="250" height="100" style="text-align:center">
+        <td width="250" height="100" style="text-align:center">
             <img src="{{pub.img}}" img width="250" />
         </td>
     {% endif %}
@@ -13,7 +13,7 @@
             {{pub.title}}
         {% endif %}
         <br>
-        <div class="pubauthor">
+        <div>
             {{pub.authors}}
         </div>
         <div id="bib{{pub.short_id}}" style="display:none">
@@ -26,7 +26,7 @@
                 {{pub.abs}}
             </blockquote>
         </div>
-        <div class="pubjournal">
+        <div>
             {% if pub.award %}
                 {{pub.venue}} - {{pub.award}}
             {% else %}
@@ -48,6 +48,6 @@
                 <a href="{{link[1]}}">{{link[0]}}</a>
             {% endfor %}
         </div>
-        <div id="div{{pub.short_id}}" class="pubInfo"></div>
+        <div id="div{{pub.short_id}}"></div>
     </td>
 </tr>
