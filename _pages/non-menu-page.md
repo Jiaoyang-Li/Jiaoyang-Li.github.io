@@ -11,10 +11,6 @@ excerpt: "This is a page not in the main menu"-->
 {% include base_path %}
 <!--{% include toc %}-->
 
-<!--{% for pub in site.data.pubs %}
-        {% include pub.html %}
-{% endfor %}-->
-
 
 <tr>
     <td>
