@@ -11,6 +11,13 @@ excerpt: "This is a page not in the main menu"-->
 {% include base_path %}
 <!--{% include toc %}-->
 
-{% for pub in site.data.pubs %}
+<!--{% for pub in site.data.pubs %}
         {% include pub.html %}
-{% endfor %}
+{% endfor %}-->
+
+
+<tr>
+    <td>
+        Guidance Graph Optimization for Lifelong Multi-Agent Path Finding
+    </td>
+</tr>

@@ -16,7 +16,7 @@
         <div>
             {{pub.authors}}
         </div>
-        <div id="bib{{pub.short_id}}" style="display:none">
+        <!-- <div id="bib{{pub.short_id}}" style="display:none">
             <blockquote>
                 <pre>{{pub.bib}}</pre>
             </blockquote>
@@ -34,7 +34,7 @@
             {% endif %}
             <br>
         </div>
-        <!-- <div style="font-size:small">
+        <div style="font-size:small">
             {% if pub.site != null %}
                 <a href="{{pub.site}}">[Project Page]</a>
             {% endif %}
@@ -47,7 +47,7 @@
             {% for link in pub.links %}
                 <a href="{{link[1]}}">{{link[0]}}</a>
             {% endfor %}
-        </div> -->
-        <div id="div{{pub.short_id}}"></div>
+        </div>
+        <div id="div{{pub.short_id}}"></div> -->
     </td>
 </tr>
