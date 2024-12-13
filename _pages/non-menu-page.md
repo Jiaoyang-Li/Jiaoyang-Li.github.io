@@ -17,3 +17,7 @@ excerpt: "This is a page not in the main menu"-->
         Guidance Graph Optimization for Lifelong Multi-Agent Path Finding
     </td>
 </tr>
+
+{% for pub in site.data.pubs %}
+        {% include pub.html %}
+    {% endfor %}
