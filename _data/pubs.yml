@@ -15,8 +15,7 @@
 # Current tags for research areas, see the research areas page for more details:
 # deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
 
-- abs: null
-  authors: Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis and Jiaoyang Li
+- authors: Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis and Jiaoyang Li
   bib: >
     @inproceedings{ZhangIJCAI24,
       title={Guidance Graph Optimization for Lifelong Multi-Agent Path Finding},
@@ -25,11 +24,8 @@
       pages={311--320},
       year={2024}       
     }
-  img: null
   links:
       '[arXiv]': https://arxiv.org/abs/2402.01446
   short_id: ZhangIJCAI24
   title: "Guidance Graph Optimization for Lifelong Multi-Agent Path Finding"
   venue: International Joint Conference on Artificial Intelligence (IJCAI), 2024
-  video_embed: null
-  award: null
