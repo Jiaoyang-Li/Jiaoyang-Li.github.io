@@ -258,7 +258,7 @@ A summary of each member's ongoing research can be found
         Symposium on Combinatorial Search (SoCS), pages 134-142, 2024.        
     </li>
     <li>
-        <a href="https://jiaoyangli.me/publications/TangMRS23">Solving Multi-Agent Target Assignment and Path Finding with a Single Constraint Tree</a> (**Best Paper Finalist**).         
+        <a href="https://jiaoyangli.me/publications/TangMRS23">Solving Multi-Agent Target Assignment and Path Finding with a Single Constraint Tree</a> (Best Paper Finalist).         
         Yimin Tang, Zhongqiang Ren, Jiaoyang Li and Katia Sycara.       
         International Symposium on Multi-Robot and Multi-Agent Systems (MRS), pages 8-14, 2023.       
     </li>

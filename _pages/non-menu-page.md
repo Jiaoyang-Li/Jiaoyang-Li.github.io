@@ -11,6 +11,17 @@ excerpt: "This is a page not in the main menu"-->
 {% include base_path %}
 <!--{% include toc %}-->
 
+{% for pub in site.data.pubs %}
+        {% include pub.html %}
+{% endfor %}
+
+
+
+
+
+
+
+
 <img src="/images/mapf-demo.gif" title="mapf demo" style="float:right;width:200pt;padding-left:10px;" />
 Recent advances in robotics have laid the foundation for building large-scale multi-agent systems. 
 However, how to coordinate the robots intelligently is a difficult problem because the joint-state space increases exponentially with the number of agents.

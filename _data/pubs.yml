@@ -1,0 +1,35 @@
+# When making a new entry, copy the commented out entry, paste it, uncomment, and fill out the fields.
+# If any of the fields are confusing look at previous examples for guidance.
+#- abs: null
+#  authors: null
+#  award: null
+#  bib: null
+#  img: null
+#  links: {}
+#  short_id: null
+#  site: null
+#  title: null
+#  venue: null
+#  video_embed: null
+#  tags: null
+# Current tags for research areas, see the research areas page for more details:
+# deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
+
+- abs: null
+  authors: Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis and **Jiaoyang Li**
+  bib: >
+    @inproceedings{ZhangIJCAI24,
+      title={Guidance Graph Optimization for Lifelong Multi-Agent Path Finding},
+      author={Yulun Zhang and He Jiang and Varun Bhatt and Stefanos Nikolaidis and Jiaoyang Li},            
+      booktitle={Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
+      pages={311--320},
+      year={2024}       
+    }
+  img: null
+  links:
+      '[arXiv]': https://arxiv.org/abs/2402.01446
+  short_id: ZhangIJCAI24
+  title: "Guidance Graph Optimization for Lifelong Multi-Agent Path Finding"
+  venue: International Joint Conference on Artificial Intelligence (IJCAI), 2024
+  video_embed: null
+  award: null
