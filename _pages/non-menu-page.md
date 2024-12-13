@@ -15,9 +15,13 @@ excerpt: "This is a page not in the main menu"-->
 <tr>
     <td>
         Guidance Graph Optimization for Lifelong Multi-Agent Path Finding
+        <br>
+        <div>
+            Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis and Jiaoyang Li
+        </div>
     </td>
 </tr>
 
 {% for pub in site.data.pubs %}
-        {% include pub.html %}
-    {% endfor %}
+    {% include pub.html %}
+{% endfor %}
