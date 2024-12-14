@@ -6,45 +6,4 @@ Jiaoyang Li:
   webpage: https://jiaoyangli.me/
 
 
-Yulun Zhang:
-  name: Yulun Zhang
-  role: PhD student
-  webpage: https://yulunzhang.net/
-  enrollment: RI PhD, Fall 2022
-  headshot: /images/yulunzhang.jpg
-  bio: Yulun received a B.Sc. and an M.Sc. in Computer Science from the University of Southern California in 2021 and 2022. 
-    His research interests include human-robot collaboration, multi-robot coordination, evolutionary algorithms, 
-    and quality diversity optimization. 
-    As a long-term goal, his research focuses on bringing Quality Diversity Optimization and Evolutionary Optimization 
-    to Robotics, expanding their applicability and scalability.
-
-Yorai Shaoul:
-  name: Yorai Shaoul
-  role: PhD student
-  webpage: https://yoraish.com/
-  enrollment: RI PhD, Fall 2022
-  headshot: /images/yoraishaoul.jpg
-  bio: Yorai earned a B.Sc. in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology in 2021. 
-    His research interests span multi-robot task and motion planning, robotic manipulation, statistical learning, and computer vision. 
-    He works to harness insights from established planning algorithms to address messy real-world challenges in manipulation.
-
-Philip Huang:
-  name: Philip Huang
-  role: PhD student
-  webpage: https://philip-huang.github.io/
-  enrollment: RI PhD, Fall 2023
-  headshot: /images/philiphuang.jpg
-  bio:  Philip Huang received a BASc in Engineering Science in 2021 and an MSc in Computer Science in 2023 from the University of Toronto. 
-    His research interests include multi-robot collaboration, task and motion planning, and machine learning. 
-    A long-term goal of his research is to develop algorithms that 
-    enable individual robots and robot teams to accomplish complex and long-horizon tasks in dynamic and uncertain environments.
-
-Rishi Veerapaneni:
-  name: Rishi Veerapaneni
-  role: PhD student
-  bio: Rishi works with Professors Maxim Likhachev and Jiaoyang Li in the Robotics Institute at CMU and is supported by the NSF Graduate Research Fellowship. 
-    His specific research interest is in (1) designing better heuristic search algorithms, 
-    (2) multi-agent motion planning and coordination (e.g. MAPF), and 
-    (3) combining search with machine learning. 
-    Previously, he double majored in EECS and Applied Math at UC Berkeley and was very active in teaching (EE16A, CS188, CS170 x2).
 
