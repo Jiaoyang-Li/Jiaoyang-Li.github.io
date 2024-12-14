@@ -40,7 +40,7 @@
             <pre>{{pub.bib}}</pre>
         {% elsif site.data.venues[pub.venue].type=="conference" %}
             <pre>@inproceedings{ {{pub.key}},
-  author    = {{% for author in pub.authors %} {% assign resolved_name = site.data.authors[author].name | default: author %} {{ resolved_name }}{% if forloop.last == false %} and {% endif %}{% endfor %}},
+  author    = { {% for author in pub.authors %} {% assign resolved_name = site.data.authors[author].name | default: author %} {{ resolved_name }}{% if forloop.last == false %} and {% endif %}{% endfor %} },
   title     = {{{pub.title}}},
   booktitle = {Proceedings of the {{ site.data.venues[pub.venue].name }} ({{ site.data.venues[pub.venue].short_name }})},
   pages     = {{{ pub.pages | default: '' }}},
