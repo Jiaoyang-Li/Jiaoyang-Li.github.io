@@ -21,7 +21,7 @@
 
 - key: ZhangIJCAI24
   title: "Guidance Graph Optimization for Lifelong Multi-Agent Path Finding"
-  authors: [yulunzhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis, jiaoyangli]
+  authors: [Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis, Jiaoyang Li]
   venue: IJCAI
   pages: 311-320
   year: 2024
@@ -32,8 +32,8 @@
 
 - key: FriedrichIJCAI24
   title: Scalable Mechanism Design for Multi-Agent Path Finding
-  authors: [Paul Friedrich, yulunzhang, Michael Curry, Ludwig Dierks, Stephen McAleer, jiaoyangli, Tuomas Sandholm, Sven Seuken]
-  co_first_authors: [Paul Friedrich, yulunzhang]
+  authors: [Paul Friedrich, Yulun Zhang, Michael Curry, Ludwig Dierks, Stephen McAleer, Jiaoyang Li, Tuomas Sandholm, Sven Seuken]
+  co_first_authors: [Paul Friedrich, Yulun Zhang]
   venue: IJCAI
   pages: 58-66
   year: 2024
@@ -44,7 +44,7 @@
 
 - key: JiangSoCS24
   title: "Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities"
-  authors: [He Jiang, yulunzhang, Rishi Veerapaneni, jiaoyangli]
+  authors: [He Jiang, Yulun Zhang, Rishi Veerapaneni, Jiaoyang Li]
   venue: SoCS
   pages: 234-242
   year: 2024
@@ -56,7 +56,7 @@
 
 - key: ShaoulSoCS24
   title: "Unconstraining Multi-Robot Manipulation: Enabling Arbitrary Constraints in ECBS with Bounded Sub-Optimality"
-  authors: [Yorai Shaoul, Rishi Veerapaneni, Maxim Likhachev, jiaoyangli]
+  authors: [Yorai Shaoul, Rishi Veerapaneni, Maxim Likhachev, Jiaoyang Li]
   venue: SoCS
   pages: 109--117
   year: 2024
@@ -67,7 +67,7 @@
 
 - key: TangSoCS24
   title: "ITA-ECBS: A Bounded-Suboptimal Algorithm for The Combined Target-Assignment and Path-Finding Problem"
-  authors: [Yimin Tang, Sven Koenig, jiaoyangli]
+  authors: [Yimin Tang, Sven Koenig, Jiaoyang Li]
   venue: SoCS
   pages: 134-142
   year: 2024
@@ -78,7 +78,7 @@
 
 - key: FengICAPS24
   title: "A Real-Time Rescheduling Algorithm for Multi-robot Plan Execution"
-  authors: [Ying Feng, Adittyo Paul, Zhe Chen, jiaoyangli]
+  authors: [Ying Feng, Adittyo Paul, Zhe Chen, Jiaoyang Li]
   venue: ICAPS
   pages: 201-209
   year: 2024
@@ -94,7 +94,7 @@
 
 - key: WangICAPS24mapf3d
   title: "MAPF in 3D Warehouses: Dataset and Analysis"
-  authors: [Qian Wang, Rishi Veerapaneni, Yu Wu, jiaoyangli, Maxim Likhachev]
+  authors: [Qian Wang, Rishi Veerapaneni, Yu Wu, Jiaoyang Li, Maxim Likhachev]
   co_first_authors: [Qian Wang, Rishi Veerapaneni]
   venue: ICAPS
   pages: 623-632
@@ -106,7 +106,7 @@
 
 - key: VeerapaneniICAPS24
   title: "Improving Learnt Local MAPF Policies with Heuristic Search"
-  authors: [Rishi Veerapaneni, Qian Wang, Kevin Ren, Arthur Jakobsson, jiaoyangli, Maxim Likhachev]
+  authors: [Rishi Veerapaneni, Qian Wang, Kevin Ren, Arthur Jakobsson, Jiaoyang Li, Maxim Likhachev]
   co_first_authors: [Rishi Veerapaneni, Qian Wang, Kevin Ren]
   venue: ICAPS
   pages: 597-606
@@ -117,7 +117,7 @@
 
 - key: ShaoulICAPS24
   title: "Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences"
-  authors: [Yorai Shaoul, Itamar Mishani, Maxim Likhachev, jiaoyangli]
+  authors: [Yorai Shaoul, Itamar Mishani, Maxim Likhachev, Jiaoyang Li]
   venue: ICAPS
   pages: 523-531
   year: 2024
@@ -128,7 +128,7 @@
 
 - key: WangICAPS24momapf
   title: "Efficient Approximate Search for Multi-Objective Multi-Agent Path Finding"
-  authors: [Fangji Wang, Han Zhang, Sven Koenig, jiaoyangli]
+  authors: [Fangji Wang, Han Zhang, Sven Koenig, Jiaoyang Li]
   co_first_authors: [Fangji Wang, Han Zhang]
   venue: ICAPS
   pages: 613-622
@@ -139,7 +139,7 @@
 
 - key: YanRAL24
   title: "Multi-Agent Motion Planning With Bézier Curve Optimization Under Kinodynamic Constraints"
-  authors: [Jingtian Yan, jiaoyangli]
+  authors: [Jingtian Yan, Jiaoyang Li]
   venue: RAL
   volume: 9,
   number: 3,
@@ -151,7 +151,7 @@
 
 - key: SuAAAI24
   title: "Bidirectional Temporal Plan Graph: Enabling Switchable Passing Orders for More Efficient Multi-Agent Path Finding Plan Execution"
-  authors: [Yifan Su, Rishi Veerapaneni, jiaoyangli]
+  authors: [Yifan Su, Rishi Veerapaneni, Jiaoyang Li]
   venue: AAAI
   pages: 17559-17566
   year: 2024
@@ -162,7 +162,7 @@
 
 - key: ChenAAAI24
   title: "Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding"
-  authors: [Zhe Chen, Daniel Harabor, jiaoyangli, Peter J. Stuckey]
+  authors: [Zhe Chen, Daniel Harabor, Jiaoyang Li, Peter J. Stuckey]
   venue: AAAI
   pages: 20674-20682
   year: 2024
@@ -173,7 +173,7 @@
 
 - key: ZhangNeurIPS23
   title: "Arbitrarily Scalable Environment Generators via Neural Cellular Automata"
-  authors: [yulunzhang, Matthew C. Fontaine, Varun Bhatt, Stefanos Nikolaidis, jiaoyangli]
+  authors: [Yulun Zhang, Matthew C. Fontaine, Varun Bhatt, Stefanos Nikolaidis, Jiaoyang Li]
   venue: NeurIPS
   pages: 57212-57225
   year: 2023
@@ -185,7 +185,7 @@
 
 - key: ZhangAR23
   title: "Multi-Robot Geometric Task-and-Motion Planning for Collaborative Manipulation Tasks"
-  authors: [Hejia Zhang, Shao-Hung Chan, Jie Zhong,  jiaoyangli, Peter Kolapo, Sven Koenig, Zach Agioutantis, Steven Schafrik, Stefanos Nikolaidis]
+  authors: [Hejia Zhang, Shao-Hung Chan, Jie Zhong,  Jiaoyang Li, Peter Kolapo, Sven Koenig, Zach Agioutantis, Steven Schafrik, Stefanos Nikolaidis]
   venue: AutoRobots
   volume: 47,
   pages: 1537-1558
@@ -194,7 +194,7 @@
 
 - key: TangMRS23
   title: "Solving Multi-Agent Target Assignment and Path Finding with a Single Constraint Tree"
-  authors: [Yimin Tang, Zhongqiang Ren, jiaoyangli, Katia Sycara]
+  authors: [Yimin Tang, Zhongqiang Ren, Jiaoyang Li, Katia Sycara]
   venue: MRS
   pages: 8-14
   year: 2023
@@ -206,7 +206,7 @@
 
 - key: AtzmonAIJ23
   title: "Conflict-Tolerant and Conflict-Free Multi-Agent Meeting"
-  authors: [Dor Atzmon, Ariel Felner, jiaoyangli, Shahaf Shperberg, Nathan Sturtevant and Sven Koenig]
+  authors: [Dor Atzmon, Ariel Felner, Jiaoyang Li, Shahaf Shperberg, Nathan Sturtevant, Sven Koenig]
   venue: AIJ
   volume: 322,
   pages: 103950
@@ -215,7 +215,7 @@
 
 - key: ZhangIJCAI23
   title: "Multi-Robot Coordination and Layout Design for Automated Warehousing"
-  authors: [yulunzhang, Matthew C. Fontaine, Varun Bhatt, Stefanos Nikolaidis, jiaoyangli]
+  authors: [Yulun Zhang, Matthew C. Fontaine, Varun Bhatt, Stefanos Nikolaidis, Jiaoyang Li]
   venue: IJCAI
   pages: 5503-5511
   year: 2023
@@ -226,11 +226,60 @@
 
 - key: LamICAPS23
   title: "Exact Anytime Multi-Agent Path Finding Using Branch-and-Cut-and-Price and Large Neighborhood Search"
-  authors: [Edward Lam, Daniel Harabor, Peter J. Stuckey, jiaoyangli]
-  venue: IJCAI
-  pages: 5503-5511
+  authors: [Edward Lam, Daniel Harabor, Peter J. Stuckey, Jiaoyang Li]
+  venue: ICAPS
+  pages: 254-258
   year: 2023
-  doi: 10.24963/ijcai.2023/611
+  doi: 10.1609/icaps.v33i1.27202
   links:
-    'arXiv': https://arxiv.org/abs/2305.06436
-    'code': https://github.com/lunjohnzhang/warehouse_env_gen_public
+    'code': https://github.com/ed-lam/bcp-mapf
+
+- key: ShenICAPS23
+  title: "Beyond Pairwise Reasoning in Multi-Agent Path Finding"
+  authors: [Bojie Shen, Zhe Chen, Jiaoyang Li, Muhammad Aamir Cheema, Daniel Harabor, Peter J. Stuckey]
+  venue: ICAPS
+  pages: 384-392
+  year: 2023
+  doi: 10.1609/icaps.v33i1.27217
+  links:
+    'code': https://github.com/bshen95/CBSH2-RTC-CHBP
+
+- key: RenICAPS23
+  title: "Binary Branching Multi-Objective Conflict-Based Search for Multi-Agent Path Finding"
+  authors: [Zhongqiang Ren, Jiaoyang Li, Han Zhang, Sven Koenig, Sivakumar Rathinam, Howie Choset]
+  venue: ICAPS
+  pages: 361-369
+  year: 2023
+  doi: 10.1609/icaps.v33i1.27214
+  links:
+    'code': https://github.com/wonderren/public_bbmocbs
+
+- key: GeICAPS23
+  title: "Cost Splitting for Multi-Objective Conflict-Based Search"
+  authors: [Cheng Ge, Han Zhang, Jiaoyang Li, Sven Koenig]
+  co_first_authors: [Cheng Ge, Han Zhang]
+  venue: ICAPS
+  pages: 128-137
+  year: 2023
+  doi: 10.1609/icaps.v33i1.27187
+  links:
+    'code': https://github.com/mepear/MOMAPF
+
+- key: HuangICAPS23
+  title: "Deadline-Aware Multi-Agent Tour Planning"
+  authors: [Taoan Huang, Vikas Shivashankar, Michael Caldara, Joseph Durham, Jiaoyang Li, Bistra Dilkina, Sven Koenig]
+  venue: ICAPS
+  pages: 189-197
+  year: 2023
+  doi: 10.1609/icaps.v33i1.27194
+  award: Best Student Paper Honorable Mention
+
+- key: LiAAAI23
+  title: "Intersection Coordination with Priority-Based Search for Autonomous Vehicles"
+  authors: [Jiaoyang Li, The Anh Hoang, Eugene Lin, Hai L. Vu, Sven Koenig]
+  venue: AAAI
+  pages: 11578-11585
+  year: 2023
+  doi: 10.1609/aaai.v37i10.26368
+  links:
+    'code': https://github.com/theanhhoang/AIM
