@@ -1,7 +1,18 @@
 <tr>
     <td>
-        {{pub.title}}
+        {% if pub.site %}
+            <a href="{{pub.site}}">
+                {{pub.title}}
+            </a>.
+        {% else %}
+            <a href="/publications/{{pib.short_id}}">
+                {{pub.title}}
+            </a>.
+        {% endif %}
         <br>
         {{pub.authors}}
+        <br>
+        {{pub.venue}}, {{pub.pages}}, {{pub.year}}.
+        <br>
     </td>
 </tr>
