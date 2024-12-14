@@ -3,15 +3,31 @@
 Jiaoyang Li:
   name: "Jiaoyang Li"
   highlight: true
-  website: https://jiaoyangli.me/
+  webpage: https://jiaoyangli.me/
+
 
 Yulun Zhang:
   name: "Yulun Zhang"
   role: PhD student
+  webpage: https://yulunzhang.net/
+  enrollment: RI PhD, Fall 2022
+  headshot: /images/yulunzhang.jpg
+  bio: Yulun received a B.Sc. and an M.Sc. in Computer Science from the University of Southern California in 2021 and 2022. 
+    His research interests include human-robot collaboration, multi-robot coordination, evolutionary algorithms, 
+    and quality diversity optimization. 
+    As a long-term goal, his research focuses on bringing Quality Diversity Optimization and Evolutionary Optimization 
+    to Robotics, expanding their applicability and scalability.
 
 Yorai Shaoul:
   name: "Yorai Shaoul"
   role: PhD student
+  webpage: https://yoraish.com/
+  enrollment: RI PhD, Fall 2022
+  headshot: /images/yoraishaoul.jpg
+  bio: Yorai earned a B.Sc. in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology in 2021. 
+    His research interests span multi-robot task and motion planning, robotic manipulation, statistical learning, and computer vision. 
+    He works to harness insights from established planning algorithms to address messy real-world challenges in manipulation.
+
 
 He Jiang:
   name: "He Jiang"

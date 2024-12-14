@@ -1,0 +1,21 @@
+<li>
+    <a href="{{ person.webpage }}">{{ person.name }}</a> ({{ person.enrollment }})
+
+    <img src="{{ person.headshot }}" style="float:left;width:100pt;padding-right:10px;"  alt="{{ person.name }}"/>
+    <p>{{ person.bio }}</p>
+
+    {% assign member_pubs = site.data.pubs | where: "authors", person.name %}
+    {% if member_pubs.size > 0 %}
+        <details>
+            <summary>Publications</summary>
+            <ul>
+                {% for pub in member_pubs %}
+                    <li>
+                        {% include pub.html %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </details>
+    {% endif %}
+    <br clear="all">
+</li>

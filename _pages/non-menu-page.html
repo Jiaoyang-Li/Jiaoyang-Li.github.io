@@ -51,4 +51,10 @@ A summary of each member's ongoing research can be found
 
 <h2>Current Members</h2>
 <h3>Ph.D. Students</h3>
-
+<ul>
+    {% for person in site.data.people %}
+        {% if person.role == "PhD student" %}
+            {% include person.html %}
+        {% endif %}
+    {% endfor %}
+</ul>
