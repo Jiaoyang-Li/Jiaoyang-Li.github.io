@@ -7,7 +7,7 @@
 #  bib: null
 #  img: null
 #  links: {}
-#  short_id: null
+#  key: null
 #  site: null
 #  title: null
 #  venue: null
@@ -19,8 +19,8 @@
 # Current tags for research areas, see the research areas page for more details:
 # deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
 
-- short_id: ZhangIJCAI24
-  title: Guidance Graph Optimization for Lifelong Multi-Agent Path Finding
+- key: ZhangIJCAI24
+  title: "Guidance Graph Optimization for Lifelong Multi-Agent Path Finding"
   authors: [Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis, jiaoyangli]
   venue: IJCAI
   pages: 311-320
@@ -39,11 +39,11 @@
       'code': https://github.com/lunjohnzhang/ggo_public
       'publisher': https://doi.org/10.24963/ijcai.2024/35
 
-- short_id: FriedrichIJCAI24
+- key: FriedrichIJCAI24
   title: Scalable Mechanism Design for Multi-Agent Path Finding
   authors: [Paul Friedrich, Yulun Zhang, Michael Curry, Ludwig Dierks, Stephen McAleer, jiaoyangli, Tuomas Sandholm, Sven Seuken]
-  co_first_authors: ["Paul Friedrich", "Yulun Zhang"]
-  venue: "IJCAI"
+  co_first_authors: [Paul Friedrich, Yulun Zhang]
+  venue: IJCAI
   pages: 58-66
   year: 2024
   bib: >  
@@ -55,3 +55,28 @@
       doi       = {10.24963/ijcai.2024/7},
       year      = {2024}
     }
+  links:
+      'arXiv': https://arxiv.org/abs/2401.17044
+      'code': https://github.com/lunjohnzhang/MAPF-Mechanism
+      'publisher': https://doi.org/10.24963/ijcai.2024/7
+
+- key: JiangSoCS24
+  title: "Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities"
+  authors: [Paul Friedrich, Yulun Zhang, Michael Curry, Ludwig Dierks, Stephen McAleer, jiaoyangli, Tuomas Sandholm, Sven Seuken]
+  co_first_authors: [Paul Friedrich, Yulun Zhang]
+  venue: SoCS
+  pages: 234-242
+  year: 2024
+  bib: >
+    @inproceedings{JiangSoCS24,
+      author    = {He Jiang and Yulun Zhang and Rishi Veerapaneni and Jiaoyang Li},
+      title     = {Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities},
+      booktitle = {Proceedings of the Symposium on Combinatorial Search (SoCS)},
+      pages     = {234--242},
+      doi       = {10.1609/socs.v17i1.31565},
+      year      = {2024}
+    }
+  links:
+      'arXiv': https://arxiv.org/abs/2404.16162
+      'code': https://github.com/DiligentPanda/MAPF-LRR2023
+      'publisher': https://doi.org/10.1609/socs.v17i1.31565

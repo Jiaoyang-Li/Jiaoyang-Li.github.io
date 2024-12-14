@@ -3,9 +3,16 @@
 IJCAI:
   name: "International Joint Conference on Artificial Intelligence"
   short_name: IJCAI
+  type: conference
 AAAI:
   name: "Association for the Advancement of Artificial Intelligence"
   short_name: AAAI
+  type: conference
 ICAPS:
   name: "International Conference on Automated Planning and Scheduling"
   short_name: ICAPS
+  type: conference
+SoCS:
+  name: "Symposium on Combinatorial Search"
+  short_name: SoCS
+  type: conference
