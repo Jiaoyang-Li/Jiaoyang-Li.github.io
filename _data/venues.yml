@@ -9,6 +9,10 @@ AAMAS:
   name: "International Joint Conference on Autonomous Agents and Multi-Agent Systems"
   short_name: AAMAS
   type: conference
+AIAA:
+  name: AIAA Aviation Forum
+  short_name: AIAA
+  type: conference
 CASE:
   name: "IEEE International Conference on Automation Science and Engineering"
   short_name: CASE
