@@ -1,27 +1,16 @@
 ---
-layout: archive
-title: "Scalable Mechanism Design for Multi-Agent Path Finding"
+layout: publication
 permalink: /publications/FriedrichIJCAI24/
 author_profile: true
 ---
+{% assign pub_key = "FriedrichIJCAI24" %}
 
 {% include base_path %}
-
-Paul Friedrich\*, Yulun Zhang\*, Michael Curry, Ludwig Dierks, Stephen McAleer, **Jiaoyang Li**, Tuomas Sandholm and Sven Seuken.       
-<i>International Joint Conference on Artificial Intelligence (**IJCAI**)</i>, pages 58-66, 2024.         
-[[arXiv](https://arxiv.org/abs/2401.17044)]
-[<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-FriedrichIJCAI24');">bibtex</a>]
-[[code](https://github.com/lunjohnzhang/MAPF-Mechanism)]
-[[publisher](https://doi.org/10.24963/ijcai.2024/7)]            
-<div id="bibtex-FriedrichIJCAI24" style="display:none">
-<pre>@inproceedings{FriedrichIJCAI24,
-  author    = {Paul Friedrich and Yulun Zhang and Michael Curry and Ludwig Dierks and Stephen McAleer and Jiaoyang Li and Tuomas Sandholm and Sven Seuken},
-  title     = {Scalable Mechanism Design for Multi-Agent Path Finding},
-  booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
-  pages     = {58--66},
-  doi       = {10.24963/ijcai.2024/7},
-  year      = {2024}
-}
-</pre></div>
-     
-         
+{% assign pub = null %}
+{% for p in site.data.pubs %}
+  {% if p.key == pub_key %}
+    {% assign pub = p %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% include pub-page.html %}
