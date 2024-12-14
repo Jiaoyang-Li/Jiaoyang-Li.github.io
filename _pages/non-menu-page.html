@@ -28,6 +28,7 @@ You can also find my articles on
 
 <!--{% assign sorted_pubs = site.data.pubs | sort: "year" | reverse %}-->
 {% assign current_year = "" %}
+{% assign highlighted_names = [Jiaoyang Li] %}
 
 <ul>
     {% for pub in site.data.pubs %}
@@ -53,7 +54,7 @@ A summary of each member's ongoing research can be found
 <h3>Ph.D. Students</h3>
 <ul>
     {% for person in site.data.people %}
-        {% if person.role == "PhD student" %}
+        {% if person.role=="PhD student" %}
             {% include person.html %}
         {% endif %}
     {% endfor %}

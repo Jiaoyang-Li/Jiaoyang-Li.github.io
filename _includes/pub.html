@@ -10,7 +10,7 @@
     <br/>
     {% for author in pub.authors %}
         {% assign resolved_name = site.data.people[author].name | default: author %}
-        {% if site.data.people[author].highlight %}<b>{{ resolved_name }}</b>{% else %}{{ resolved_name }}{% endif %}{% if pub.co_first_authors contains author %}*{% endif %}{% if forloop.last %}. {% else %}, {% endif %}
+        {% if highlighted_names contains author %}<b>{{ resolved_name }}</b>{% else %}{{ resolved_name }}{% endif %}{% if pub.co_first_authors contains author %}*{% endif %}{% if forloop.last %}. {% else %}, {% endif %}
     {% endfor %}
     <br/>
     <i>{{site.data.venues[pub.venue].name}}{% if site.data.venues[pub.venue].short_name %} (<b>{{site.data.venues[pub.venue].short_name}}</b>){% endif %}</i>,

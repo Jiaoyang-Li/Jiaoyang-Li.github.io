@@ -4,12 +4,13 @@
     <img src="{{ person.headshot }}" style="float:left;width:100pt;padding-right:10px;"  alt="{{ person.name }}"/>
     <p>{{ person.bio }}</p>
 
-    {% assign member_pubs = site.data.pubs | where: "authors", person.name %}
-    {% if member_pubs.size > 0 %}
+    {% assign person_pubs = site.data.pubs | where: "authors", person.name %}
+    {% if person_pubs.size > 0 %}
         <details>
             <summary>Publications</summary>
+            {% assign highlighted_names = [{{ person.name }}] %}
             <ul>
-                {% for pub in member_pubs %}
+                {% for pub in person_pubs %}
                     <li>
                         {% include pub.html %}
                     </li>

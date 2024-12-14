@@ -1,13 +1,12 @@
 # People
 
 Jiaoyang Li:
-  name: "Jiaoyang Li"
-  highlight: true
+  name: Jiaoyang Li
   webpage: https://jiaoyangli.me/
 
 
 Yulun Zhang:
-  name: "Yulun Zhang"
+  name: Yulun Zhang
   role: PhD student
   webpage: https://yulunzhang.net/
   enrollment: RI PhD, Fall 2022
@@ -19,7 +18,7 @@ Yulun Zhang:
     to Robotics, expanding their applicability and scalability.
 
 Yorai Shaoul:
-  name: "Yorai Shaoul"
+  name: Yorai Shaoul
   role: PhD student
   webpage: https://yoraish.com/
   enrollment: RI PhD, Fall 2022
