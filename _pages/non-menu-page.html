@@ -54,8 +54,7 @@ A summary of each member's ongoing research can be found
 <h2>Ph.D. Students</h2>
 
 <ul>
-    {% for person_pair in site.data.people %}
-        {% assign person = person_pair.item %}
+    {% for person in site.data.people %}
         <li><a href="{{ person.webpage }}">{{ person.name }}</a> ({{ person.enrollment }})</li>
         {% include person.html %}
     {% endfor %}
