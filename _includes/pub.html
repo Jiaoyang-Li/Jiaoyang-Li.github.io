@@ -5,7 +5,15 @@
         <a href="/publications/{{pub.short_id}}">{{pub.title}}</a>.
     {% endif %}
     <br/>
-    {{pub.authors}}
+    {% for author in pub.authors %}
+        {% assign resolved_name = site.data.authors[author] | default: author %}
+            {% if pub.co_first_authors contains author %}
+                <span style="font-weight: bold; text-decoration: underline;">{{ resolved_name }}</span>
+            {% else %}
+                {{ resolved_name }}
+            {% endif %}
+            {% unless forloop.last %}, {% endunless %}
+        {% endfor %}
     <br/>
     {{site.data.venues[pub.venue]}}, {{pub.pages}}, {{pub.year}}.
     <br/>
