@@ -30,6 +30,7 @@
     }
   links:
       '[arXiv]': https://arxiv.org/abs/2402.01446
+      '[code]': https://github.com/lunjohnzhang/ggo_public
   short_id: ZhangIJCAI24
 
 - title: Scalable Mechanism Design for Multi-Agent Path Finding

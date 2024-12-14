@@ -1,23 +1,23 @@
-<tr>
-    <td>
-        {% if pub.site %}
-            <a href="{{pub.site}}">
-                {{pub.title}}
-            </a>.
-        {% else %}
-            <a href="/publications/{{pub.short_id}}">
-                {{pub.title}}
-            </a>.
-        {% endif %}
-        <br>
-        {{pub.authors}}
-        <br>
-        {{pub.venue}}, {{pub.pages}}, {{pub.year}}.
-        <br>
-        [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-{{pub.short_id}}');">bibtex</a>]
-
-        <div id="bibtex-{{pub.short_id}}" style="display:none">
-            <pre>{{pub.bib}}</pre>
-        </div>
-    </td>
-</tr>
+<li>
+    {% if pub.site %}
+        <a href="{{pub.site}}">
+            {{pub.title}}
+        </a>.
+    {% else %}
+        <a href="/publications/{{pub.short_id}}">
+            {{pub.title}}
+        </a>.
+    {% endif %}
+    <br>
+    {{pub.authors}}
+    <br>
+    {{pub.venue}}, {{pub.pages}}, {{pub.year}}.
+    <br>
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-{{pub.short_id}}');">bibtex</a>]
+    {% for link in pub.links %}
+            <a href="{{link[1]}}">{{link[0]}}</a>
+    {% endfor %}
+    <div id="bibtex-{{pub.short_id}}" style="display:none">
+        <pre>{{pub.bib}}</pre>
+    </div>
+</li>
