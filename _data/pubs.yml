@@ -386,35 +386,21 @@
   year: 2022
   doi: 10.1609/aaai.v36i9.21168
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      'arXiv': null
-#      'code': null
+- key: LeetAAAI22
+  title: "Shard Systems: Scalable, Robust and Persistent Multi-Agent Path Finding with Performance Guarantees"
+  authors: [Christopher Leet, Jiaoyang Li, Sven Koenig]
+  venue: AAAI
+  pages: 9386-9395
+  year: 2022
+  doi: 10.1609/aaai.v36i9.21170
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      'arXiv': null
-#      'code': null
+- key: ChanAAAI22
+  title: Flex Distribution for Bounded-Suboptimal Multi-Agent Path Finding
+  authors: [Shao-Hung Chan, Jiaoyang Li, Graeme Gange, Daniel Harabor, Peter J. Stuckey, Sven Koenig]
+  venue: AAAI
+  pages: 9313-9322
+  year: 2022
+  doi: 10.1609/aaai.v36i9.21162
 
 #- key: null
 #  title: null
