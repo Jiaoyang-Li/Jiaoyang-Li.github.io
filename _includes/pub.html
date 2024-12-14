@@ -31,6 +31,14 @@
     {% endif %}
     {{pub.year}}.
     <br/>
+    {% if pub.short_version %}
+        A <a href="https://doi.org/{{ pub.short_version.doi }}">short version</a> appeared at <i>{{site.data.venues[pub.short_version.venue].name}} (<b>{{site.data.venues[pub.short_version.venue].short_name}}</b>)</i>,
+        {% if pub.short_version.pages %}
+            pages {{pub.short_version.pages}},
+        {% endif %}
+        {{pub.short_version.year}}.
+        <br/>
+    {% endif %}
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-{{pub.key}}');">bibtex</a>]
     {% unless pub.publisher %}
         {% if pub.doi %}

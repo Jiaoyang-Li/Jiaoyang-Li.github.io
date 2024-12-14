@@ -85,6 +85,11 @@
   links:
     'arXiv': https://arxiv.org/abs/2403.18145
     'code': https://github.com/YinggggFeng/Switchable-Edge-Search
+  short_version:
+    venue: SoCS
+    year: 2023
+    pages: 175-176
+    doi: 10.1609/socs.v16i1.27301
 
 - key: WangICAPS24mapf3d
   title: "MAPF in 3D Warehouses: Dataset and Analysis"
@@ -100,7 +105,8 @@
 
 - key: VeerapaneniICAPS24
   title: "Improving Learnt Local MAPF Policies with Heuristic Search"
-  authors: [Ying Feng, Adittyo Paul, Zhe Chen, jiaoyangli]
+  authors: [Rishi Veerapaneni, Qian Wang, Kevin Ren, Arthur Jakobsson, jiaoyangli, Maxim Likhachev]
+  co_first_authors: [Rishi Veerapaneni, Qian Wang, Kevin Ren]
   venue: ICAPS
   pages: 597-606
   year: 2024
@@ -109,12 +115,23 @@
     'arXiv': https://arxiv.org/abs/2403.20300
 
 - key: ShaoulICAPS24
-  title: "Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiencesn"
-  authors: [Ying Feng, Adittyo Paul, Zhe Chen, jiaoyangli]
+  title: "Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences"
+  authors: [Yorai Shaoul, Itamar Mishani, Maxim Likhachev, jiaoyangli]
   venue: ICAPS
   pages: 523-531
   year: 2024
-  doi: 10.1609/icaps.v34i1.31477
+  doi: 10.1609/icaps.v34i1.31513
   award: Best Student Paper
   links:
     'arXiv': https://arxiv.org/abs/2404.00143
+
+- key: WangICAPS24momapf
+  title: "Efficient Approximate Search for Multi-Objective Multi-Agent Path Finding"
+  authors: [Fangji Wang, Han Zhang, Sven Koenig, jiaoyangli]
+  co_first_authors: [Fangji Wang, Han Zhang]
+  venue: ICAPS
+  pages: 613-622
+  year: 2024
+  doi: 10.1609/icaps.v34i1.31524
+  links:
+    'code': https://github.com/FangjiW/BBMOCBS-approx
