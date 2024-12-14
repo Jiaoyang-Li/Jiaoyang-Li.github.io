@@ -24,10 +24,17 @@ SoCS:
   name: "Symposium on Combinatorial Search"
   short_name: SoCS
   type: conference
+MRS:
+  name: "International Symposium on Multi-Robot and Multi-Agent Systems"
+  short_name: MRS
+  type: conference
 
 RAL:
   name: "IEEE Robotics and Automation Letters"
   type: journal
 AutoRobots:
   name: "Autonomous Robots"
+  type: journal
+AIJ:
+  name: "Artificial Intelligence"
   type: journal

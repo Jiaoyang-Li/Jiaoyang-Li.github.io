@@ -138,7 +138,7 @@
     'code': https://github.com/FangjiW/BBMOCBS-approx
 
 - key: YanRAL24
-  title: "ITA-ECBS: A Bounded-Suboptimal Algorithm for The Combined Target-Assignment and Path-Finding Problem"
+  title: "Multi-Agent Motion Planning With Bézier Curve Optimization Under Kinodynamic Constraints"
   authors: [Jingtian Yan, jiaoyangli]
   venue: RAL
   volume: 9,
@@ -191,3 +191,15 @@
   pages: 1537-1558
   year: 2023
   doi: 10.1007/s10514-023-10148-y
+
+- key: TangMRS23
+  title: "Solving Multi-Agent Target Assignment and Path Finding with a Single Constraint Tree"
+  authors: [Yimin Tang, Zhongqiang Ren, jiaoyangli, Katia Sycara]
+  venue: MRS
+  pages: 8-14
+  year: 2023
+  doi: 10.1109/MRS60187.2023.10416794
+  award: Best Paper Finalist
+  links:
+    'arXiv': https://arxiv.org/abs/2307.00663
+    'code': https://github.com/TachikakaMin/ITA-CBS2
