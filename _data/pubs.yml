@@ -1,24 +1,28 @@
 # When making a new entry, copy the commented out entry, paste it, uncomment, and fill out the fields.
 # If any of the fields are confusing look at previous examples for guidance.
-#- abs: null
-#  authors: null
-#  co_first_authors: null
-#  award: null
-#  bib: null
-#  img: null
-#  links: {}
-#  key: null
-#  site: null
+#- key: null
 #  title: null
-#  venue: null
-#  pages: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
 #  volume: null
 #  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+
+
 #  video_embed: null
 #  tags: null
 # Current tags for research areas, see the research areas page for more details:
 # deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
 
+############### 2024 ##################
 - key: ZhangIJCAI24
   title: "Guidance Graph Optimization for Lifelong Multi-Agent Path Finding"
   authors: [Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis, Jiaoyang Li]
@@ -63,7 +67,6 @@
   doi: 10.1609/socs.v17i1.31548
   links:
       'arXiv': https://arxiv.org/abs/2405.01772
-      'code': https://github.com/DiligentPanda/MAPF-LRR2023
 
 - key: TangSoCS24
   title: "ITA-ECBS: A Bounded-Suboptimal Algorithm for The Combined Target-Assignment and Path-Finding Problem"
@@ -101,7 +104,6 @@
   year: 2024
   doi: 10.1609/icaps.v34i1.31525
   links:
-    'arXiv': https://arxiv.org/abs/2403.18145
     'benchmark page': http://mapf.info/index.php/Main/Benchmarks
 
 - key: VeerapaneniICAPS24
@@ -171,6 +173,8 @@
     'arXiv': https://arxiv.org/abs/2308.11234
     'code': https://github.com/nobodyczcz/Guided-PIBT
 
+
+############### 2023 ##################
 - key: ZhangNeurIPS23
   title: "Arbitrarily Scalable Environment Generators via Neural Cellular Automata"
   authors: [Yulun Zhang, Matthew C. Fontaine, Varun Bhatt, Stefanos Nikolaidis, Jiaoyang Li]
@@ -283,3 +287,777 @@
   doi: 10.1609/aaai.v37i10.26368
   links:
     'code': https://github.com/theanhhoang/AIM
+
+
+############### 2022 ##################
+- key: null
+  title: Multi-Agent Path Finding with Mutex Propagation
+  authors: [Han Zhang, Jiaoyang Li, Pavel Surynek, T. K. Satish Kumar, Sven Koenig]
+  venue: AIJ
+  volume: 311
+  pages: 1034766
+  year: 2022
+  doi: 10.1016/j.artint.2022.103766
+
+- key: XuIROS22
+  title: Multi-Goal Multi-Agent Pickup and Delivery
+  authors: [Qinghong Xu, Jiaoyang Li, Sven Koenig, Hang Ma]
+  venue: IROS
+  pages: 9964-9971
+  year: 2022
+  doi: 10.1109/IROS47612.2022.9981785
+
+- key: ZhangCASE22
+  title: A MIP-Based Approach for Multi-Robot Geometric Task-and-Motion Planning
+  authors: [Hejia Zhang, Shao-Hung Chan, Jie Zhong, Jiaoyang Li, Sven Koenig, Stefanos Nikolaidis]
+  venue: CASE
+  pages: 2102-2109
+  year: 2022
+  doi: 10.1109/CASE49997.2022.9926661
+
+- key: VaramballySoCS22
+  title: Which MAPF Model Works Best for Automated Warehousing?
+  authors: [Sumanth Varambally, Jiaoyang Li, Sven Koenig]
+  venue: SoCS
+  pages: 190-198
+  year: 2022
+  doi: 10.1609/socs.v15i1.21767
+
+- key: ZhangSoCS22
+  title: Learning a Priority Ordering for Prioritized Planning in Multi-Agent Path Finding
+  authors: [Shuyang Zhang, Jiaoyang Li, Taoan Huang, Sven Koenig, Bistra Dilkina]
+  venue: SoCS
+  pages: 208-216
+  year: 2022
+  doi: 10.1609/socs.v15i1.21769
+  links:
+      'arXiv': null
+      'code': null
+
+- key: ChenSoCS22
+  title: Multi-Train Path Finding Revisited
+  authors: [Zhe Chen, Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Sven Koenig]
+  venue: SoCS
+  pages: 38-46
+  year: 2022
+  doi: 10.1609/socs.v15i1.21750
+  links:
+      'code': https://github.com/nobodyczcz/Lazy-Train-and-K-CBS
+
+- key: ZhangSoCS22mutex
+  title: Mutex Propagation in Multi-Agent Path Finding for Large Agents
+  authors: [Han Zhang, Yutong Li, Jiaoyang Li, T. K. Satish Kumar, Sven Koenig]
+  venue: SoCS
+  pages: 249-253
+  year: 2022
+  doi: 10.1609/socs.v15i1.21776
+
+- key: ZhongICRA22
+  title: Optimal and Bounded-Suboptimal Multi-Goal Task Assignment and Path Finding
+  authors: [Xinyi Zhong, Jiaoyang Li, Sven Koenig, Hang Ma]
+  venue: ICRA
+  pages: 10731-10737
+  year: 2022
+  doi: 10.1109/ICRA46639.2022.9812020
+
+- key: ZhangAAMAS22
+  title: Multi-Agent Path Finding for Precedence-Constrained Goal Sequences
+  authors: [Han Zhang, Jingkai Chen, Jiaoyang Li, Brian Williams, Sven Koenig]
+  co_first_authors: []
+  venue: AAMAS
+  pages: 1464-1472
+  year: 2022
+  links:
+      publisher: https://dl.acm.org/doi/abs/10.5555/3535850.3536013
+      arXiv: null
+      code: null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
+
+#- key: null
+#  title: null
+#  authors: []
+#  co_first_authors: []
+#  venue: nul
+#  volume: null
+#  number: null
+#  pages: null
+#  year: null
+#  award: null
+#  doi: null
+#  links:
+#      'arXiv': null
+#      'code': null
