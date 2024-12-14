@@ -402,20 +402,19 @@
   year: 2022
   doi: 10.1609/aaai.v36i9.21162
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      'arXiv': null
-#      'code': null
+
+############### 2021 ##################
+
+- key: LiAIJ21
+  title: Pairwise Symmetry Reasoning for Multi-Agent Path Finding Search
+  authors: [Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Hang Ma, Graeme Gange, Sven Koenig]
+  venue: AIJ
+  volume: 301
+  pages: 103574
+  year: 2021
+  doi: 10.1016/j.artint.2021.103574
+  links:
+      'code': https://github.com/Jiaoyang-Li/CBSH2-RTC
 
 #- key: null
 #  title: null
