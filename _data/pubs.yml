@@ -25,6 +25,7 @@
   venue: IJCAI
   pages: 311-320
   year: 2024
+  doi: 10.24963/ijcai.2024/35
   bib: >
     @inproceedings{ZhangIJCAI24,
       author    = {Yulun Zhang and He Jiang and Varun Bhatt and Stefanos Nikolaidis and Jiaoyang Li},
@@ -46,6 +47,7 @@
   venue: IJCAI
   pages: 58-66
   year: 2024
+  doi: 10.24963/ijcai.2024/7
   bib: >  
     @inproceedings{FriedrichIJCAI24,
       author    = {Paul Friedrich and Yulun Zhang and Michael Curry and Ludwig Dierks and Stephen McAleer and Jiaoyang Li and Tuomas Sandholm and Sven Seuken},
@@ -62,11 +64,11 @@
 
 - key: JiangSoCS24
   title: "Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities"
-  authors: [Paul Friedrich, Yulun Zhang, Michael Curry, Ludwig Dierks, Stephen McAleer, jiaoyangli, Tuomas Sandholm, Sven Seuken]
-  co_first_authors: [Paul Friedrich, Yulun Zhang]
+  authors: [He Jiang, Yulun Zhang, Rishi Veerapaneni, jiaoyangli]
   venue: SoCS
   pages: 234-242
   year: 2024
+  doi: 10.1609/socs.v17i1.31565
   bib: >
     @inproceedings{JiangSoCS24,
       author    = {He Jiang and Yulun Zhang and Rishi Veerapaneni and Jiaoyang Li},
@@ -78,5 +80,17 @@
     }
   links:
       'arXiv': https://arxiv.org/abs/2404.16162
+      'code': https://github.com/DiligentPanda/MAPF-LRR2023
+      'publisher': https://doi.org/10.1609/socs.v17i1.31565
+
+- key: ShaoulSoCS24
+  title: "Unconstraining Multi-Robot Manipulation: Enabling Arbitrary Constraints in ECBS with Bounded Sub-Optimality"
+  authors: [Yorai Shaoul, Rishi Veerapaneni, Maxim Likhachev, jiaoyangli]
+  venue: SoCS
+  pages: 109--117
+  year: 2024
+  doi: 10.1609/socs.v17i1.31548
+  links:
+      'arXiv': https://arxiv.org/abs/2405.01772
       'code': https://github.com/DiligentPanda/MAPF-LRR2023
       'publisher': https://doi.org/10.1609/socs.v17i1.31565

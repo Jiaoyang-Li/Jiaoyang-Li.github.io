@@ -35,19 +35,23 @@
     {% for link in pub.links %}
             [<a href="{{link[1]}}">{{link[0]}}</a>]
     {% endfor %}
-    <div id="bibtex-{{pub.key}}" style="display:none">
+    {% if pub.links not contain "publisher" %}
+        {% if pub.doi %}
+            [<a href="https://doi.org/{{ pub.doi }}">publisher</a>]
+        {% endif %}
+    {% endif %}
+    <div id="bibtex-{{pub.key}}" style="display:none; font-size:small">
         {% if pub.number %}
             <pre>{{pub.bib}}</pre>
         {% elsif site.data.venues[pub.venue].type=="conference" %}
             <pre>@inproceedings{ {{pub.key}},
-              author    = { {% for author in pub.authors %} {% assign resolved_name = site.data.authors[author].name | default: author %}
-                                {{ resolved_name }}{% if forloop.last == false %} and {% endif %}{% endfor %} },
-              title     = {{pub.title}},
-              booktitle = {Proceedings of the {{ site.data.venues[pub.venue].name }} ({{ site.data.venues[pub.venue].short_name }})},
-              pages     = { {{ pub.pages | default: '' }} },
-              year      = { {{ pub.year }} },
-              doi       = { {{ pub.doi | default: '' }} },
-            }</pre>
+  author    = {{% for author in pub.authors %} {% assign resolved_name = site.data.authors[author].name | default: author %} {{ resolved_name }}{% if forloop.last == false %} and {% endif %}{% endfor %}},
+  title     = {{{pub.title}}},
+  booktitle = {Proceedings of the {{ site.data.venues[pub.venue].name }} ({{ site.data.venues[pub.venue].short_name }})},
+  pages     = {{{ pub.pages | default: '' }}},
+  year      = {{{ pub.year }}},
+  doi       = {{{ pub.doi | default: '' }}},
+}</pre>
         {% endif %}
     </div>
 </li>
