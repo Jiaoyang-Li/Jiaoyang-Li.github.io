@@ -137,7 +137,7 @@ A summary of each member's ongoing research can be found
 
 ### Masters Students
 
-- [He (Rivers) Jiang](https://github.com/DiligentPanda) (Master of Science in Robotics, Class 2024)
+- [He (Rivers) Jiang](https://github.com/DiligentPanda) (Master of Science in Robotics, Class 2025)
 
 <img src="https://jiaoyangli.me/images/hejiang.jpg" style="float:left;width:100pt;padding-right:10px;"  alt="He Jiang"/>
 <p>

@@ -29,6 +29,7 @@ You can also find my articles on
 <!--{% assign sorted_pubs = site.data.pubs | sort: "year" | reverse %}-->
 {% assign current_year = "" %}
 {% assign highlighted_names = "Jiaoyang Li" | split: "," %}
+{% assign display_links = "true" %}
 
 <ul>
     {% for pub in site.data.pubs %}
@@ -44,6 +45,7 @@ You can also find my articles on
     {% endfor %}
 </ul>
 
+{% assign display_links = "false" %}
 
 <img src="/images/logo-white-background.png" title="logo" width="800pt" alt="ARCS Lab"/>
 

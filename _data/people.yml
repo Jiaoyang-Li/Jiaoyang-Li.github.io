@@ -51,6 +51,32 @@
 
 - name: He Jiang
   preferred_name: He (Rivers) Jiang
-  role: Masters student
+  role: masters student
+  webpage: https://github.com/DiligentPanda
+  enrollment: Master of Science in Robotics, Class 2025
+  headshot: /images/hejiang.jpg
+  bio: He Jiang received a Bachelor's degree in Computer Science and Engineering from Shanghai Jiaotong University in 2017 
+    and another Master's degree in Control Science and Engineering from Tsinghua University in 2020. 
+    Then he worked for more than 1 year at Hangzhou High-Tech Zone (Binjiang), China. 
+    He is interested in planning and his current research focuses on Multi-Agent Systems. 
+    Hopefully, he can enjoy his days at CMU and do some meaningful work.  
+    He is also interested in Soccer, Poker, Chinese Chess & Nintendo Switch, by the way.
+
+- name: Yifan Su
+  role: undergraduate student
+  webpage: https://yifansu1301.github.io/
+  enrollment: CS Undergraduate, Class 2025
+  headshot: /images/yifansu.jpg
+
+- name: Yutong Wang
+  role: visitor
+  webpage: https://wyt2019suzhou.github.io/
+  enrollment: Visiting PhD Student
+  headshot: /images/yutongwang.jpg
+  bio: Yutong received a B.Sc. from Shanghai University in 2020 and an M.Sc. from National University of Singapore in 2021. 
+    She is currently a third-year PhD student at National University of Singapore and began visiting Carnegie Mellon University in January 2024. 
+    Her research interests include Multi-Agent Reinforcement Learning, Multi-Agent Path Finding and Multi-Robot Coordination.
+
+
 
 
