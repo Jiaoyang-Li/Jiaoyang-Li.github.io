@@ -49,6 +49,7 @@
   pages: 234-242
   year: 2024
   doi: 10.1609/socs.v17i1.31565
+  award: Winner of 2023 League of Robot Runners
   links:
       'arXiv': https://arxiv.org/abs/2404.16162
       'code': https://github.com/DiligentPanda/MAPF-LRR2023
@@ -181,3 +182,12 @@
     'arXiv': https://arxiv.org/abs/2310.18622
     'code': https://github.com/lunjohnzhang/warehouse_env_gen_nca_public
     'talk': https://slideslive.com/39008681
+
+- key: ZhangAR23
+  title: "Multi-Robot Geometric Task-and-Motion Planning for Collaborative Manipulation Tasks"
+  authors: [Hejia Zhang, Shao-Hung Chan, Jie Zhong,  jiaoyangli, Peter Kolapo, Sven Koenig, Zach Agioutantis, Steven Schafrik, Stefanos Nikolaidis]
+  venue: AutoRobots
+  volume: 47,
+  pages: 1537-1558
+  year: 2023
+  doi: 10.1007/s10514-023-10148-y

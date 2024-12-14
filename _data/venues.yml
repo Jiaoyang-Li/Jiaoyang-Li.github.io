@@ -5,7 +5,7 @@ IJCAI:
   short_name: IJCAI
   type: conference
 AAAI:
-  name: "Association for the Advancement of Artificial Intelligence"
+  name: "AAAI Conference on Artificial Intelligence"
   short_name: AAAI
   type: conference
 ICAPS:
@@ -27,4 +27,7 @@ SoCS:
 
 RAL:
   name: "IEEE Robotics and Automation Letters"
+  type: journal
+AutoRobots:
+  name: "Autonomous Robots"
   type: journal
