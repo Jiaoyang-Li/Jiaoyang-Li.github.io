@@ -518,48 +518,60 @@
 
 - key: ZhangHPLAN21
   title: A Hierarchical Approach to Multi-Agent Path Finding
-  authors: []
-  co_first_authors: []
+  authors: [Han Zhang, Mingze Yao, Ziang Liu, Jiaoyang Li, Lucas Terr, Shao-Hung Chan, T. K. Satish Kumar, Sven Koenig]
   venue: ICAPS Workshop on Hierarchical Planning
-  volume: null
-  number: null
-  pages: null
-  year: null
-  award: null
-  doi: null
+  year: 2021
   links:
-      arXiv: null
-      code: null
+      preprint: https://jiaoyang-li.github.io/files/2021-HPLAN.pdf
+  short_version:
+    venue: SoCS
+    year: 2021
+    pages: 209-211
+    link: https://ojs.aaai.org/index.php/SOCS/article/view/18586
+  doi: >
+    @inproceedings{ZhangHPLAN21,
+      author    = {Han Zhang and Mingze Yao and Ziang Liu and Jiaoyang Li and Lucas Terr and Shao-Hung Chan and T. K. Satish Kumar and Sven Koenig},
+      title     = {A Hierarchical Approach to Multi-Agent Path Finding},
+      booktitle = {ICAPS Workshop on Hierarchical Planning (HPLAN)},
+      year      = {2021}
+    }
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: Laurent21
+  title: "Flatland Competition 2020: MAPF and MARL for Efficient Train Coordination on a Grid World"
+  authors: [Florian Laurent, Manuel Schneider, Christian Scheller, Jeremy Watson, Jiaoyang Li, Zhe Chen, Yi Zheng, Shao-Hung Chan, Konstantin Makhnev, Oleg Svidchenko, Vladimir Egorov, Dmitry Ivanov, Aleksei Shpilman, Evgenija Spirovska, Oliver Tanevski, Aleksandar Nikov, Ramon Grunder, David Galevski, Jakov Mitrovski, Guillaume Sartoretti, Zhiyao Luo, Mehul Damani, Nilabha Bhattacharya, Shivam Agarwal, Adrian Egli, Erik Nygren, Sharada Mohanty]
+  co_first_authors: []
+  venue: NeurIPS 2020 Competition and Demonstration Track, RMLR
+  volume: 133
+  pages: 275-301
+  year: 2021
+  links:
+      publisher: http://proceedings.mlr.press/v133/laurent21a.html
+  doi: >
+    @inproceedings{Laurent21,
+      title     = {Flatland Competition 2020: MAPF and MARL for Efficient Train Coordination on a Grid World},
+      author    = {Laurent, Florian and Schneider, Manuel and Scheller, Christian and Watson, Jeremy and Li, Jiaoyang and Chen, Zhe and Zheng, Yi and Chan, Shao-Hung and Makhnev, Konstantin and Svidchenko, Oleg and Egorov, Vladimir and Ivanov, Dmitry and Shpilman, Aleksei and Spirovska, Evgenija and Tanevski, Oliver and Nikov, Aleksandar and Grunder, Ramon and Galevski, David and Mitrovski, Jakov and Sartoretti, Guillaume and Luo, Zhiyao and Damani, Mehul and Bhattacharya, Nilabha and Agarwal, Shivam and Egli, Adrian and Nygren, Erik and Mohanty, Sharada},
+      booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+      pages     = 	 {275--301},
+      year      = 	 {2021},
+      volume    = 	 {133},
+      series    = 	 {Proceedings of Machine Learning Research},
+    }
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: ChanWoMAPF20
+  title: Nested ECBS for Bounded-Suboptimal Multi-Agent Path Finding
+  authors: [Shao-Hung Chan, Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Graeme Gange, Liron Cohen, Sven Koenig]
+  venue: IJCAI Workshop on Multi-Agent Path Finding
+  year: 2020
+  links:
+      preprint: https://jiaoyang-li.github.io/files/ChanWoMAPF20.pdf
+  doi: >
+    @inproceedings{ChanWoMAPF20,
+      author    = {Shao-Hung Chan and Jiaoyang Li and Daniel Harabor and Peter J. Stuckey and Graeme Gange and Liron Cohen and Sven Koenig},
+      title     = {Nested ECBS for Bounded-Suboptimal Multi-Agent Path Finding},
+      booktitle = {IJCAI Workshop on Multi-Agent Path Finding},
+      year      = {2020}
+    }
+
 
 #- key: null
 #  title: null

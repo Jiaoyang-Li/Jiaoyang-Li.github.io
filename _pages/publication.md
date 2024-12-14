@@ -820,21 +820,7 @@ You can also find my articles on
   booktitle = {ICAPS Workshop on Hierarchical Planning (HPLAN)},
   year      = {2021}
 }
-</pre></div> 
-
-* [Nested ECBS for Bounded-Suboptimal Multi-Agent Path Finding](https://jiaoyangli.me/publications/ChanWoMAPF20).    
-    Shao-Hung Chan, **Jiaoyang Li**, Daniel Harabor, Peter J. Stuckey, Graeme Gange, Liron Cohen and Sven Koenig.          
-    <i>IJCAI Workshop on Multi-Agent Path Finding (**WoMAPF**)</i>, 2020.       
-    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ChanWoMAPF20');">bibtex</a>]
-    [[pdf](https://jiaoyang-li.github.io/files/ChanWoMAPF20.pdf)]
-<div id="bibtex-ChanWoMAPF20" style="display:none">
-<pre>@inproceedings{ChanWoMAPF20,
-  author    = {Shao-Hung Chan and Jiaoyang Li and Daniel Harabor and Peter J. Stuckey and Graeme Gange and Liron Cohen and Sven Koenig},
-  title     = {Nested ECBS for Bounded-Suboptimal Multi-Agent Path Finding},
-  booktitle = {IJCAI Workshop on Multi-Agent Path Finding},
-  year      = {2020}
-}
-</pre></div> 
+</pre></div>
 
 * [Flatland Competition 2020: MAPF and MARL for Efficient Train Coordination on a Grid World](https://jiaoyangli.me/publications/Laurent21).          
     Florian Laurent, Manuel Schneider, Christian Scheller, Jeremy Watson, **Jiaoyang Li**, Zhe Chen, Yi Zheng, Shao-Hung Chan, Konstantin Makhnev, Oleg Svidchenko, Vladimir Egorov, Dmitry Ivanov, Aleksei Shpilman, Evgenija Spirovska, Oliver Tanevski, Aleksandar Nikov, Ramon Grunder, David Galevski, Jakov Mitrovski, Guillaume Sartoretti, Zhiyao Luo, Mehul Damani, Nilabha Bhattacharya, Shivam Agarwal, Adrian Egli, Erik Nygren and Sharada Mohanty.          
@@ -854,6 +840,21 @@ You can also find my articles on
 </pre></div> 
 
 ## <a name="year2020"></a> 2020
+
+* [Nested ECBS for Bounded-Suboptimal Multi-Agent Path Finding](https://jiaoyangli.me/publications/ChanWoMAPF20).    
+    Shao-Hung Chan, **Jiaoyang Li**, Daniel Harabor, Peter J. Stuckey, Graeme Gange, Liron Cohen and Sven Koenig.          
+    <i>IJCAI Workshop on Multi-Agent Path Finding (**WoMAPF**)</i>, 2020.       
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ChanWoMAPF20');">bibtex</a>]
+    [[pdf](https://jiaoyang-li.github.io/files/ChanWoMAPF20.pdf)]
+<div id="bibtex-ChanWoMAPF20" style="display:none">
+<pre>@inproceedings{ChanWoMAPF20,
+  author    = {Shao-Hung Chan and Jiaoyang Li and Daniel Harabor and Peter J. Stuckey and Graeme Gange and Liron Cohen and Sven Koenig},
+  title     = {Nested ECBS for Bounded-Suboptimal Multi-Agent Path Finding},
+  booktitle = {IJCAI Workshop on Multi-Agent Path Finding},
+  year      = {2020}
+}
+</pre></div> 
+
 * [Multi-Directional Heuristic Search](https://jiaoyangli.me/publications/AtzmonIJCAI20).     
     Dor Atzmon, **Jiaoyang Li**, Ariel Felner, Eliran Nachmani, Shahaf Shperberg, Nathan Sturtevant and Sven Koenig.  
     <i>International Joint Conference on Artificial Intelligence (**IJCAI**)</i>, pages 4062-4068, 2020.         
