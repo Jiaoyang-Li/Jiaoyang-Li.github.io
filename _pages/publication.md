@@ -109,6 +109,7 @@ You can also find my articles on
     A [short version](https://doi.org/10.1609/socs.v16i1.27301 "Download pdf") appeared at <i>Symposium on Combinatorial Search (**SoCS**)</i>, pages 175-176, 2023.   
     [[arXiv](https://arxiv.org/abs/2403.18145)] 
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-FengICAPS24');">bibtex</a>]
+    [[code](https://github.com/YinggggFeng/Switchable-Edge-Search)]
     [[publisher](https://doi.org/10.1609/icaps.v34i1.31477)]
 <div id="bibtex-FengICAPS24" style="display:none">
 <pre>@inproceedings{FengICAPS24,

@@ -26,20 +26,9 @@
   pages: 311-320
   year: 2024
   doi: 10.24963/ijcai.2024/35
-  publisher: https://doi.org/10.24963/ijcai.2024/35
-  bib: >
-    @inproceedings{ZhangIJCAI24,
-      author    = {Yulun Zhang and He Jiang and Varun Bhatt and Stefanos Nikolaidis and Jiaoyang Li},
-      title     = {Guidance Graph Optimization for Lifelong Multi-Agent Path Finding},
-      booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
-      pages     = {311--320},
-      year      = {2024},
-      doi       = {10.24963/ijcai.2024/35}
-    }
   links:
       'arXiv': https://arxiv.org/abs/2402.01446
       'code': https://github.com/lunjohnzhang/ggo_public
-
 
 - key: FriedrichIJCAI24
   title: Scalable Mechanism Design for Multi-Agent Path Finding
@@ -49,19 +38,9 @@
   pages: 58-66
   year: 2024
   doi: 10.24963/ijcai.2024/7
-  bib: >  
-    @inproceedings{FriedrichIJCAI24,
-      author    = {Paul Friedrich and Yulun Zhang and Michael Curry and Ludwig Dierks and Stephen McAleer and Jiaoyang Li and Tuomas Sandholm and Sven Seuken},
-      title     = {Scalable Mechanism Design for Multi-Agent Path Finding},
-      booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
-      pages     = {58--66},
-      doi       = {10.24963/ijcai.2024/7},
-      year      = {2024}
-    }
   links:
       'arXiv': https://arxiv.org/abs/2401.17044
       'code': https://github.com/lunjohnzhang/MAPF-Mechanism
-      'publisher': https://doi.org/10.24963/ijcai.2024/7
 
 - key: JiangSoCS24
   title: "Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities"
@@ -70,19 +49,9 @@
   pages: 234-242
   year: 2024
   doi: 10.1609/socs.v17i1.31565
-  bib: >
-    @inproceedings{JiangSoCS24,
-      author    = {He Jiang and Yulun Zhang and Rishi Veerapaneni and Jiaoyang Li},
-      title     = {Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities},
-      booktitle = {Proceedings of the Symposium on Combinatorial Search (SoCS)},
-      pages     = {234--242},
-      doi       = {10.1609/socs.v17i1.31565},
-      year      = {2024}
-    }
   links:
       'arXiv': https://arxiv.org/abs/2404.16162
       'code': https://github.com/DiligentPanda/MAPF-LRR2023
-      'publisher': https://doi.org/10.1609/socs.v17i1.31565
 
 - key: ShaoulSoCS24
   title: "Unconstraining Multi-Robot Manipulation: Enabling Arbitrary Constraints in ECBS with Bounded Sub-Optimality"
@@ -97,7 +66,7 @@
 
 - key: TangSoCS24
   title: "ITA-ECBS: A Bounded-Suboptimal Algorithm for The Combined Target-Assignment and Path-Finding Problem"
-  authors: [ Yimin Tang, Sven Koenig, jiaoyangli ]
+  authors: [Yimin Tang, Sven Koenig, jiaoyangli]
   venue: SoCS
   pages: 134-142
   year: 2024
@@ -108,10 +77,44 @@
 
 - key: FengICAPS24
   title: "A Real-Time Rescheduling Algorithm for Multi-robot Plan Execution"
-  authors: [ Ying Feng, Adittyo Paul, Zhe Chen, jiaoyangli ]
+  authors: [Ying Feng, Adittyo Paul, Zhe Chen, jiaoyangli]
   venue: ICAPS
   pages: 201-209
   year: 2024
   doi: 10.1609/icaps.v34i1.31477
   links:
     'arXiv': https://arxiv.org/abs/2403.18145
+    'code': https://github.com/YinggggFeng/Switchable-Edge-Search
+
+- key: WangICAPS24mapf3d
+  title: "MAPF in 3D Warehouses: Dataset and Analysis"
+  authors: [Qian Wang, Rishi Veerapaneni, Yu Wu, jiaoyangli, Maxim Likhachev]
+  co_first_authors: [Qian Wang, Rishi Veerapaneni]
+  venue: ICAPS
+  pages: 623-632
+  year: 2024
+  doi: 10.1609/icaps.v34i1.31525
+  links:
+    'arXiv': https://arxiv.org/abs/2403.18145
+    'benchmark page': http://mapf.info/index.php/Main/Benchmarks
+
+- key: VeerapaneniICAPS24
+  title: "Improving Learnt Local MAPF Policies with Heuristic Search"
+  authors: [Ying Feng, Adittyo Paul, Zhe Chen, jiaoyangli]
+  venue: ICAPS
+  pages: 597-606
+  year: 2024
+  doi: 10.1609/icaps.v34i1.31522
+  links:
+    'arXiv': https://arxiv.org/abs/2403.20300
+
+- key: ShaoulICAPS24
+  title: "Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiencesn"
+  authors: [Ying Feng, Adittyo Paul, Zhe Chen, jiaoyangli]
+  venue: ICAPS
+  pages: 523-531
+  year: 2024
+  doi: 10.1609/icaps.v34i1.31477
+  award: Best Student Paper
+  links:
+    'arXiv': https://arxiv.org/abs/2404.00143

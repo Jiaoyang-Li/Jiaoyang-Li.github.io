@@ -40,7 +40,7 @@
     {% for link in pub.links %}
             [<a href="{{link[1]}}">{{link[0]}}</a>]
     {% endfor %}
-    <div id="bibtex-{{pub.key}}" style="display:none">
+    <div id="bibtex-{{pub.key}}" style="display:none; font-size:small">
         {% if pub.number %}
             <pre>{{pub.bib}}</pre>
         {% elsif site.data.venues[pub.venue].type=="conference" %}
