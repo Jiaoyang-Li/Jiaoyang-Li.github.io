@@ -12,9 +12,13 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
-
+#      arXiv: null
+#      code: null
+#  short_version:
+#    venue: null
+#    year: null
+#    pages: null
+#    link: null
 
 
 #  video_embed: null
@@ -31,8 +35,8 @@
   year: 2024
   doi: 10.24963/ijcai.2024/35
   links:
-      'arXiv': https://arxiv.org/abs/2402.01446
-      'code': https://github.com/lunjohnzhang/ggo_public
+      arXiv: https://arxiv.org/abs/2402.01446
+      code: https://github.com/lunjohnzhang/ggo_public
 
 - key: FriedrichIJCAI24
   title: Scalable Mechanism Design for Multi-Agent Path Finding
@@ -43,8 +47,8 @@
   year: 2024
   doi: 10.24963/ijcai.2024/7
   links:
-      'arXiv': https://arxiv.org/abs/2401.17044
-      'code': https://github.com/lunjohnzhang/MAPF-Mechanism
+      arXiv: https://arxiv.org/abs/2401.17044
+      code: https://github.com/lunjohnzhang/MAPF-Mechanism
 
 - key: JiangSoCS24
   title: "Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities"
@@ -55,8 +59,8 @@
   doi: 10.1609/socs.v17i1.31565
   award: Winner of 2023 League of Robot Runners
   links:
-      'arXiv': https://arxiv.org/abs/2404.16162
-      'code': https://github.com/DiligentPanda/MAPF-LRR2023
+      arXiv: https://arxiv.org/abs/2404.16162
+      code: https://github.com/DiligentPanda/MAPF-LRR2023
 
 - key: ShaoulSoCS24
   title: "Unconstraining Multi-Robot Manipulation: Enabling Arbitrary Constraints in ECBS with Bounded Sub-Optimality"
@@ -66,7 +70,7 @@
   year: 2024
   doi: 10.1609/socs.v17i1.31548
   links:
-      'arXiv': https://arxiv.org/abs/2405.01772
+      arXiv: https://arxiv.org/abs/2405.01772
 
 - key: TangSoCS24
   title: "ITA-ECBS: A Bounded-Suboptimal Algorithm for The Combined Target-Assignment and Path-Finding Problem"
@@ -76,8 +80,8 @@
   year: 2024
   doi: 10.1609/socs.v17i1.31551
   links:
-    'arXiv': https://arxiv.org/abs/2404.05223
-    'code': https://github.com/TachikakaMin/ITA-CBS2
+    arXiv: https://arxiv.org/abs/2404.05223
+    code: https://github.com/TachikakaMin/ITA-CBS2
 
 - key: FengICAPS24
   title: "A Real-Time Rescheduling Algorithm for Multi-robot Plan Execution"
@@ -87,13 +91,13 @@
   year: 2024
   doi: 10.1609/icaps.v34i1.31477
   links:
-    'arXiv': https://arxiv.org/abs/2403.18145
-    'code': https://github.com/YinggggFeng/Switchable-Edge-Search
+    arXiv: https://arxiv.org/abs/2403.18145
+    code: https://github.com/YinggggFeng/Switchable-Edge-Search
   short_version:
     venue: SoCS
     year: 2023
     pages: 175-176
-    doi: 10.1609/socs.v16i1.27301
+    link: https://doi.org/10.1609/socs.v16i1.27301
 
 - key: WangICAPS24mapf3d
   title: "MAPF in 3D Warehouses: Dataset and Analysis"
@@ -104,7 +108,7 @@
   year: 2024
   doi: 10.1609/icaps.v34i1.31525
   links:
-    'benchmark page': http://mapf.info/index.php/Main/Benchmarks
+    benchmark page: http://mapf.info/index.php/Main/Benchmarks
 
 - key: VeerapaneniICAPS24
   title: "Improving Learnt Local MAPF Policies with Heuristic Search"
@@ -115,7 +119,7 @@
   year: 2024
   doi: 10.1609/icaps.v34i1.31522
   links:
-    'arXiv': https://arxiv.org/abs/2403.20300
+    arXiv: https://arxiv.org/abs/2403.20300
 
 - key: ShaoulICAPS24
   title: "Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences"
@@ -126,7 +130,7 @@
   doi: 10.1609/icaps.v34i1.31513
   award: Best Student Paper
   links:
-    'arXiv': https://arxiv.org/abs/2404.00143
+    arXiv: https://arxiv.org/abs/2404.00143
 
 - key: WangICAPS24momapf
   title: "Efficient Approximate Search for Multi-Objective Multi-Agent Path Finding"
@@ -137,7 +141,7 @@
   year: 2024
   doi: 10.1609/icaps.v34i1.31524
   links:
-    'code': https://github.com/FangjiW/BBMOCBS-approx
+    code: https://github.com/FangjiW/BBMOCBS-approx
 
 - key: YanRAL24
   title: "Multi-Agent Motion Planning With Bézier Curve Optimization Under Kinodynamic Constraints"
@@ -149,7 +153,7 @@
   year: 2024
   doi: 10.1109/LRA.2024.3363543
   links:
-    'code': https://github.com/JingtianYan/PSB-RAL
+    code: https://github.com/JingtianYan/PSB-RAL
 
 - key: SuAAAI24
   title: "Bidirectional Temporal Plan Graph: Enabling Switchable Passing Orders for More Efficient Multi-Agent Path Finding Plan Execution"
@@ -159,8 +163,8 @@
   year: 2024
   doi: 10.1609/aaai.v38i16.29706
   links:
-    'arXiv': https://arxiv.org/abs/2401.00315
-    'code': https://github.com/YifanSu1301/BTPG
+    arXiv: https://arxiv.org/abs/2401.00315
+    code: https://github.com/YifanSu1301/BTPG
 
 - key: ChenAAAI24
   title: "Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding"
@@ -170,8 +174,8 @@
   year: 2024
   doi: 10.1609/aaai.v38i18.30054
   links:
-    'arXiv': https://arxiv.org/abs/2308.11234
-    'code': https://github.com/nobodyczcz/Guided-PIBT
+    arXiv: https://arxiv.org/abs/2308.11234
+    code: https://github.com/nobodyczcz/Guided-PIBT
 
 
 ############### 2023 ##################
@@ -182,10 +186,10 @@
   pages: 57212-57225
   year: 2023
   links:
-    'publisher': https://papers.nips.cc/paper_files/paper/2023/hash/b2fbf1c9bc92e7ef2f6cab2e8a3e09af-Abstract-Conference.html
-    'arXiv': https://arxiv.org/abs/2310.18622
-    'code': https://github.com/lunjohnzhang/warehouse_env_gen_nca_public
-    'talk': https://slideslive.com/39008681
+    publisher: https://papers.nips.cc/paper_files/paper/2023/hash/b2fbf1c9bc92e7ef2f6cab2e8a3e09af-Abstract-Conference.html
+    arXiv: https://arxiv.org/abs/2310.18622
+    code: https://github.com/lunjohnzhang/warehouse_env_gen_nca_public
+    talk: https://slideslive.com/39008681
 
 - key: ZhangAR23
   title: "Multi-Robot Geometric Task-and-Motion Planning for Collaborative Manipulation Tasks"
@@ -205,8 +209,8 @@
   doi: 10.1109/MRS60187.2023.10416794
   award: Best Paper Finalist
   links:
-    'arXiv': https://arxiv.org/abs/2307.00663
-    'code': https://github.com/TachikakaMin/ITA-CBS2
+    arXiv: https://arxiv.org/abs/2307.00663
+    code: https://github.com/TachikakaMin/ITA-CBS2
 
 - key: AtzmonAIJ23
   title: "Conflict-Tolerant and Conflict-Free Multi-Agent Meeting"
@@ -225,8 +229,8 @@
   year: 2023
   doi: 10.24963/ijcai.2023/611
   links:
-    'arXiv': https://arxiv.org/abs/2305.06436
-    'code': https://github.com/lunjohnzhang/warehouse_env_gen_public
+    arXiv: https://arxiv.org/abs/2305.06436
+    code: https://github.com/lunjohnzhang/warehouse_env_gen_public
 
 - key: LamICAPS23
   title: "Exact Anytime Multi-Agent Path Finding Using Branch-and-Cut-and-Price and Large Neighborhood Search"
@@ -236,7 +240,7 @@
   year: 2023
   doi: 10.1609/icaps.v33i1.27202
   links:
-    'code': https://github.com/ed-lam/bcp-mapf
+    code: https://github.com/ed-lam/bcp-mapf
 
 - key: ShenICAPS23
   title: "Beyond Pairwise Reasoning in Multi-Agent Path Finding"
@@ -246,7 +250,7 @@
   year: 2023
   doi: 10.1609/icaps.v33i1.27217
   links:
-    'code': https://github.com/bshen95/CBSH2-RTC-CHBP
+    code: https://github.com/bshen95/CBSH2-RTC-CHBP
 
 - key: RenICAPS23
   title: "Binary Branching Multi-Objective Conflict-Based Search for Multi-Agent Path Finding"
@@ -256,7 +260,7 @@
   year: 2023
   doi: 10.1609/icaps.v33i1.27214
   links:
-    'code': https://github.com/wonderren/public_bbmocbs
+    code: https://github.com/wonderren/public_bbmocbs
 
 - key: GeICAPS23
   title: "Cost Splitting for Multi-Objective Conflict-Based Search"
@@ -267,7 +271,7 @@
   year: 2023
   doi: 10.1609/icaps.v33i1.27187
   links:
-    'code': https://github.com/mepear/MOMAPF
+    code: https://github.com/mepear/MOMAPF
 
 - key: HuangICAPS23
   title: "Deadline-Aware Multi-Agent Tour Planning"
@@ -286,7 +290,7 @@
   year: 2023
   doi: 10.1609/aaai.v37i10.26368
   links:
-    'code': https://github.com/theanhhoang/AIM
+    code: https://github.com/theanhhoang/AIM
 
 
 ############### 2022 ##################
@@ -376,7 +380,7 @@
   year: 2022
   doi: 10.1609/aaai.v36i9.21266
   links:
-      'code': https://github.com/Jiaoyang-Li/MAPF-LNS2
+      code: https://github.com/Jiaoyang-Li/MAPF-LNS2
 
 - key: HuangAAAI22
   title: Anytime Multi-Agent Path Finding via Machine Learning-Guided Large Neighborhood Search
@@ -414,7 +418,23 @@
   year: 2021
   doi: 10.1016/j.artint.2021.103574
   links:
-      'code': https://github.com/Jiaoyang-Li/CBSH2-RTC
+      code: https://github.com/Jiaoyang-Li/CBSH2-RTC
+
+- key: LiIJCAI21
+  title: Anytime Multi-Agent Path Finding via Large Neighborhood Search
+  authors: [Jiaoyang Li, Zhe Chen, Daniel Harabor, Peter J. Stuckey, Sven Koenig]
+  venue: IJCAI
+  pages: 4127-4135
+  year: 2021
+  doi: 10.24963/ijcai.2021/568
+  links:
+      code: https://github.com/Jiaoyang-Li/MAPF-LNS
+      poster: /files/posters/MAPF-LNS-poster.pdf
+  short_version:
+    venue: AAMAS
+    year: 2021
+    pages: 1581-1583
+    link: https://dl.acm.org/doi/abs/10.5555/3463952.3464166
 
 #- key: null
 #  title: null
@@ -428,8 +448,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -443,8 +463,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -458,8 +478,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -473,8 +493,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -488,8 +508,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -503,8 +523,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -518,8 +538,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -533,8 +553,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -548,8 +568,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -563,8 +583,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -578,8 +598,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -593,8 +613,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -608,8 +628,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -623,8 +643,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -638,8 +658,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -653,8 +673,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -668,8 +688,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -683,8 +703,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -698,8 +718,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -713,8 +733,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -728,8 +748,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -743,8 +763,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -758,8 +778,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -773,8 +793,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -788,8 +808,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -803,8 +823,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -818,8 +838,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -833,8 +853,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -848,8 +868,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -863,8 +883,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -878,8 +898,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -893,8 +913,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -908,8 +928,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -923,8 +943,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -938,8 +958,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -953,8 +973,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -968,8 +988,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -983,8 +1003,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -998,8 +1018,8 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null
 
 #- key: null
 #  title: null
@@ -1013,20 +1033,5 @@
 #  award: null
 #  doi: null
 #  links:
-#      'arXiv': null
-#      'code': null
-
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      'arXiv': null
-#      'code': null
+#      arXiv: null
+#      code: null

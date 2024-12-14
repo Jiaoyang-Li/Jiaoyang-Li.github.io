@@ -9,8 +9,8 @@
     {% endif %}
     <br/>
     {% for author in pub.authors %}
-        {% assign resolved_name = site.data.authors[author].name | default: author %}
-        {% if site.data.authors[author].highlight %}<b>{{ resolved_name }}</b>{% else %}{{ resolved_name }}{% endif %}{% if pub.co_first_authors contains author %}*{% endif %}{% if forloop.last %}. {% else %}, {% endif %}
+        {% assign resolved_name = site.data.people[author].name | default: author %}
+        {% if site.data.people[author].highlight %}<b>{{ resolved_name }}</b>{% else %}{{ resolved_name }}{% endif %}{% if pub.co_first_authors contains author %}*{% endif %}{% if forloop.last %}. {% else %}, {% endif %}
     {% endfor %}
     <br/>
     <i>{{site.data.venues[pub.venue].name}}{% if site.data.venues[pub.venue].short_name %} (<b>{{site.data.venues[pub.venue].short_name}}</b>){% endif %}</i>,
@@ -26,7 +26,7 @@
     {{pub.year}}.
     <br/>
     {% if pub.short_version %}
-        A <a href="https://doi.org/{{ pub.short_version.doi }}">short version</a> appeared at <i>{{site.data.venues[pub.short_version.venue].name}} (<b>{{site.data.venues[pub.short_version.venue].short_name}}</b>)</i>,
+        A <a href="{{ pub.short_version.link }}">short version</a> appeared at <i>{{site.data.venues[pub.short_version.venue].name}} (<b>{{site.data.venues[pub.short_version.venue].short_name}}</b>)</i>,
         {% if pub.short_version.pages %}
             pages {{pub.short_version.pages}},
         {% endif %}
@@ -47,7 +47,7 @@
             <pre>{{pub.bib}}</pre>
         {% elsif site.data.venues[pub.venue].type=="conference" %}
             <pre>@inproceedings{ {{pub.key}},
-  author    = "{% for author in pub.authors %}{% assign resolved_name = site.data.authors[author].name | default: author %}{{ resolved_name }}{% if forloop.last == false %} and {% endif %}{% endfor %}",
+  author    = "{% for author in pub.authors %}{% assign resolved_name = site.data.people[author].name | default: author %}{{ resolved_name }}{% if forloop.last == false %} and {% endif %}{% endfor %}",
   title     = "{{pub.title}}",
   booktitle = "Proceedings of the {{ site.data.venues[pub.venue].name }} {% if site.data.venues[pub.venue].short_name %}({{site.data.venues[pub.venue].short_name}}){% endif %}",
   pages     = "{{ pub.pages | default: '' }}",
@@ -56,7 +56,7 @@
 }</pre>
         {% elsif site.data.venues[pub.venue].type=="journal" %}
             <pre>@article{ {{pub.key}},
-  author    = "{% for author in pub.authors %}{% assign resolved_name = site.data.authors[author].name | default: author %}{{ resolved_name }}{% if forloop.last == false %} and {% endif %}{% endfor %}",
+  author    = "{% for author in pub.authors %}{% assign resolved_name = site.data.people[author].name | default: author %}{{ resolved_name }}{% if forloop.last == false %} and {% endif %}{% endfor %}",
   title     = "{{pub.title}}",
   journal   = "{{ site.data.venues[pub.venue].name }}",
   volume    = "{{ pub.volume | default: '' }}",
