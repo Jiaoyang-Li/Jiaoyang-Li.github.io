@@ -330,9 +330,6 @@
   pages: 208-216
   year: 2022
   doi: 10.1609/socs.v15i1.21769
-  links:
-      'arXiv': null
-      'code': null
 
 - key: ChenSoCS22
   title: Multi-Train Path Finding Revisited
@@ -342,7 +339,7 @@
   year: 2022
   doi: 10.1609/socs.v15i1.21750
   links:
-      'code': https://github.com/nobodyczcz/Lazy-Train-and-K-CBS
+      code: https://github.com/nobodyczcz/Lazy-Train-and-K-CBS
 
 - key: ZhangSoCS22mutex
   title: Mutex Propagation in Multi-Agent Path Finding for Large Agents
@@ -363,44 +360,31 @@
 - key: ZhangAAMAS22
   title: Multi-Agent Path Finding for Precedence-Constrained Goal Sequences
   authors: [Han Zhang, Jingkai Chen, Jiaoyang Li, Brian Williams, Sven Koenig]
-  co_first_authors: []
+  co_first_authors: [Han Zhang, Jingkai Chen]
   venue: AAMAS
   pages: 1464-1472
   year: 2022
   links:
       publisher: https://dl.acm.org/doi/abs/10.5555/3535850.3536013
-      arXiv: null
-      code: null
+      code: https://github.com/HanZhang39/MAPF-PC
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      'arXiv': null
-#      'code': null
+- key: LiAAAI22
+  title: "MAPF-LNS2: Fast Repairing for Multi-Agent Path Finding via Large Neighborhood Search"
+  authors: [Jiaoyang Li, Zhe Chen, Daniel Harabor, Peter J. Stuckey, Sven Koenig]
+  venue: AAAI
+  pages: 10256-10265
+  year: 2022
+  doi: 10.1609/aaai.v36i9.21266
+  links:
+      'code': https://github.com/Jiaoyang-Li/MAPF-LNS2
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      'arXiv': null
-#      'code': null
+- key: HuangAAAI22
+  title: Anytime Multi-Agent Path Finding via Machine Learning-Guided Large Neighborhood Search
+  authors: [Taoan Huang, Jiaoyang Li, Sven Koenig, Bistra Dilkina]
+  venue: AAAI
+  pages: 9368-9376
+  year: 2022
+  doi: 10.1609/aaai.v36i9.21168
 
 #- key: null
 #  title: null
