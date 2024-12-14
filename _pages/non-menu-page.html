@@ -28,7 +28,7 @@ You can also find my articles on
 
 <!--{% assign sorted_pubs = site.data.pubs | sort: "year" | reverse %}-->
 {% assign current_year = "" %}
-{% assign highlighted_names = [Jiaoyang Li] %}
+{% assign highlighted_names = "Jiaoyang Li" | split: "," %}
 
 <ul>
     {% for pub in site.data.pubs %}
@@ -50,11 +50,46 @@ You can also find my articles on
 A summary of each member's ongoing research can be found
 <a href="files/ARCS-2024-Orientation-Poster.pdf">here</a> (updated date: August 2024).
 
-<h2>Current Members</h2>
-<h3>Ph.D. Students</h3>
+<h2>Ph.D. Students</h2>
 <ul>
     {% for person in site.data.people %}
         {% if person.role=="PhD student" %}
+            {% include person.html %}
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h2>Masters Students</h2>
+<ul>
+    {% for person in site.data.people %}
+        {% if person.role=="Masters student" %}
+            {% include person.html %}
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h2>Undergraduate Students</h2>
+<ul>
+    {% for person in site.data.people %}
+        {% if person.role=="Undergraduate student" %}
+            {% include person.html %}
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h2>Visitors</h2>
+<ul>
+    {% for person in site.data.people %}
+        {% if person.role=="Visitor" %}
+            {% include person.html %}
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h2>Alumni</h2>
+<ul>
+    {% for person in site.data.people %}
+        {% if person.role=="Alumni" %}
             {% include person.html %}
         {% endif %}
     {% endfor %}

@@ -295,7 +295,7 @@
 
 
 ############### 2022 ##################
-- key: null
+- key: ZhangAIJ22
   title: Multi-Agent Path Finding with Mutex Propagation
   authors: [Han Zhang, Jiaoyang Li, Pavel Surynek, T. K. Satish Kumar, Sven Koenig]
   venue: AIJ
