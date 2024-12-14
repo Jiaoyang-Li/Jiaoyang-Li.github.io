@@ -22,11 +22,11 @@ excerpt: "This is a page not in the main menu"-->
 <a href="#preprints">Preprints</a> |
 <a href="#thesis">Thesis</a>
 
-{% assign sorted_pubs = site.data.pubs | sort: "year" | reverse %}
+<!--{% assign sorted_pubs = site.data.pubs | sort: "year" | reverse %}-->
 {% assign current_year = "" %}
 
 <ul>
-    {% for pub in sorted_pubs %}
+    {% for pub in site.data.pubs %}
         {% if pub.year != current_year %}
             {% unless current_year == "" %}
                 </ul>
@@ -38,3 +38,5 @@ excerpt: "This is a page not in the main menu"-->
         {% include pub.html %}
     {% endfor %}
 </ul>
+
+
