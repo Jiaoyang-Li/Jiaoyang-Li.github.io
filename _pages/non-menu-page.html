@@ -55,8 +55,6 @@ A summary of each member's ongoing research can be found
 
 <ul>
     {% for person in site.data.people %}
-        {% if person.role!=PI %}
-            {% include person.html %}
-        {% endif %}
+        {% include person.html %}
     {% endfor %}
 </ul>
