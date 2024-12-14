@@ -6,16 +6,16 @@
     {% endif %}
     <br/>
     {% for author in pub.authors %}
-        {% assign resolved_name = site.data.authors[author].name | default: author %}
-            {% if pub.co_first_authors contains author %}
-                {{ resolved_name }}*
-            {% else %}
-                {{ resolved_name }}
-            {% endif %}
-            {% unless forloop.last %}, {% endunless %}
-        {% endfor %}
+        {% assign resolved_name = <strong>site.data.authors[author].name</strong> | default: author %}
+        {% if pub.co_first_authors contains author %}
+            {{ resolved_name }}*
+        {% else %}
+            {{ resolved_name }}
+        {% endif %}
+        {% unless forloop.last %}, {% endunless %}
+    {% endfor %}
     <br/>
-    {{site.data.venues[pub.venue]}}, {{pub.pages}}, {{pub.year}}.
+    {{site.data.venues[pub.venue].name}}(<strong>site.data.venues[pub.venue].short_name</strong>), {{pub.pages}}, {{pub.year}}.
     <br/>
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-{{pub.short_id}}');">bibtex</a>]
     {% for link in pub.links %}

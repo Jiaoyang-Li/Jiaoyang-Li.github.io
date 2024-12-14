@@ -1,5 +1,11 @@
 # _data/journals.yml
 
-IJCAI: "International Joint Conference on Artificial Intelligence"
-AAAI: "Association for the Advancement of Artificial Intelligence"
-ICAPS: "International Conference on Automated Planning and Scheduling"
+IJCAI:
+  name: "International Joint Conference on Artificial Intelligence"
+  short_name: IJCAI
+AAAI:
+  name: "Association for the Advancement of Artificial Intelligence"
+  short_name: AAAI
+ICAPS:
+  name: "International Conference on Automated Planning and Scheduling"
+  short_name: ICAPS
