@@ -8,7 +8,7 @@
 {% if person_pubs.size > 0 %}
     <details>
         <summary>Publications</summary>
-<!--            {% assign highlighted_names = "{{ person.name }}" | split: "," %}-->
+            {% assign highlighted_names = "{{ person.name }}" | split: "," %}
         <ul>
             {% for pub in person_pubs %}
                     {% include pub.html %}

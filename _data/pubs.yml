@@ -15,6 +15,9 @@
 #  links:
 #      arXiv: null
 #      code: null
+#      poster: null
+#      slides: null
+#      talk: null
 #  short_version:
 #    venue: null
 #    year: null
@@ -463,20 +466,16 @@
   year: 2021
   doi: 10.1609/icaps.v31i1.15984
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: null
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: LiAAAI21eecbs
+  title: "EECBS: A Bounded-Suboptimal Search for Multi-Agent Path Finding"
+  authors: [Jiaoyang Li, Wheeler Ruml, Sven Koenig]
+  venue: AAAI
+  pages: 12353-12362
+  year: 2021
+  doi: 10.1609/aaai.v35i14.17466
+  links:
+      code: https://github.com/Jiaoyang-Li/EECBS
+      talk: https://slideslive.com/38947778/eecbs-a-boundedsuboptimal-search-for-multiagent-path-finding
 
 #- key: null
 #  title: null
