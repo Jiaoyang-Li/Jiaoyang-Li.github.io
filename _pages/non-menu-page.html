@@ -65,7 +65,7 @@ A summary of each member's ongoing research can be found
 <h2>Masters Students</h2>
 <ul>
     {% for person in site.data.people %}
-        {% if person.role=="Masters student" %}
+        {% if person.role=="masters student" %}
             {% include person.html %}
         {% endif %}
     {% endfor %}
@@ -74,7 +74,7 @@ A summary of each member's ongoing research can be found
 <h2>Undergraduate Students</h2>
 <ul>
     {% for person in site.data.people %}
-        {% if person.role=="Undergraduate student" %}
+        {% if person.role=="undergraduate student" %}
             {% include person.html %}
         {% endif %}
     {% endfor %}

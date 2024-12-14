@@ -477,35 +477,34 @@
       code: https://github.com/Jiaoyang-Li/EECBS
       talk: https://slideslive.com/38947778/eecbs-a-boundedsuboptimal-search-for-multiagent-path-finding
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: LiAAAI21lifelong
+  title: Lifelong Multi-Agent Path Finding in Large-Scale Warehouses
+  authors: [Jiaoyang Li, Andrew Tinka, Scott Kiesel, Joseph W. Durham, T. K. Satish Kumar, Sven Koenig]
+  venue: AAAI
+  pages: 11272-11281
+  year: 2021
+  doi: 10.1609/aaai.v35i13.17344
+  links:
+      code: https://github.com/Jiaoyang-Li/RHCR
+      slides: /files/slides/AAMAS20-lifelongMAPF.pdf
+      talk: https://underline.io/lecture/356-lifelong-multi-agent-path-finding-in-large-scale-warehouses
+  short_version:
+    venue: AAMAS
+    year: 2020
+    pages: 1898-1900
+    link: https://dl.acm.org/doi/abs/10.5555/3398761.3399020
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: null
+  title: Scalable and Safe Multi-Agent Motion Planning with Nonlinear Dynamics and Bounded Disturbances
+  authors: [Jingkai Chen, Jiaoyang Li, Chuchu Fan, Brian Williams]
+  co_first_authors: []
+  venue: AAAI
+  pages: 11237-11245
+  year: 2021
+  doi: 10.1609/aaai.v35i13.17340
+  links:
+      code: https://github.com/jkchengh/s2m2
+      talk: https://slideslive.com/38948396/scalable-and-safe-multiagent-motion-planning-with-nonlinear-dynamics-and-bounded-disturbances?ref=account-79851-presentations
 
 #- key: null
 #  title: null
