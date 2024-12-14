@@ -27,19 +27,21 @@
   year: 2024
   bib: >
     @inproceedings{ZhangIJCAI24,
-      title={Guidance Graph Optimization for Lifelong Multi-Agent Path Finding},
-      author={Yulun Zhang and He Jiang and Varun Bhatt and Stefanos Nikolaidis and Jiaoyang Li},            
-      booktitle={Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
-      pages={311--320},
-      year={2024}       
+      author    = {Yulun Zhang and He Jiang and Varun Bhatt and Stefanos Nikolaidis and Jiaoyang Li},
+      title     = {Guidance Graph Optimization for Lifelong Multi-Agent Path Finding},
+      booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
+      pages     = {311--320},
+      year      = {2024},
+      doi       = {10.24963/ijcai.2024/35}
     }
   links:
       'arXiv': https://arxiv.org/abs/2402.01446
       'code': https://github.com/lunjohnzhang/ggo_public
       'publisher': https://doi.org/10.24963/ijcai.2024/35
 
-- title: Scalable Mechanism Design for Multi-Agent Path Finding
-  authors: [Paul Friedrich, Yulun Zhang, Michael Curry, Ludwig Dierks, Stephen McAleer, JiaoyangLi, Tuomas Sandholm, Sven Seuken]
+- short_id: FriedrichIJCAI24
+  title: Scalable Mechanism Design for Multi-Agent Path Finding
+  authors: [Paul Friedrich, Yulun Zhang, Michael Curry, Ludwig Dierks, Stephen McAleer, jiaoyangli, Tuomas Sandholm, Sven Seuken]
   co_first_authors: ["Paul Friedrich", "Yulun Zhang"]
   venue: "IJCAI"
   pages: 58-66
@@ -53,4 +55,3 @@
       doi       = {10.24963/ijcai.2024/7},
       year      = {2024}
     }
-  short_id: FriedrichIJCAI24
