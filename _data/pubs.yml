@@ -147,3 +147,37 @@
   doi: 10.1109/LRA.2024.3363543
   links:
     'code': https://github.com/JingtianYan/PSB-RAL
+
+- key: SuAAAI24
+  title: "Bidirectional Temporal Plan Graph: Enabling Switchable Passing Orders for More Efficient Multi-Agent Path Finding Plan Execution"
+  authors: [Yifan Su, Rishi Veerapaneni, jiaoyangli]
+  venue: AAAI
+  pages: 17559-17566
+  year: 2024
+  doi: 10.1609/aaai.v38i16.29706
+  links:
+    'arXiv': https://arxiv.org/abs/2401.00315
+    'code': https://github.com/YifanSu1301/BTPG
+
+- key: ChenAAAI24
+  title: "Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding"
+  authors: [Zhe Chen, Daniel Harabor, jiaoyangli, Peter J. Stuckey]
+  venue: AAAI
+  pages: 20674-20682
+  year: 2024
+  doi: 10.1609/aaai.v38i18.30054
+  links:
+    'arXiv': https://arxiv.org/abs/2308.11234
+    'code': https://github.com/nobodyczcz/Guided-PIBT
+
+- key: ZhangNeurIPS23
+  title: "Arbitrarily Scalable Environment Generators via Neural Cellular Automata"
+  authors: [Yulun Zhang, Matthew C. Fontaine, Varun Bhatt, Stefanos Nikolaidis, jiaoyangli]
+  venue: NeurIPS
+  pages: 57212-57225
+  year: 2023
+  links:
+    'publisher': https://papers.nips.cc/paper_files/paper/2023/hash/b2fbf1c9bc92e7ef2f6cab2e8a3e09af-Abstract-Conference.html
+    'arXiv': https://arxiv.org/abs/2310.18622
+    'code': https://github.com/lunjohnzhang/warehouse_env_gen_nca_public
+    'talk': https://slideslive.com/39008681

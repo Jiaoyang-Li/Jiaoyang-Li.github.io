@@ -12,6 +12,14 @@ ICAPS:
   name: "International Conference on Automated Planning and Scheduling"
   short_name: ICAPS
   type: conference
+AAMAS:
+  name: "International Joint Conference on Autonomous Agents and Multi-Agent Systems"
+  short_name: AAMAS
+  type: conference
+NeurIPS:
+  name: "Conference on Neural Information Processing Systems"
+  short_name: NeurIPS
+  type: conference
 SoCS:
   name: "Symposium on Combinatorial Search"
   short_name: SoCS
