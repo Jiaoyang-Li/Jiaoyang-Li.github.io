@@ -556,6 +556,7 @@
       series    = 	 {Proceedings of Machine Learning Research},
     }
 
+############### 2020 ##################
 - key: ChanWoMAPF20
   title: Nested ECBS for Bounded-Suboptimal Multi-Agent Path Finding
   authors: [Shao-Hung Chan, Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Graeme Gange, Liron Cohen, Sven Koenig]
@@ -630,6 +631,7 @@
     code: https://github.com/Jiaoyang-Li/CBSH2-RTC
     talk: https://www.youtube.com/watch?v=rzsk4OIBVHU&feature=youtu.be
 
+############### 2019 ##################
 - key: LiIJCAI19
   title: Improved Heuristics for Conflict-Based Search for Multi-Agent Path Finding
   authors: [Jiaoyang Li, Ariel Felner, Eli Boyarski, Hang Ma, Sven Koenig]
@@ -736,6 +738,7 @@
     pages: 188-189
     url: https://doi.org/10.1609/socs.v10i1.18484
 
+############### 2018 ##################
 - key: MaIJCAI18
   title: Multi-Agent Path Finding with Deadlines
   authors: [Hang Ma, Glenn Wagner, Ariel Felner, Jiaoyang Li, T. K. Satish Kumar and Sven Koenig]
@@ -760,7 +763,8 @@
       code: https://github.com/Jiaoyang-Li/CBSH2-RTC
       talk: https://youtu.be/GUrYkm0BEM4
 
-- key: null
+############### 2017 ##################
+- key: MaAAMAS17
   title: Lifelong Multi-Agent Path Finding for Online Pickup and Delivery Tasks
   authors: [Hang Ma, Jiaoyang Li, T. K. Satish Kumar, Sven Koenig]
   venue: AAMAS
