@@ -1,13 +1,11 @@
 ---
-layout: publication
+layout: archive
 permalink: /publications/ZhangIJCAI24/
-title:hhh
-pub_key: ZhangIJCAI24
+title: Guidance Graph Optimization for Lifelong Multi-Agent Path Finding
 author_profile: true
 ---
 {% assign pub_key = "ZhangIJCAI24" %}
 
-<h3> test </h3>
 {% include base_path %}
 {% assign pub = null %}
 {% for p in site.data.pubs %}
