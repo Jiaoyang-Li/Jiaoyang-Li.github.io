@@ -1,7 +1,6 @@
 ---
 layout: archive
 permalink: /publications/ZhangIJCAI24/
-title: Guidance Graph Optimization for Lifelong Multi-Agent Path Finding
 author_profile: true
 ---
 {% assign pub_key = "ZhangIJCAI24" %}
