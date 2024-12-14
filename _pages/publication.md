@@ -1013,7 +1013,7 @@ You can also find my articles on
 </pre></div>    
 
 * [Multi-Agent Pathfinding: Definitions, Variants, and Benchmarks](https://jiaoyangli.me/publications/SternSoCS19) (position paper).    
-    Roni Stern, Nathan R. Sturtevant, Ariel Felner, Sven Koenig, Hang Ma, , Thayne T. Walker, **Jiaoyang Li**, Dor Atzmon, Liron Cohen, T. K. Satish Kumar, Eli Boyarski and Roman Barták.       
+    Roni Stern, Nathan R. Sturtevant, Ariel Felner, Sven Koenig, Hang Ma, Thayne T. Walker, **Jiaoyang Li**, Dor Atzmon, Liron Cohen, T. K. Satish Kumar, Eli Boyarski and Roman Barták.       
     <i>Symposium on Combinatorial Search (**SoCS**)</i>, pages 151-159, 2019.     
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-SternSoCS19');">bibtex</a>]
     [[publisher](https://doi.org/10.1609/socs.v10i1.18510)]      

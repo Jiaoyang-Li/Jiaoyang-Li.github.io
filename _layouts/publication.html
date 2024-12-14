@@ -14,16 +14,8 @@ layout: default
 
 <div id="main" role="main">
   {% include sidebar.html %}
+
   <div class="archive">
-    {% include base_path %}
-    {% assign pub = null %}
-    {% for p in site.data.pubs %}
-      {% if p.key == page.pub_key %}
-        {% assign pub = p %}
-        {% break %}
-      {% endif %}
-    {% endfor %}
-    {% include pub-page.html %}
     {{ content }}
   </div>
 </div>

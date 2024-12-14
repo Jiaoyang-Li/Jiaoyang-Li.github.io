@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: publication
 permalink: /publications/ZhangIJCAI24/
 author_profile: true
 ---

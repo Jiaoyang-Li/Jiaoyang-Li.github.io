@@ -648,7 +648,7 @@
     pages: 182-183
     link: https://doi.org/10.1609/socs.v10i1.18481
 
-- key: null
+- key: LiAIAA19
   title: Scheduling and Airport Taxiway Path Planning under Uncertainty
   authors: [Jiaoyang Li, Han Zhang, Mimi Gong, Zi Liang, Weizi Liu, Zhongyi Tong, Liangchen Yi, Robert Morris, Corina Pasareanu, Sven Koenig]
   venue: AIAA
@@ -657,20 +657,13 @@
   links:
       code: https://github.com/nasa-airport/airport-simulation/tree/scheduler/add-jiaoyang-scheduler
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: SternSoCS19
+  title: "Multi-Agent Pathfinding: Definitions, Variants, and Benchmarks"
+  authors: [Roni Stern, Nathan Sturtevant, Ariel Felner, Sven Koenig, Hang Ma, Thayne T. Walker, Jiaoyang Li, Dor Atzmon, Liron Cohen, T. K. Satish Kumar, Eli Boyarski, Roman Barták]
+  venue: SoCS
+  pages: 151-159
+  year: 2019
+  doi: 10.1609/socs.v10i1.18510
 
 #- key: null
 #  title: null
