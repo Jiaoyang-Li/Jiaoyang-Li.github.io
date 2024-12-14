@@ -1,17 +1,8 @@
 # Authors
 
 jiaoyangli:
-  name        : "Jiaoyang Li"
-  uri         : "https://jiaoyangli.me/"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+  name: "Jiaoyang Li"
+  bold: yes
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+yulunzhang:
+  name: "Yulun Zhang"

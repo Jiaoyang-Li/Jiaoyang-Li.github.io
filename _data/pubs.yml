@@ -21,7 +21,7 @@
 
 - key: ZhangIJCAI24
   title: "Guidance Graph Optimization for Lifelong Multi-Agent Path Finding"
-  authors: [Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis, jiaoyangli]
+  authors: [yulunzhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis, jiaoyangli]
   venue: IJCAI
   pages: 311-320
   year: 2024
@@ -32,8 +32,8 @@
 
 - key: FriedrichIJCAI24
   title: Scalable Mechanism Design for Multi-Agent Path Finding
-  authors: [Paul Friedrich, Yulun Zhang, Michael Curry, Ludwig Dierks, Stephen McAleer, jiaoyangli, Tuomas Sandholm, Sven Seuken]
-  co_first_authors: [Paul Friedrich, Yulun Zhang]
+  authors: [Paul Friedrich, yulunzhang, Michael Curry, Ludwig Dierks, Stephen McAleer, jiaoyangli, Tuomas Sandholm, Sven Seuken]
+  co_first_authors: [Paul Friedrich, yulunzhang]
   venue: IJCAI
   pages: 58-66
   year: 2024
@@ -44,7 +44,7 @@
 
 - key: JiangSoCS24
   title: "Scaling Lifelong Multi-Agent Path Finding to More Realistic Settings: Research Challenges and Opportunities"
-  authors: [He Jiang, Yulun Zhang, Rishi Veerapaneni, jiaoyangli]
+  authors: [He Jiang, yulunzhang, Rishi Veerapaneni, jiaoyangli]
   venue: SoCS
   pages: 234-242
   year: 2024
@@ -173,7 +173,7 @@
 
 - key: ZhangNeurIPS23
   title: "Arbitrarily Scalable Environment Generators via Neural Cellular Automata"
-  authors: [Yulun Zhang, Matthew C. Fontaine, Varun Bhatt, Stefanos Nikolaidis, jiaoyangli]
+  authors: [yulunzhang, Matthew C. Fontaine, Varun Bhatt, Stefanos Nikolaidis, jiaoyangli]
   venue: NeurIPS
   pages: 57212-57225
   year: 2023
@@ -203,3 +203,34 @@
   links:
     'arXiv': https://arxiv.org/abs/2307.00663
     'code': https://github.com/TachikakaMin/ITA-CBS2
+
+- key: AtzmonAIJ23
+  title: "Conflict-Tolerant and Conflict-Free Multi-Agent Meeting"
+  authors: [Dor Atzmon, Ariel Felner, jiaoyangli, Shahaf Shperberg, Nathan Sturtevant and Sven Koenig]
+  venue: AIJ
+  volume: 322,
+  pages: 103950
+  year: 2023
+  doi: 10.1016/j.artint.2023.103950
+
+- key: ZhangIJCAI23
+  title: "Multi-Robot Coordination and Layout Design for Automated Warehousing"
+  authors: [yulunzhang, Matthew C. Fontaine, Varun Bhatt, Stefanos Nikolaidis, jiaoyangli]
+  venue: IJCAI
+  pages: 5503-5511
+  year: 2023
+  doi: 10.24963/ijcai.2023/611
+  links:
+    'arXiv': https://arxiv.org/abs/2305.06436
+    'code': https://github.com/lunjohnzhang/warehouse_env_gen_public
+
+- key: LamICAPS23
+  title: "Exact Anytime Multi-Agent Path Finding Using Branch-and-Cut-and-Price and Large Neighborhood Search"
+  authors: [Edward Lam, Daniel Harabor, Peter J. Stuckey, jiaoyangli]
+  venue: IJCAI
+  pages: 5503-5511
+  year: 2023
+  doi: 10.24963/ijcai.2023/611
+  links:
+    'arXiv': https://arxiv.org/abs/2305.06436
+    'code': https://github.com/lunjohnzhang/warehouse_env_gen_public
