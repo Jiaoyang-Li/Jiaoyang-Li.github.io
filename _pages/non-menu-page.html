@@ -11,11 +11,16 @@ excerpt: "This is a page not in the main menu"-->
 {% include base_path %}
 <!--{% include toc %}-->
 
-{% assign sorted_pubs = site.data.pubs | sort: "year" | reverse %}
+<!--{% assign sorted_pubs = site.data.pubs | sort: "year" | reverse %}-->
 {% assign current_year = "" %}
 
 <ul>
     {% for pub in site.data.pubs %}
-        {% include pub.html %}
+        {% if pub.year != current_year %}
+            {% unless current_year == "" %}
+                </ul>
+            {% endunless %}
+            <h2>{{ pub.year }}</h2>
+            {% include pub.html %}
     {% endfor %}
 </ul>
