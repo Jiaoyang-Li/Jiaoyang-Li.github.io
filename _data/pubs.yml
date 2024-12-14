@@ -26,6 +26,7 @@
   pages: 311-320
   year: 2024
   doi: 10.24963/ijcai.2024/35
+  publisher: https://doi.org/10.24963/ijcai.2024/35
   bib: >
     @inproceedings{ZhangIJCAI24,
       author    = {Yulun Zhang and He Jiang and Varun Bhatt and Stefanos Nikolaidis and Jiaoyang Li},
@@ -38,7 +39,7 @@
   links:
       'arXiv': https://arxiv.org/abs/2402.01446
       'code': https://github.com/lunjohnzhang/ggo_public
-      'publisher': https://doi.org/10.24963/ijcai.2024/35
+
 
 - key: FriedrichIJCAI24
   title: Scalable Mechanism Design for Multi-Agent Path Finding
@@ -94,3 +95,15 @@
       'arXiv': https://arxiv.org/abs/2405.01772
       'code': https://github.com/DiligentPanda/MAPF-LRR2023
       'publisher': https://doi.org/10.1609/socs.v17i1.31565
+
+- key: ShaoulSoCS24
+  title: "ITA-ECBS: A Bounded-Suboptimal Algorithm for The Combined Target-Assignment and Path-Finding Problem"
+  authors: [ Yorai Shaoul, Rishi Veerapaneni, Maxim Likhachev, jiaoyangli ]
+  venue: SoCS
+  pages: 109--117
+  year: 2024
+  doi: 10.1609/socs.v17i1.31548
+  links:
+    'arXiv': https://arxiv.org/abs/2405.01772
+    'code': https://github.com/DiligentPanda/MAPF-LRR2023
+    'publisher': https://doi.org/10.1609/socs.v17i1.31565

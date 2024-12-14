@@ -35,11 +35,6 @@
     {% for link in pub.links %}
             [<a href="{{link[1]}}">{{link[0]}}</a>]
     {% endfor %}
-    {% unless pub.publisher %}
-        {% if pub.doi %}
-            [<a href="https://doi.org/{{ pub.doi }}">publisher</a>]
-        {% endif %}
-    {% endunless %}
     <div id="bibtex-{{pub.key}}" style="display:none; font-size:small">
         {% if pub.number %}
             <pre>{{pub.bib}}</pre>
