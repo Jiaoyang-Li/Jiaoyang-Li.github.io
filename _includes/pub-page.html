@@ -1,0 +1,67 @@
+
+<h3>pub.title</h3>
+<br/>
+{% if pub.award %}
+    (<b>{{pub.award}}</b>)
+{% endif %}
+<br/>
+{% for author in pub.authors %}
+    {{ author }}{% if pub.co_first_authors contains author %}*{% endif %}{% if forloop.last %}. {% else %}, {% endif %}
+{% endfor %}
+<br/>
+<i>{{site.data.venues[pub.venue].name | default: pub.venue}}{% if site.data.venues[pub.venue].short_name %} (<b>{{site.data.venues[pub.venue].short_name}}</b>){% endif %}</i>,
+{% if pub.volume %}
+    volume {{pub.volume}},
+{% endif %}
+{% if pub.number %}
+    number {{pub.number}},
+{% endif %}
+{% if pub.pages %}
+    pages {{pub.pages}},
+{% endif %}
+{{pub.year}}.
+<br/>
+{% if pub.short_version %}
+    A <a href="{{ pub.short_version.link }}">short version</a> appeared at <i>{{site.data.venues[pub.short_version.venue].name}} (<b>{{site.data.venues[pub.short_version.venue].short_name}}</b>)</i>,
+    {% if pub.short_version.pages %}
+        pages {{pub.short_version.pages}},
+    {% endif %}
+    {{pub.short_version.year}}.
+    <br/>
+{% endif %}
+{% if display_links=="true" %}
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-{{pub.key}}');">bibtex</a>]
+    {% unless pub.publisher %}
+        {% if pub.doi %}
+            [<a href="https://doi.org/{{ pub.doi }}">publisher</a>]
+        {% endif %}
+    {% endunless %}
+    {% for link in pub.links %}
+            [<a href="{{link[1]}}">{{link[0]}}</a>]
+    {% endfor %}
+    <div id="bibtex-{{pub.key}}" style="display:none; font-size:small">
+        {% if pub.bib %}
+            <pre>{{pub.bib}}</pre>
+        {% elsif site.data.venues[pub.venue].type=="conference" %}
+            <pre>@inproceedings{ {{pub.key}},
+  author    = "{% for author in pub.authors %}{{ author }}{% if forloop.last == false %} and {% endif %}{% endfor %}",
+  title     = "{{pub.title}}",
+  booktitle = "Proceedings of the {{ site.data.venues[pub.venue].name | default: pub.venue}} {% if site.data.venues[pub.venue].short_name %}({{site.data.venues[pub.venue].short_name}}){% endif %}",
+  pages     = "{{ pub.pages | default: '' }}",
+  year      = "{{ pub.year }}",
+  doi       = "{{ pub.doi | default: '' }}",
+}</pre>
+        {% elsif site.data.venues[pub.venue].type=="journal" %}
+            <pre>@article{ {{pub.key}},
+  author    = "{% for author in pub.authors %}{{ author }}{% if forloop.last == false %} and {% endif %}{% endfor %}",
+  title     = "{{pub.title}}",
+  journal   = "{{ site.data.venues[pub.venue].name | default: pub.venue}}",
+  volume    = "{{ pub.volume | default: '' }}",
+  number    = "{{ pub.number | default: '' }}",
+  pages     = "{{ pub.pages | default: '' }}",
+  year      = "{{ pub.year }}",
+  doi       = "{{ pub.doi | default: '' }}",
+}</pre>
+        {% endif %}
+    </div>
+{% endif %}
