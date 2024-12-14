@@ -105,3 +105,13 @@
   links:
     'arXiv': https://arxiv.org/abs/2404.05223
     'code': https://github.com/TachikakaMin/ITA-CBS2
+
+- key: FengICAPS24
+  title: "A Real-Time Rescheduling Algorithm for Multi-robot Plan Execution"
+  authors: [ Ying Feng, Adittyo Paul, Zhe Chen, jiaoyangli ]
+  venue: ICAPS
+  pages: 201-209
+  year: 2024
+  doi: 10.1609/icaps.v34i1.31477
+  links:
+    'arXiv': https://arxiv.org/abs/2403.18145
