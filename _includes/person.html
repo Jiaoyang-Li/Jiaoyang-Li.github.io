@@ -1,20 +1,19 @@
 <li>
     <a href="{{ person.webpage }}">{{ person.name }}</a> ({{ person.enrollment }})
-
-    <img src="{{ person.headshot }}" style="float:left;width:100pt;padding-right:10px;"  alt="{{ person.name }}"/>
-    <p>{{ person.bio }}</p>
-
-    {% assign person_pubs = site.data.pubs | where: "authors", person.name %}
-    {% if person_pubs.size > 0 %}
-        <details>
-            <summary>Publications</summary>
-<!--            {% assign highlighted_names = "{{ person.name }}" | split: "," %}-->
-            <ul>
-                {% for pub in person_pubs %}
-                        {% include pub.html %}
-                {% endfor %}
-            </ul>
-        </details>
-    {% endif %}
-    <br clear="all">
 </li>
+<img src="{{ person.headshot }}" style="float:left;width:100pt;padding-right:10px;"  alt="{{ person.name }}"/>
+<p>{{ person.bio }}</p>
+
+{% assign person_pubs = site.data.pubs | where: "authors", person.name %}
+{% if person_pubs.size > 0 %}
+    <details>
+        <summary>Publications</summary>
+<!--            {% assign highlighted_names = "{{ person.name }}" | split: "," %}-->
+        <ul>
+            {% for pub in person_pubs %}
+                    {% include pub.html %}
+            {% endfor %}
+        </ul>
+    </details>
+{% endif %}
+<br clear="all">

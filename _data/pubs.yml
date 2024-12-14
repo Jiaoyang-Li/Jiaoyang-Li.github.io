@@ -5,7 +5,7 @@
 #  site: mull  # project page
 #  authors: []
 #  co_first_authors: []
-#  venue: nul
+#  venue: null
 #  volume: null
 #  number: null
 #  pages: null
@@ -455,26 +455,19 @@
     pages: 179-181
     link: https://ojs.aaai.org/index.php/SOCS/article/view/18576
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: WalkerICAPS21
+  title: Conflict-Based Increasing Cost Search
+  authors: [Thayne Walker, Nathan R. Sturtevant, Ariel Felner, Han Zhang, Jiaoyang Li, T. K. Satish Kumar]
+  venue: ICAPS
+  pages: 385-395
+  year: 2021
+  doi: 10.1609/icaps.v31i1.15984
 
 #- key: null
 #  title: null
 #  authors: []
 #  co_first_authors: []
-#  venue: nul
+#  venue: null
 #  volume: null
 #  number: null
 #  pages: null
