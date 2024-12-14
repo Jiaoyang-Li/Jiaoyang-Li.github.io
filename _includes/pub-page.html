@@ -35,15 +35,18 @@
     </p>
 {% endif %}
 
-[<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-{{pub.key}}');">bibtex</a>]
-{% unless pub.publisher %}
-    {% if pub.doi %}
-        [<a href="https://doi.org/{{ pub.doi }}">publisher</a>]
-    {% endif %}
-{% endunless %}
-{% for link in pub.links %}
-        [<a href="{{link[1]}}">{{link[0]}}</a>]
-{% endfor %}
+<p>
+    [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-{{pub.key}}');">bibtex</a>]
+    {% unless pub.publisher %}
+        {% if pub.doi %}
+            [<a href="https://doi.org/{{ pub.doi }}">publisher</a>]
+        {% endif %}
+    {% endunless %}
+    {% for link in pub.links %}
+            [<a href="{{link[1]}}">{{link[0]}}</a>]
+    {% endfor %}
+</p>
+
 <div id="bibtex-{{pub.key}}" style="display:none; font-size:small">
     {% if pub.bib %}
         <pre>{{pub.bib}}</pre>
