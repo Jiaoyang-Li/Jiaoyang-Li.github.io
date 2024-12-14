@@ -65,17 +65,31 @@
 - name: Yifan Su
   role: undergraduate student
   webpage: https://yifansu1301.github.io/
-  enrollment: CS Undergraduate, Class 2025
+  enrollment: CS undergraduate, Class 2025
   headshot: /images/yifansu.jpg
 
 - name: Yutong Wang
   role: visitor
   webpage: https://wyt2019suzhou.github.io/
-  enrollment: Visiting PhD Student
+  enrollment: Visiting PhD student
   headshot: /images/yutongwang.jpg
   bio: Yutong received a B.Sc. from Shanghai University in 2020 and an M.Sc. from National University of Singapore in 2021. 
     She is currently a third-year PhD student at National University of Singapore and began visiting Carnegie Mellon University in January 2024. 
     Her research interests include Multi-Agent Reinforcement Learning, Multi-Agent Path Finding and Multi-Robot Coordination.
+
+- name: Ying Feng
+  role: alumni
+  webpage: https://www.linkedin.com/in/yinggggfeng
+  enrollment: CS undergraduate, graduated in 2024, now PhD student at MIT
+  headshot: /images/yingfeng.jpeg
+
+- name: Yimin Tang
+  role: alumni
+  webpage: https://github.com/TachikakaMin
+  enrollment: Master of Science in Robotics, graduated in 2023, now PhD student at USC
+  headshot: /images/yimintang.png
+
+
 
 
 
