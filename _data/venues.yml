@@ -21,6 +21,10 @@ CASE:
   name: "IEEE International Conference on Automation Science and Engineering"
   short_name: CASE
   type: conference
+EAAI:
+  name: "Symposium on Educational Advances in Artificial Intelligence"
+  short_name: EAAI
+  type: conference
 ICAPS:
   name: "International Conference on Automated Planning and Scheduling"
   short_name: ICAPS
@@ -44,6 +48,10 @@ MRS:
 NeurIPS:
   name: "Conference on Neural Information Processing Systems"
   short_name: NeurIPS
+  type: conference
+PRIMA:
+  name: "International Conference on Principles and Practice of Multi-Agent Systems"
+  short_name: PRIMA
   type: conference
 SoCS:
   name: "Symposium on Combinatorial Search"

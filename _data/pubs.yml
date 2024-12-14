@@ -650,77 +650,24 @@
     pages: 131-132
     url: https://doi.org/10.1609/socs.v11i1.18525
 
-#- key: null
-#  title: null
-#  site: null  # project page
-#  authors: []
-#  co_first_authors: []
-#  venue: null
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#    arXiv: null
-#    code: null
-#    poster: null
-#    slides: null
-#    talk: null
-#  short_version:
-#    venue: null
-#    year: null
-#    pages: null
-#    url: null
+- key: EAAI20
+  title: Model AI Assignments 2020
+  authors: [Todd W.Neller, Stephen Keeley, Michael Guerzhoy, Wolfgang Hoenig, Jiaoyang Li, Sven Koenig, Ameet Soni, Krista Thomason, Lisa Zhang, Bibin Sebatian, Cinjon Resnick, Avital Oliver, Surya Bhupatiraju, Kumar Krishna Agrawal, James Allingham, Sejong Yoon, Johnathan Chen, Tom Larsen, Marion Neumann, Narges Norouzi, Ryan Hausen, Matthew Evett]
+  venue: EAAI
+  pages: 13509-13511
+  year: 2020
+  doi: 10.1609/aaai.v34i09.7072
+  links:
+    project webpage: http://modelai.gettysburg.edu/2020/mapf/
 
-#- key: null
-#  title: null
-#  site: null  # project page
-#  authors: []
-#  co_first_authors: []
-#  venue: null
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#    arXiv: null
-#    code: null
-#    poster: null
-#    slides: null
-#    talk: null
-#  short_version:
-#    venue: null
-#    year: null
-#    pages: null
-#    url: null
+- key: SurynekPRIMA20
+  title: utex Propagation for SAT-based Multi-Agent Path Finding
+  authors: [Pavel Surynek, Jiaoyang Li, Han Zhang, T. K. Satish Kumar, Sven Koenig]
+  venue: PRIMA
+  pages: 248-258
+  year: 2020
+  doi: 10.1007/978-3-030-69322-0_16
 
-#- key: null
-#  title: null
-#  site: null  # project page
-#  authors: []
-#  co_first_authors: []
-#  venue: null
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#    arXiv: null
-#    code: null
-#    poster: null
-#    slides: null
-#    talk: null
-#  short_version:
-#    venue: null
-#    year: null
-#    pages: null
-#    url: null
 ############### 2019 ##################
 - key: LiIJCAI19
   title: Improved Heuristics for Conflict-Based Search for Multi-Agent Path Finding
