@@ -589,50 +589,47 @@
     pages: 121-122
     link: https://doi.org/10.1609/socs.v11i1.18518
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: BoyarskiIJCAI2020
+  title: Iterative-Deepening Conflict-Based Search
+  authors: [Eli Boyarski, Ariel Felner, Daniel Harabor, Peter J. Stuckey, Liron Cohen, Jiaoyang Li, Sven Koenig]
+  venue: IJCAI
+  pages: 4084-4090
+  year: 2020
+  doi: 10.24963/ijcai.2020/565
+  links:
+      code: https://github.com/eli-b/idcbs
+      long talk: https://www.ijcai.org/proceedings/2020/video/26666
+      short talk: https://www.ijcai.org/proceedings/2020/video/25406
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: LiICAPS2020
+  title: New Techniques for Pairwise Symmetry Breaking in Multi-Agent Path Finding
+  authors: [Jiaoyang Li, Graeme Gange, Daniel Harabor, Peter J. Stuckey, Hang Ma, Sven Koenig]
+  venue: ICAPS
+  pages: 193-201
+  year: 2020
+  doi: 10.1609/icaps.v30i1.6661
+  links:
+      code: https://github.com/Jiaoyang-Li/CBSH2-RTC
+      poster: /files/posters/corridor-poster.pdf
+      slides: /files/slides/ICAPS20-corridor.pdf
+      short talk: https://www.youtube.com/watch?v=ckdSb750gEc&list=PLd_hcmfMPvAikLAeI18O4fsDOuDM_Pmx1&index=31
+      long talk: https://youtu.be/ClmfMNErYo8
+  short_version:
+    venue: SoCS
+    year: 2020
+    pages: 129-130
+    link: 10.1609/socs.v11i1.18524
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: ZhangICAPS20
+  title: Multi-Agent Path Finding with Mutex Propagation
+  authors: [Han Zhang, Jiaoyang Li, Pavel Surynek, Sven Koenig, T. K. Satish Kumar]
+  venue: ICAPS
+  pages: 323-332
+  year: 2020
+  doi: 10.1609/icaps.v30i1.6677
+  links:
+      code: https://github.com/Jiaoyang-Li/CBSH2-RTC
+      talk: https://www.youtube.com/watch?v=rzsk4OIBVHU&feature=youtu.be
 
 #- key: null
 #  title: null
