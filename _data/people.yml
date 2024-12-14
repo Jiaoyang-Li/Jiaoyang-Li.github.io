@@ -39,4 +39,12 @@ Philip Huang:
     A long-term goal of his research is to develop algorithms that 
     enable individual robots and robot teams to accomplish complex and long-horizon tasks in dynamic and uncertain environments.
 
+Rishi Veerapaneni:
+  name: Rishi Veerapaneni
+  role: PhD student
+  bio: Rishi works with Professors Maxim Likhachev and Jiaoyang Li in the Robotics Institute at CMU and is supported by the NSF Graduate Research Fellowship. 
+    His specific research interest is in (1) designing better heuristic search algorithms, 
+    (2) multi-agent motion planning and coordination (e.g. MAPF), and 
+    (3) combining search with machine learning. 
+    Previously, he double majored in EECS and Applied Math at UC Berkeley and was very active in teaching (EE16A, CS188, CS170 x2).
 
