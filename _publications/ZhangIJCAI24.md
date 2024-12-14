@@ -6,6 +6,20 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% assign pub_key = "ZhangIJCAI24" %}
+{% assign highlighted_names = null %}
+{% assign display_links = "true" %}
+{% assign pub = null %}
+
+{% for p in site.data.pubs %}
+  {% if p.key == pub_key %}
+    {% assign pub = p %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% include pub.html %}
+
 
 Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis and **Jiaoyang Li**.       
 <i>International Joint Conference on Artificial Intelligence (**IJCAI**)</i>, pages 311-320, 2024.         
