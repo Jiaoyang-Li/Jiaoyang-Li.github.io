@@ -94,16 +94,14 @@
   links:
       'arXiv': https://arxiv.org/abs/2405.01772
       'code': https://github.com/DiligentPanda/MAPF-LRR2023
-      'publisher': https://doi.org/10.1609/socs.v17i1.31565
 
-- key: ShaoulSoCS24
+- key: TangSoCS24
   title: "ITA-ECBS: A Bounded-Suboptimal Algorithm for The Combined Target-Assignment and Path-Finding Problem"
-  authors: [ Yorai Shaoul, Rishi Veerapaneni, Maxim Likhachev, jiaoyangli ]
+  authors: [ Yimin Tang, Sven Koenig, jiaoyangli ]
   venue: SoCS
-  pages: 109--117
+  pages: 134-142
   year: 2024
-  doi: 10.1609/socs.v17i1.31548
+  doi: 10.1609/socs.v17i1.31551
   links:
-    'arXiv': https://arxiv.org/abs/2405.01772
-    'code': https://github.com/DiligentPanda/MAPF-LRR2023
-    'publisher': https://doi.org/10.1609/socs.v17i1.31565
+    'arXiv': https://arxiv.org/abs/2404.05223
+    'code': https://github.com/TachikakaMin/ITA-CBS2
