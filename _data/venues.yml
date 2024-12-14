@@ -1,5 +1,9 @@
 # _data/journals.yml
 
+arXiv:
+  name: arXiv
+  type: arXiv
+
 ############### Conference ##################
 AAAI:
   name: "AAAI Conference on Artificial Intelligence"

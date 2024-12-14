@@ -43,7 +43,17 @@ You can also find my articles on
         {% endif %}
         {% include pub.html %}
     {% endfor %}
-    <h2>PhD Thesis</h2><a name="thesis"></a>
+</ul>
+
+<h2>Preprints</h2><a name="preprints"></a>
+<ul>
+    {% for pub in site.data.preprints %}
+        {% include pub.html %}
+    {% endfor %}
+</ul>
+
+<h2>PhD Thesis</h2><a name="thesis"></a>
+<ul>
     <li>
         <a href="/publications/LiPhD22">Efficient and Effective Techniques for Large-Scale Multi-Agent Path Finding</a>.
         (<b>Best Dissertation Awards by ICAPS, AAMAS, and USC Viterbi School of Engineering</b>)<br/>
@@ -60,6 +70,7 @@ You can also find my articles on
 }</pre></div>
     </li>
 </ul>
+
 
 
 

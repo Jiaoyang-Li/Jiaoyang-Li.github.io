@@ -65,6 +65,14 @@
   year      = "{{ pub.year }}",
   doi       = "{{ pub.doi | default: '' }}",
 }</pre>
+            {% elsif site.data.venues[pub.venue].type=="arXiv" %}
+                <pre>@misc{ {{pub.key}},
+  author    = "{% for author in pub.authors %}{{ author }}{% if forloop.last == false %} and {% endif %}{% endfor %}",
+  title     = "{{pub.title}}",
+  publisher   = "{{ site.data.venues[pub.venue].name | default: pub.venue}}",
+  year      = "{{ pub.year }}",
+  doi       = "{{ pub.doi | default: '' }}",
+}</pre>
             {% endif %}
         </div>
     {% endif %}
