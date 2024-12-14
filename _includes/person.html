@@ -1,6 +1,11 @@
 {% assign preferred_name = person.preferred_name | default: person.name %}
 <li>
-    <a href="{{ person.webpage }}">{{ preferred_name }}</a> ({{ person.enrollment }})
+    {% if person.webpage %}
+        <a href="{{ person.webpage }}">{{ preferred_name }}</a>
+    {% else %}
+        {{ preferred_name }}
+    {% endif %}
+    ({{ person.enrollment }})
 </li>
 <img src="{{ person.headshot }}" style="float:left;width:100pt;padding-right:10px;"  alt="{{ preferred_name }}"/>
 <p>{{ person.bio }}</p>

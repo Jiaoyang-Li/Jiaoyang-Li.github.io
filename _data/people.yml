@@ -64,6 +64,10 @@
     Hopefully, he can enjoy his days at CMU and do some meaningful work.  
     He is also interested in Soccer, Poker, Chinese Chess & Nintendo Switch, by the way.
 
+- name: Cheng Qian
+  role: undergraduate student
+  enrollment: CS undergraduate, Class 2025
+
 - name: Yifan Su
   role: undergraduate student
   webpage: https://yifansu1301.github.io/
@@ -82,19 +86,31 @@
 - name: Ying Feng
   role: alumnus
   webpage: https://www.linkedin.com/in/yinggggfeng
-  enrollment: CS undergraduate, graduated in 2024, now PhD student at MIT
+  enrollment: CS undergraduate, 2022-2023, now PhD student at MIT
   headshot: /images/yingfeng.jpeg
+
+- name: Adittyo Paul
+  role: alumnus
+  enrollment: CS undergraduate, 2022-2023
 
 - name: Yimin Tang
   role: alumnus
   webpage: https://github.com/TachikakaMin
-  enrollment: Master of Science in Robotics, graduated in 2023, now PhD student at USC
+  enrollment: Master of Science in Robotics, 2022-2023, now PhD student at USC
   headshot: /images/yimintang.png
   bio: Yimin received a B.Eng. in Computer Science from ShanghaiTech University in 2020 
     and worked as an SDE in Microsoft AzureStack Team for a year. 
     His research is now focused on Multi-Agent Reinforcement Learning and Multi-Agent Path Finding. 
     He also participated in some publications related to grasping and human-computer interaction in ICRA and CHI. 
     He is familiar with traditional data structures and algorithms and has several prizes in NOIP, NOI, and ICPC.
+
+- name: Fangji Wang
+  role: alumnus
+  enrollment: Visiting undergraduate student from Mechanical Engineering at Tsinghua University, 2023
+
+- name: Hongzhi Zang
+  role: alumnus
+  enrollment: Visiting undergraduate student from Computer Science at Tsinghua University, 2024
 
 
 
