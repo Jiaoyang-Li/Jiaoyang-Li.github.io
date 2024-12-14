@@ -35,7 +35,7 @@
     {% for link in pub.links %}
             [<a href="{{link[1]}}">{{link[0]}}</a>]
     {% endfor %}
-    {% unless pub.links contains "publisher" %}
+    {% unless pub.publisher %}
         {% if pub.doi %}
             [<a href="https://doi.org/{{ pub.doi }}">publisher</a>]
         {% endif %}
