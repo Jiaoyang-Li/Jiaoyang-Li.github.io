@@ -28,5 +28,15 @@ Yorai Shaoul:
     His research interests span multi-robot task and motion planning, robotic manipulation, statistical learning, and computer vision. 
     He works to harness insights from established planning algorithms to address messy real-world challenges in manipulation.
 
+Philip Huang:
+  name: Philip Huang
+  role: PhD student
+  webpage: https://philip-huang.github.io/
+  enrollment: RI PhD, Fall 2023
+  headshot: /images/philiphuang.jpg
+  bio:  Philip Huang received a BASc in Engineering Science in 2021 and an MSc in Computer Science in 2023 from the University of Toronto. 
+    His research interests include multi-robot collaboration, task and motion planning, and machine learning. 
+    A long-term goal of his research is to develop algorithms that 
+    enable individual robots and robot teams to accomplish complex and long-horizon tasks in dynamic and uncertain environments.
 
 
