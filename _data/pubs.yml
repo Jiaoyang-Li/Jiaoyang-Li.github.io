@@ -34,7 +34,7 @@
       'code': https://github.com/lunjohnzhang/ggo_public
 
 - title: Scalable Mechanism Design for Multi-Agent Path Finding
-  authors: [Paul Friedrich, Yulun Zhang, Michael Curry, Ludwig Dierks, Stephen McAleer, Jiaoyang Li, Tuomas Sandholm, Sven Seuken]
+  authors: [Paul Friedrich, Yulun Zhang, Michael Curry, Ludwig Dierks, Stephen McAleer, JiaoyangLi, Tuomas Sandholm, Sven Seuken]
   co_first_authors: ["Paul Friedrich", "Yulun Zhang"]
   venue: "IJCAI"
   pages: 58-66

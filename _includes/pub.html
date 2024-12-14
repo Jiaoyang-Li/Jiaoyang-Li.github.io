@@ -6,9 +6,9 @@
     {% endif %}
     <br/>
     {% for author in pub.authors %}
-        {% assign resolved_name = site.data.authors[author] | default: author %}
+        {% assign resolved_name = site.data.authors[author].name | default: author %}
             {% if pub.co_first_authors contains author %}
-                <span style="font-weight: bold; text-decoration: underline;">{{ resolved_name }}</span>
+                {{ resolved_name }}*
             {% else %}
                 {{ resolved_name }}
             {% endif %}
