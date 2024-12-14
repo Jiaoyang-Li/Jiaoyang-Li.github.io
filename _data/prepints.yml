@@ -31,8 +31,8 @@
   year: 2022
   doi: 10.48550/ARXIV.2203.02475
 
-- key: Chen22
-  title: Cooperative Task and Motion Planning for Multi-Arm Assembly Systems
+- key: Haghani21
+  title: "Multi-Robot Routing with Time Windows: A Column Generation Approach"
   authors: [Naveed Haghani, Jiaoyang Li, Sven Koenig, Gautam Kunapuli, Claudio Contardo, Amelia Regan, Julian Yarkony]
   venue: arXiv
   year: 2021
