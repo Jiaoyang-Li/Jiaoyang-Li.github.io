@@ -51,8 +51,7 @@ A summary of each member's ongoing research can be found
 <a href="files/ARCS-2024-Orientation-Poster.pdf">here</a> (updated date: August 2024).
 
 {% assign grouped_people = site.data.people | group_by: "role" %}
-{% for group in grouped_people %}
-    {% unless group.name == "PI" %}
-        <h2>{{ group.name }}</h2>
-    {% endunless}
+<h2>Ph.D. Students</h2>
+{% for person in grouped_people[PhD student] %}
+    {% include person.html %}
 {% endfor %}
