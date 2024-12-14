@@ -409,7 +409,6 @@
 
 
 ############### 2021 ##################
-
 - key: LiAIJ21
   title: Pairwise Symmetry Reasoning for Multi-Agent Path Finding Search
   authors: [Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Hang Ma, Graeme Gange, Sven Koenig]
@@ -437,20 +436,24 @@
     pages: 1581-1583
     link: https://dl.acm.org/doi/abs/10.5555/3463952.3464166
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: LiICAPS21
+  title: "Scalable Rail Planning and Replanning: Winning the 2020 Flatland Challenge"
+  authors: [Jiaoyang Li, Zhe Chen, Yi Zheng, Shao-Hung Chan, Daniel Harabor, Peter J. Stuckey, Hang Ma, Sven Koenig]
+  venue: ICAPS
+  pages: 477-485
+  year: 2021
+  award: "Winner of the NeurIPS'20 Flatland Challenge; ICAPS Best System Demonstration Award"
+  doi: 10.1609/icaps.v31i1.15994
+  links:
+      code: https://github.com/Jiaoyang-Li/Flatland
+      demo: https://youtu.be/Pw4GBL1UhPA
+      media: https://viterbischool.usc.edu/news/2021/03/making-the-virtual-trains-run-on-time-usc-team-world-champs-in-ai-challenge/
+      talk: https://slideslive.com/38942745/2020-flatland-challenge
+  short_version:
+    venue: SoCS
+    year: 2021
+    pages: 179-181
+    link: https://ojs.aaai.org/index.php/SOCS/article/view/18576
 
 #- key: null
 #  title: null
