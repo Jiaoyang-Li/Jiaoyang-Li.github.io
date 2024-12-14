@@ -21,6 +21,7 @@ excerpt: "This is a page not in the main menu"-->
                 </ul>
             {% endunless %}
             <h2>{{ pub.year }}</h2>
-            {% include pub.html %}
+        {% endif %}
+        {% include pub.html %}
     {% endfor %}
 </ul>
