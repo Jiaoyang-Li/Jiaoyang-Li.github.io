@@ -10,16 +10,14 @@
     <br/>
     {% for author in pub.authors %}
         {% assign resolved_name = site.data.authors[author].name | default: author %}
-        {% if site.data.authors contains author %}
-          <b>{{ resolved_name }}</b>
-        {% else %}
-          {{ resolved_name }}
-        {% endif %}{% if pub.co_first_authors contains author %}
-            *
-        {% endif %}{% unless forloop.last %}, {% endunless %}
+        {% if site.data.authors contains author %}<b>{{ resolved_name }}</b>{% else %}{{ resolved_name }}{% endif %}{% if pub.co_first_authors contains author %}*{% endif %}{% unless forloop.last %}, {% endunless %}
     {% endfor %}
     <br/>
-    <i>{{site.data.venues[pub.venue].name}} (<b>{{site.data.venues[pub.venue].short_name}}</b>)</i>,
+    <i>{{site.data.venues[pub.venue].name}}
+        {% if site.data.venues[pub.venue].short_name %}
+            (<b>{{site.data.venues[pub.venue].short_name}}</b>)
+        {% endif %}
+    </i>,
     {% if pub.volume %}
         volume {{pub.volume}},
     {% endif %}
@@ -55,7 +53,18 @@
             <pre>@inproceedings{{{pub.key}},
   author    = "{% for author in pub.authors %}{% assign resolved_name = site.data.authors[author].name | default: author %}{{ resolved_name }}{% if forloop.last == false %} and {% endif %}{% endfor %}",
   title     = "{{pub.title}}",
-  booktitle = "Proceedings of the {{ site.data.venues[pub.venue].name }} ({{ site.data.venues[pub.venue].short_name }})",
+  booktitle = "Proceedings of the {{ site.data.venues[pub.venue].name }} {% if site.data.venues[pub.venue].short_name %}({{site.data.venues[pub.venue].short_name}}){% endif %}",
+  pages     = "{{ pub.pages | default: '' }}",
+  year      = "{{ pub.year }}",
+  doi       = "{{ pub.doi | default: '' }}",
+}</pre>
+        {% elsif site.data.venues[pub.venue].type=="journal" %}
+            <pre>@article{{{pub.key}},
+  author    = "{% for author in pub.authors %}{% assign resolved_name = site.data.authors[author].name | default: author %}{{ resolved_name }}{% if forloop.last == false %} and {% endif %}{% endfor %}",
+  title     = "{{pub.title}}",
+  journal   = "{{ site.data.venues[pub.venue].name }}",
+  volume    = "{{ pub.volume | default: '' }}",
+  number    = "{{ pub.number | default: '' }}",
   pages     = "{{ pub.pages | default: '' }}",
   year      = "{{ pub.year }}",
   doi       = "{{ pub.doi | default: '' }}",

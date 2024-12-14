@@ -135,3 +135,15 @@
   doi: 10.1609/icaps.v34i1.31524
   links:
     'code': https://github.com/FangjiW/BBMOCBS-approx
+
+- key: YanRAL24
+  title: "ITA-ECBS: A Bounded-Suboptimal Algorithm for The Combined Target-Assignment and Path-Finding Problem"
+  authors: [Jingtian Yan, jiaoyangli]
+  venue: RAL
+  volume: 9,
+  number: 3,
+  pages: 3021-3028
+  year: 2024
+  doi: 10.1109/LRA.2024.3363543
+  links:
+    'code': https://github.com/JingtianYan/PSB-RAL

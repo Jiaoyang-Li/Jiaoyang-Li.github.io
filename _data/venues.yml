@@ -16,3 +16,7 @@ SoCS:
   name: "Symposium on Combinatorial Search"
   short_name: SoCS
   type: conference
+
+RAL:
+  name: "IEEE Robotics and Automation Letters"
+  type: journal
