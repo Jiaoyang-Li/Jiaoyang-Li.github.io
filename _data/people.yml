@@ -1,15 +1,14 @@
 # People
 
-- name: Yulun Zhang
+- name: Philip Huang
   role: PhD student
-  webpage: https://yulunzhang.net/
-  enrollment: RI PhD, Fall 2022
-  headshot: /images/yulunzhang.jpg
-  bio: Yulun received a B.Sc. and an M.Sc. in Computer Science from the University of Southern California in 2021 and 2022. 
-    His research interests include human-robot collaboration, multi-robot coordination, evolutionary algorithms, 
-    and quality diversity optimization. 
-    As a long-term goal, his research focuses on bringing Quality Diversity Optimization and Evolutionary Optimization 
-    to Robotics, expanding their applicability and scalability.
+  webpage: https://philip-huang.github.io/
+  enrollment: RI PhD, Fall 2023
+  headshot: /images/philiphuang.jpg
+  bio:  Philip Huang received a BASc in Engineering Science in 2021 and an MSc in Computer Science in 2023 from the University of Toronto. 
+    His research interests include multi-robot collaboration, task and motion planning, and machine learning. 
+    A long-term goal of his research is to develop algorithms that 
+    enable individual robots and robot teams to accomplish complex and long-horizon tasks in dynamic and uncertain environments.
 
 - name: Yorai Shaoul
   role: PhD student
@@ -20,15 +19,7 @@
     His research interests span multi-robot task and motion planning, robotic manipulation, statistical learning, and computer vision. 
     He works to harness insights from established planning algorithms to address messy real-world challenges in manipulation.
 
-- name: Philip Huang
-  role: PhD student
-  webpage: https://philip-huang.github.io/
-  enrollment: RI PhD, Fall 2023
-  headshot: /images/philiphuang.jpg
-  bio:  Philip Huang received a BASc in Engineering Science in 2021 and an MSc in Computer Science in 2023 from the University of Toronto. 
-    His research interests include multi-robot collaboration, task and motion planning, and machine learning. 
-    A long-term goal of his research is to develop algorithms that 
-    enable individual robots and robot teams to accomplish complex and long-horizon tasks in dynamic and uncertain environments.
+
 
 - name: Rishi Veerapaneni
   role: PhD student
@@ -48,6 +39,17 @@
   headshot: /images/jingtianyan.png
   bio: Jingtian received a B.Sc. from Zhejiang University in 2020 and an M.Sc. from the Carnegie Mellon University in 2023. 
     His research interests include multi-robot coordination, autonomous exploration, and Multi-Agent Path Finding.
+
+- name: Yulun Zhang
+  role: PhD student
+  webpage: https://yulunzhang.net/
+  enrollment: RI PhD, Fall 2022
+  headshot: /images/yulunzhang.jpg
+  bio: Yulun received a B.Sc. and an M.Sc. in Computer Science from the University of Southern California in 2021 and 2022. 
+    His research interests include human-robot collaboration, multi-robot coordination, evolutionary algorithms, 
+    and quality diversity optimization. 
+    As a long-term goal, his research focuses on bringing Quality Diversity Optimization and Evolutionary Optimization 
+    to Robotics, expanding their applicability and scalability.
 
 - name: He Jiang
   preferred_name: He (Rivers) Jiang

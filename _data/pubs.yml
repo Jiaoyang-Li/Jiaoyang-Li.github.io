@@ -778,7 +778,7 @@
 ############### 2018 ##################
 - key: MaIJCAI18
   title: Multi-Agent Path Finding with Deadlines
-  authors: [Hang Ma, Glenn Wagner, Ariel Felner, Jiaoyang Li, T. K. Satish Kumar and Sven Koenig]
+  authors: [Hang Ma, Glenn Wagner, Ariel Felner, Jiaoyang Li, T. K. Satish Kumar, Sven Koenig]
   venue: IJCAI
   pages: 417-423
   year: 2018
