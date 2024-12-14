@@ -528,7 +528,7 @@
     year: 2021
     pages: 209-211
     link: https://ojs.aaai.org/index.php/SOCS/article/view/18586
-  doi: >
+  bib: >
     @inproceedings{ZhangHPLAN21,
       author    = {Han Zhang and Mingze Yao and Ziang Liu and Jiaoyang Li and Lucas Terr and Shao-Hung Chan and T. K. Satish Kumar and Sven Koenig},
       title     = {A Hierarchical Approach to Multi-Agent Path Finding},
@@ -546,7 +546,7 @@
   year: 2021
   links:
       publisher: http://proceedings.mlr.press/v133/laurent21a.html
-  doi: >
+  bib: >
     @inproceedings{Laurent21,
       title     = {Flatland Competition 2020: MAPF and MARL for Efficient Train Coordination on a Grid World},
       author    = {Laurent, Florian and Schneider, Manuel and Scheller, Christian and Watson, Jeremy and Li, Jiaoyang and Chen, Zhe and Zheng, Yi and Chan, Shao-Hung and Makhnev, Konstantin and Svidchenko, Oleg and Egorov, Vladimir and Ivanov, Dmitry and Shpilman, Aleksei and Spirovska, Evgenija and Tanevski, Oliver and Nikov, Aleksandar and Grunder, Ramon and Galevski, David and Mitrovski, Jakov and Sartoretti, Guillaume and Luo, Zhiyao and Damani, Mehul and Bhattacharya, Nilabha and Agarwal, Shivam and Egli, Adrian and Nygren, Erik and Mohanty, Sharada},
@@ -564,7 +564,7 @@
   year: 2020
   links:
       preprint: https://jiaoyang-li.github.io/files/ChanWoMAPF20.pdf
-  doi: >
+  bib: >
     @inproceedings{ChanWoMAPF20,
       author    = {Shao-Hung Chan and Jiaoyang Li and Daniel Harabor and Peter J. Stuckey and Graeme Gange and Liron Cohen and Sven Koenig},
       title     = {Nested ECBS for Bounded-Suboptimal Multi-Agent Path Finding},
@@ -572,21 +572,22 @@
       year      = {2020}
     }
 
-
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: AtzmonIJCAI20
+  title: Multi-Directional Heuristic Search
+  authors: [Dor Atzmon, Jiaoyang Li, Ariel Felner, Eliran Nachmani, Shahaf Shperberg, Nathan Sturtevant, Sven Koenig]
+  venue: IJCAI
+  pages: 4062-4068
+  year: 2020
+  doi: 10.24963/ijcai.2020/562
+  links:
+      IJCAI long talk: https://www.ijcai.org/proceedings/2020/video/26952
+      IJCAI short talk: https://www.ijcai.org/proceedings/2020/video/25028
+      SoCS talk: https://www.youtube.com/watch?v=W0REYOwnMKg&list=PLd_hcmfMPvAikLAeI18O4fsDOuDM_Pmx1&index=30&t=0s
+  short_version:
+    venue: SoCS
+    year: 2020
+    pages: 121-122
+    link: https://doi.org/10.1609/socs.v11i1.18518
 
 #- key: null
 #  title: null
