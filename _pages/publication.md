@@ -228,7 +228,8 @@ You can also find my articles on
     <i>AAAI Conference on Artificial Intelligence (**AAAI**)</i>, pages 17559-17566, 2024.    
     [[arXiv](https://arxiv.org/abs/2401.00315)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-SuAAAI24');">bibtex</a>]
-    [[code](https://github.com/YifanSu1301/BTPG)] [[publisher](https://doi.org/10.1609/aaai.v38i16.29706)]      
+    [[code](https://github.com/YifanSu1301/BTPG)] 
+    [[publisher](https://doi.org/10.1609/aaai.v38i16.29706)]      
 <div id="bibtex-SuAAAI24" style="display:none">
 <pre>@inproceedings{SuAAAI24,
   author    = {Yifan Su and Rishi Veerapaneni and Jiaoyang Li},
@@ -244,7 +245,8 @@ You can also find my articles on
     <i>AAAI Conference on Artificial Intelligence (**AAAI**)</i>, pages 20674-20682, 2024.                           
     [[arXiv](https://arxiv.org/abs/2308.11234)]
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ChenAAAI24');">bibtex</a>]
-    [[code](https://github.com/nobodyczcz/Guided-PIBT)] [[publisher]( https://doi.org/10.1609/aaai.v38i18.30054)]      
+    [[code](https://github.com/nobodyczcz/Guided-PIBT)] 
+    [[publisher]( https://doi.org/10.1609/aaai.v38i18.30054)]      
 <div id="bibtex-ChenAAAI24" style="display:none">
 <pre>@inproceedings{ChenAAAI24,
   author    = {Zhe Chen and Daniel Harabor and Jiaoyang Li and Peter Stuckey},
