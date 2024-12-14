@@ -50,21 +50,21 @@ You can also find my articles on
 A summary of each member's ongoing research can be found
 <a href="files/ARCS-2024-Orientation-Poster.pdf">here</a> (updated date: August 2024).
 
-{% assign grouped_members = site.data.members | group_by: "role" %}
-{% for group in grouped_members %}
-    {% unless group.name == "PI" %}
-        <h2>{{ group.name }}</h2> <!-- Role name -->
-        {% for person in group.items %}
-            {% include person.html %}
-        {% endfor %}
-    {% endunless}
-{% endfor %}
+<!--{% assign grouped_members = site.data.members | group_by: "role" %}-->
+<!--{% for group in grouped_members %}-->
+<!--    {% unless group.name == "PI" %}-->
+<!--        <h2>{{ group.name }}</h2> &lt;!&ndash; Role name &ndash;&gt;-->
+<!--        {% for person in group.items %}-->
+<!--            {% include person.html %}-->
+<!--        {% endfor %}-->
+<!--    {% endunless}-->
+<!--{% endfor %}-->
 
 
 <h2>Ph.D. Students</h2>
 <ul>
     {% for person in site.data.people %}
-        {% if person.role=="PhD student" %}
+        {% if person.role==PhD student %}
             {% include person.html %}
         {% endif %}
     {% endfor %}
@@ -73,7 +73,7 @@ A summary of each member's ongoing research can be found
 <h2>Masters Students</h2>
 <ul>
     {% for person in site.data.people %}
-        {% if person.role=="Masters student" %}
+        {% if person.role==Masters student %}
             {% include person.html %}
         {% endif %}
     {% endfor %}
@@ -82,7 +82,7 @@ A summary of each member's ongoing research can be found
 <h2>Undergraduate Students</h2>
 <ul>
     {% for person in site.data.people %}
-        {% if person.role=="Undergraduate student" %}
+        {% if person.role==Undergraduate student %}
             {% include person.html %}
         {% endif %}
     {% endfor %}
@@ -91,7 +91,7 @@ A summary of each member's ongoing research can be found
 <h2>Visitors</h2>
 <ul>
     {% for person in site.data.people %}
-        {% if person.role=="Visitor" %}
+        {% if person.role==Visitor %}
             {% include person.html %}
         {% endif %}
     {% endfor %}
@@ -100,7 +100,7 @@ A summary of each member's ongoing research can be found
 <h2>Alumni</h2>
 <ul>
     {% for person in site.data.people %}
-        {% if person.role=="Alumni" %}
+        {% if person.role==Alumni %}
             {% include person.html %}
         {% endif %}
     {% endfor %}
