@@ -2,6 +2,7 @@
 # If any of the fields are confusing look at previous examples for guidance.
 #- abs: null
 #  authors: null
+#  co_first_authors: null
 #  award: null
 #  bib: null
 #  img: null
@@ -10,6 +11,9 @@
 #  site: null
 #  title: null
 #  venue: null
+#  pages: null
+#  volume: null
+#  number: null
 #  video_embed: null
 #  tags: null
 # Current tags for research areas, see the research areas page for more details:
