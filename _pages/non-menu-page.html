@@ -55,7 +55,7 @@ A summary of each member's ongoing research can be found
 
 <ul>
     {% for person_pair in site.data.people %}
-        {% assign person = pub.item %}
+        {% assign person = person_pair.item %}
         <li><a href="{{ person.webpage }}">{{ person.name }}</a> ({{ person.enrollment }})</li>
         {% include person.html %}
     {% endfor %}
