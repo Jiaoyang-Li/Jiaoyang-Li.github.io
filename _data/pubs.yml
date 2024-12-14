@@ -31,6 +31,87 @@
 # Current tags for research areas, see the research areas page for more details:
 # deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
 
+############### 2025 ##################
+
+- key: JiangAAAI25
+  title: Speedup Techniques for Switchable Temporal Plan Graph Optimization
+  authors: [He Jiang, Muhan Lin, Jiaoyang Li]
+  venue: AAAI
+  pages: null
+  year: 2025
+  award: null
+  doi: null
+  links:
+    arXiv: null
+    code: null
+    poster: null
+    slides: null
+    talk: null
+
+- key: ZangAAAI25
+  title: Online Guidance Graph Optimization for Lifelong Multi-Agent Path Finding
+  authors: [Hongzhi Zang, Yulun Zhang, He Jiang, Zhe Chen, Daniel Harabor, Peter J. Stuckey, Jiaoyang Li]
+  co_first_authors: []
+  venue: AAAI
+  pages: null
+  year: 2025
+  doi: null
+  links:
+    arXiv: https://arxiv.org/abs/2411.16506
+    code: null
+
+- key: YanAAAI25
+  title: Multi-agent Motion Planning for Differential Drive Robots Through Stationary State Search
+  authors: [Jingtian Yan, Jiaoyang Li]
+  venue: AAAI
+  pages: null
+  year: 2025
+  doi: null
+  short_version:
+    venue: SoCS
+    year: 2024
+    pages: 297-298
+    url: https://doi.org/10.1609/socs.v17i1.31589
+
+- key: VeerapaneniAAAI25
+  title: Windowed MAPF with Completeness Guarantees
+  site: null  # project page
+  authors: [Rishi Veerapaneni, Muhammad Suhail Saleem, Jiaoyang Li, Maxim Likhachev]
+  venue: AAAI
+  pages: null
+  year: 2025
+  doi: null
+  links:
+    arXiv: https://arxiv.org/abs/2410.01798
+
+
+- key: QianAAAI25
+  title: A Quality Diversity Approach to Automatically Generate Multi-Agent Path Finding Benchmark Maps
+  site: null  # project page
+  authors: [Cheng Qian, Yulun Zhang, Varun Bhatt, Matthew Christopher Fontaine, Stefanos Nikolaidis, Jiaoyang Li]
+  venue: AAAI
+  pages: null
+  year: 2025
+  doi: null
+  links:
+    arXiv: https://arxiv.org/abs/2409.06888
+  short_version:
+    venue: SoCS
+    year: 2024
+    pages: 279-280
+    url: https://doi.org/10.1609/socs.v17i1.31580
+
+- key: WangAAAI25
+  title: "LNS2+RL: Combining Multi-agent Reinforcement Learning with Large Neighborhood Search in Multi-agent Path Finding"
+  site: null  # project page
+  authors: [Yutong Wang, Tanishq Duhan, Jiaoyang Li, Guillaume Adrien Sartoretti]
+  venue: AAAI
+  pages: null
+  year: 2025
+  doi: null
+  links:
+    arXiv: https://arxiv.org/abs/2405.17794
+
 ############### 2024 ##################
 - key: ZhangIJCAI24
   title: "Guidance Graph Optimization for Lifelong Multi-Agent Path Finding"

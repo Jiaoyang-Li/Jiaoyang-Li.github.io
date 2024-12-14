@@ -11,6 +11,7 @@ You can also find my articles on
 <a href="https://scholar.google.com/citations?user=F5qzvmkAAAAJ&hl=en">my Google Scholar profile</a>.
 <br>
 
+<a href="#year2025">2025</a> |
 <a href="#year2024">2024</a> |
 <a href="#year2023">2023</a> |
 <a href="#year2022">2022</a> |
