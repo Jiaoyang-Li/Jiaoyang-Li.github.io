@@ -11,6 +11,30 @@ excerpt: "This is a page not in the main menu"-->
 {% include base_path %}
 <!--{% include toc %}-->
 
+ <script>
+        // Journal name mapping
+        const venues = {
+            IJCAI: "International Joint Conference on Artificial Intelligence",
+            AAAI: "Association for the Advancement of Artificial Intelligence",
+            ICAPS: "International Conference on Automated Planning and Scheduling",
+        };
+
+        // List of publications
+        const publications = [
+            { title: "A Great Paper", journal: "IJCAI", year: 2024 },
+            { title: "Another Great Paper", journal: "AAAI", year: 2023 },
+            { title: "An Excellent Study", journal: "ICAPS", year: 2022 },
+        ];
+
+        // Populate the list in HTML
+        const publicationList = document.getElementById("publications");
+        publications.forEach(pub => {
+            const listItem = document.createElement("li");
+            listItem.textContent = `${pub.title}, ${journals[pub.journal]}, ${pub.year}`;
+            publicationList.appendChild(listItem);
+        });
+ </script>
+
 {% for pub in site.data.pubs %}
     {% include pub.html %}
 {% endfor %}

@@ -8,11 +8,11 @@
             {{pub.title}}
         </a>.
     {% endif %}
-    <br>
+    <br/>
     {{pub.authors}}
-    <br>
-    {{pub.venue}}, {{pub.pages}}, {{pub.year}}.
-    <br>
+    <br/>
+    {{site.data.venues[pub.venue]}}, {{pub.pages}}, {{pub.year}}.
+    <br/>
     [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-{{pub.short_id}}');">bibtex</a>]
     {% for link in pub.links %}
             <a href="{{link[1]}}">{{link[0]}}</a>
