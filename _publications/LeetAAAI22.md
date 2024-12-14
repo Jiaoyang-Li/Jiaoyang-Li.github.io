@@ -1,23 +1,16 @@
 ---
-layout: archive
-title: "Shard Systems: Scalable, Robust and Persistent Multi-Agent Path Finding with Performance Guarantees"
+layout: publication
 permalink: /publications/LeetAAAI22/
 author_profile: true
 ---
+{% assign pub_key = "LeetAAAI22" %}
 
 {% include base_path %}
- 
-Christopher Leet, **Jiaoyang Li** and Sven Koenig.       
-<i>AAAI Conference on Artificial Intelligence (**AAAI**)</i>, pages 9386-9395, 2022.       
-[[pdf](https://jiaoyang-li.github.io/files/2022-AAAI-3.pdf)]
-[[publisher](https://ojs.aaai.org/index.php/AAAI/article/view/21170)]
-[<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-LeetAAAI22');">bibtex</a>]
-<div id="bibtex-LeetAAAI22" style="display:none">
-<pre>@inproceedings{LeetAAAI22,
-  author    = {Christopher Leet and Jiaoyang Li and Sven Koenig},
-  title     = {Shard Systems: Scalable, Robust and Persistent Multi-Agent Path Finding with Performance Guarantees},
-  booktitle = {Proceedings of the 36th AAAI Conference on Artificial Intelligence (AAAI)},
-  pages     = {9386--9395},
-  year      = {2022}
-}
-</pre></div>  
+{% assign pub = null %}
+{% for p in site.data.pubs %}
+  {% if p.key == pub_key %}
+    {% assign pub = p %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% include pub-page.html %}
