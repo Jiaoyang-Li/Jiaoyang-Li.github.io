@@ -40,7 +40,9 @@
             [<a href="{{ pub.url }}">publisher</a>]
         {% endif %}
         {% for link in pub.links %}
+            {% if link[1] %}
                 [<a href="{{link[1]}}">{{link[0]}}</a>]
+            {% endif %}
         {% endfor %}
         <div id="bibtex-{{pub.key}}" style="display:none; font-size:small">
             {% if pub.bib %}
