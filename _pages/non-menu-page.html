@@ -55,6 +55,7 @@ A summary of each member's ongoing research can be found
 
 <ul>
     {% for person in site.data.people %}
+        <li><a href="{{ person.webpage }}">{{ person.name }}</a> ({{ person.enrollment }})</li>
         {% include person.html %}
     {% endfor %}
 </ul>

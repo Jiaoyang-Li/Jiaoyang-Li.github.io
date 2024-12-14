@@ -11,9 +11,7 @@
 <!--            {% assign highlighted_names = "{{ person.name }}" | split: "," %}-->
             <ul>
                 {% for pub in person_pubs %}
-                    <li>
                         {% include pub.html %}
-                    </li>
                 {% endfor %}
             </ul>
         </details>
