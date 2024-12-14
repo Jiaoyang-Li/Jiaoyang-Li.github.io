@@ -13,16 +13,16 @@
 #  award: null
 #  doi: null
 #  links:
-#      arXiv: null
-#      code: null
-#      poster: null
-#      slides: null
-#      talk: null
+#    arXiv: null
+#    code: null
+#    poster: null
+#    slides: null
+#    talk: null
 #  short_version:
 #    venue: null
 #    year: null
 #    pages: null
-#    link: null
+#    url: null
 
 
 #  video_embed: null
@@ -101,7 +101,7 @@
     venue: SoCS
     year: 2023
     pages: 175-176
-    link: https://doi.org/10.1609/socs.v16i1.27301
+    url: https://doi.org/10.1609/socs.v16i1.27301
 
 - key: WangICAPS24mapf3d
   title: "MAPF in 3D Warehouses: Dataset and Analysis"
@@ -189,8 +189,8 @@
   venue: NeurIPS
   pages: 57212-57225
   year: 2023
+  url: https://papers.nips.cc/paper_files/paper/2023/hash/b2fbf1c9bc92e7ef2f6cab2e8a3e09af-Abstract-Conference.html
   links:
-    publisher: https://papers.nips.cc/paper_files/paper/2023/hash/b2fbf1c9bc92e7ef2f6cab2e8a3e09af-Abstract-Conference.html
     arXiv: https://arxiv.org/abs/2310.18622
     code: https://github.com/lunjohnzhang/warehouse_env_gen_nca_public
     talk: https://slideslive.com/39008681
@@ -347,7 +347,7 @@
   year: 2022
   doi: 10.1609/socs.v15i1.21750
   links:
-      code: https://github.com/nobodyczcz/Lazy-Train-and-K-CBS
+    code: https://github.com/nobodyczcz/Lazy-Train-and-K-CBS
 
 - key: ZhangSoCS22mutex
   title: Mutex Propagation in Multi-Agent Path Finding for Large Agents
@@ -372,9 +372,9 @@
   venue: AAMAS
   pages: 1464-1472
   year: 2022
+  url: https://dl.acm.org/doi/abs/10.5555/3535850.3536013
   links:
-      publisher: https://dl.acm.org/doi/abs/10.5555/3535850.3536013
-      code: https://github.com/HanZhang39/MAPF-PC
+    code: https://github.com/HanZhang39/MAPF-PC
 
 - key: LiAAAI22
   title: "MAPF-LNS2: Fast Repairing for Multi-Agent Path Finding via Large Neighborhood Search"
@@ -384,7 +384,7 @@
   year: 2022
   doi: 10.1609/aaai.v36i9.21266
   links:
-      code: https://github.com/Jiaoyang-Li/MAPF-LNS2
+    code: https://github.com/Jiaoyang-Li/MAPF-LNS2
 
 - key: HuangAAAI22
   title: Anytime Multi-Agent Path Finding via Machine Learning-Guided Large Neighborhood Search
@@ -421,7 +421,7 @@
   year: 2021
   doi: 10.1016/j.artint.2021.103574
   links:
-      code: https://github.com/Jiaoyang-Li/CBSH2-RTC
+    code: https://github.com/Jiaoyang-Li/CBSH2-RTC
 
 - key: LiIJCAI21
   title: Anytime Multi-Agent Path Finding via Large Neighborhood Search
@@ -431,13 +431,13 @@
   year: 2021
   doi: 10.24963/ijcai.2021/568
   links:
-      code: https://github.com/Jiaoyang-Li/MAPF-LNS
-      poster: /files/posters/MAPF-LNS-poster.pdf
+    code: https://github.com/Jiaoyang-Li/MAPF-LNS
+    poster: /files/posters/MAPF-LNS-poster.pdf
   short_version:
     venue: AAMAS
     year: 2021
     pages: 1581-1583
-    link: https://dl.acm.org/doi/abs/10.5555/3463952.3464166
+    url: https://dl.acm.org/doi/abs/10.5555/3463952.3464166
 
 - key: LiICAPS21
   title: "Scalable Rail Planning and Replanning: Winning the 2020 Flatland Challenge"
@@ -448,15 +448,15 @@
   award: "Winner of the NeurIPS'20 Flatland Challenge; ICAPS Best System Demonstration Award"
   doi: 10.1609/icaps.v31i1.15994
   links:
-      code: https://github.com/Jiaoyang-Li/Flatland
-      demo: https://youtu.be/Pw4GBL1UhPA
-      media: https://viterbischool.usc.edu/news/2021/03/making-the-virtual-trains-run-on-time-usc-team-world-champs-in-ai-challenge/
-      talk: https://slideslive.com/38942745/2020-flatland-challenge
+    code: https://github.com/Jiaoyang-Li/Flatland
+    demo: https://youtu.be/Pw4GBL1UhPA
+    media: https://viterbischool.usc.edu/news/2021/03/making-the-virtual-trains-run-on-time-usc-team-world-champs-in-ai-challenge/
+    talk: https://slideslive.com/38942745/2020-flatland-challenge
   short_version:
     venue: SoCS
     year: 2021
     pages: 179-181
-    link: https://ojs.aaai.org/index.php/SOCS/article/view/18576
+    url: https://ojs.aaai.org/index.php/SOCS/article/view/18576
 
 - key: WalkerICAPS21
   title: Conflict-Based Increasing Cost Search
@@ -474,8 +474,8 @@
   year: 2021
   doi: 10.1609/aaai.v35i14.17466
   links:
-      code: https://github.com/Jiaoyang-Li/EECBS
-      talk: https://slideslive.com/38947778/eecbs-a-boundedsuboptimal-search-for-multiagent-path-finding
+    code: https://github.com/Jiaoyang-Li/EECBS
+    talk: https://slideslive.com/38947778/eecbs-a-boundedsuboptimal-search-for-multiagent-path-finding
 
 - key: LiAAAI21lifelong
   title: Lifelong Multi-Agent Path Finding in Large-Scale Warehouses
@@ -485,14 +485,14 @@
   year: 2021
   doi: 10.1609/aaai.v35i13.17344
   links:
-      code: https://github.com/Jiaoyang-Li/RHCR
-      slides: /files/slides/AAMAS20-lifelongMAPF.pdf
-      talk: https://underline.io/lecture/356-lifelong-multi-agent-path-finding-in-large-scale-warehouses
+    code: https://github.com/Jiaoyang-Li/RHCR
+    slides: /files/slides/AAMAS20-lifelongMAPF.pdf
+    talk: https://underline.io/lecture/356-lifelong-multi-agent-path-finding-in-large-scale-warehouses
   short_version:
     venue: AAMAS
     year: 2020
     pages: 1898-1900
-    link: https://dl.acm.org/doi/abs/10.5555/3398761.3399020
+    url: https://dl.acm.org/doi/abs/10.5555/3398761.3399020
 
 - key: ChenAAAI21s2m2
   title: Scalable and Safe Multi-Agent Motion Planning with Nonlinear Dynamics and Bounded Disturbances
@@ -503,8 +503,8 @@
   year: 2021
   doi: 10.1609/aaai.v35i13.17340
   links:
-      code: https://github.com/jkchengh/s2m2
-      talk: https://slideslive.com/38948396/scalable-and-safe-multiagent-motion-planning-with-nonlinear-dynamics-and-bounded-disturbances?ref=account-79851-presentations
+    code: https://github.com/jkchengh/s2m2
+    talk: https://slideslive.com/38948396/scalable-and-safe-multiagent-motion-planning-with-nonlinear-dynamics-and-bounded-disturbances?ref=account-79851-presentations
 
 - key: ChenAAAI21robust
   title: Symmetry Breaking for k-Robust Multi-Agent Path Finding
@@ -514,7 +514,7 @@
   year: 2021
   doi: 10.1609/aaai.v35i14.17456
   links:
-      code: https://github.com/nobodyczcz/Lazy-Train-and-K-CBS
+    code: https://github.com/nobodyczcz/Lazy-Train-and-K-CBS
 
 - key: ZhangHPLAN21
   title: A Hierarchical Approach to Multi-Agent Path Finding
@@ -522,12 +522,12 @@
   venue: ICAPS Workshop on Hierarchical Planning
   year: 2021
   links:
-      preprint: https://jiaoyang-li.github.io/files/2021-HPLAN.pdf
+    preprint: https://jiaoyang-li.github.io/files/2021-HPLAN.pdf
   short_version:
     venue: SoCS
     year: 2021
     pages: 209-211
-    link: https://ojs.aaai.org/index.php/SOCS/article/view/18586
+    url: https://ojs.aaai.org/index.php/SOCS/article/view/18586
   bib: >
     @inproceedings{ZhangHPLAN21,
       author    = {Han Zhang and Mingze Yao and Ziang Liu and Jiaoyang Li and Lucas Terr and Shao-Hung Chan and T. K. Satish Kumar and Sven Koenig},
@@ -544,8 +544,7 @@
   volume: 133
   pages: 275-301
   year: 2021
-  links:
-      publisher: http://proceedings.mlr.press/v133/laurent21a.html
+  url: http://proceedings.mlr.press/v133/laurent21a.html
   bib: >
     @inproceedings{Laurent21,
       title     = {Flatland Competition 2020: MAPF and MARL for Efficient Train Coordination on a Grid World},
@@ -563,7 +562,7 @@
   venue: IJCAI Workshop on Multi-Agent Path Finding
   year: 2020
   links:
-      preprint: https://jiaoyang-li.github.io/files/ChanWoMAPF20.pdf
+    preprint: https://jiaoyang-li.github.io/files/ChanWoMAPF20.pdf
   bib: >
     @inproceedings{ChanWoMAPF20,
       author    = {Shao-Hung Chan and Jiaoyang Li and Daniel Harabor and Peter J. Stuckey and Graeme Gange and Liron Cohen and Sven Koenig},
@@ -580,14 +579,14 @@
   year: 2020
   doi: 10.24963/ijcai.2020/562
   links:
-      IJCAI long talk: https://www.ijcai.org/proceedings/2020/video/26952
-      IJCAI short talk: https://www.ijcai.org/proceedings/2020/video/25028
-      SoCS talk: https://www.youtube.com/watch?v=W0REYOwnMKg&list=PLd_hcmfMPvAikLAeI18O4fsDOuDM_Pmx1&index=30&t=0s
+    IJCAI long talk: https://www.ijcai.org/proceedings/2020/video/26952
+    IJCAI short talk: https://www.ijcai.org/proceedings/2020/video/25028
+    SoCS talk: https://www.youtube.com/watch?v=W0REYOwnMKg&list=PLd_hcmfMPvAikLAeI18O4fsDOuDM_Pmx1&index=30&t=0s
   short_version:
     venue: SoCS
     year: 2020
     pages: 121-122
-    link: https://doi.org/10.1609/socs.v11i1.18518
+    url: https://doi.org/10.1609/socs.v11i1.18518
 
 - key: BoyarskiIJCAI2020
   title: Iterative-Deepening Conflict-Based Search
@@ -597,9 +596,9 @@
   year: 2020
   doi: 10.24963/ijcai.2020/565
   links:
-      code: https://github.com/eli-b/idcbs
-      long talk: https://www.ijcai.org/proceedings/2020/video/26666
-      short talk: https://www.ijcai.org/proceedings/2020/video/25406
+    code: https://github.com/eli-b/idcbs
+    long talk: https://www.ijcai.org/proceedings/2020/video/26666
+    short talk: https://www.ijcai.org/proceedings/2020/video/25406
 
 - key: LiICAPS2020
   title: New Techniques for Pairwise Symmetry Breaking in Multi-Agent Path Finding
@@ -609,16 +608,16 @@
   year: 2020
   doi: 10.1609/icaps.v30i1.6661
   links:
-      code: https://github.com/Jiaoyang-Li/CBSH2-RTC
-      poster: /files/posters/corridor-poster.pdf
-      slides: /files/slides/ICAPS20-corridor.pdf
-      short talk: https://www.youtube.com/watch?v=ckdSb750gEc&list=PLd_hcmfMPvAikLAeI18O4fsDOuDM_Pmx1&index=31
-      long talk: https://youtu.be/ClmfMNErYo8
+    code: https://github.com/Jiaoyang-Li/CBSH2-RTC
+    poster: /files/posters/corridor-poster.pdf
+    slides: /files/slides/ICAPS20-corridor.pdf
+    short talk: https://www.youtube.com/watch?v=ckdSb750gEc&list=PLd_hcmfMPvAikLAeI18O4fsDOuDM_Pmx1&index=31
+    long talk: https://youtu.be/ClmfMNErYo8
   short_version:
     venue: SoCS
     year: 2020
     pages: 129-130
-    link: https://doi.org/10.1609/socs.v11i1.18524
+    url: https://doi.org/10.1609/socs.v11i1.18524
 
 - key: ZhangICAPS20
   title: Multi-Agent Path Finding with Mutex Propagation
@@ -628,8 +627,8 @@
   year: 2020
   doi: 10.1609/icaps.v30i1.6677
   links:
-      code: https://github.com/Jiaoyang-Li/CBSH2-RTC
-      talk: https://www.youtube.com/watch?v=rzsk4OIBVHU&feature=youtu.be
+    code: https://github.com/Jiaoyang-Li/CBSH2-RTC
+    talk: https://www.youtube.com/watch?v=rzsk4OIBVHU&feature=youtu.be
 
 - key: LiIJCAI19
   title: Improved Heuristics for Conflict-Based Search for Multi-Agent Path Finding
@@ -639,14 +638,14 @@
   year: 2019
   doi: 10.24963/ijcai.2019/63
   links:
-      code: https://github.com/Jiaoyang-Li/CBSH2-RTC
-      poster: https://jiaoyang-li.github.io/files/posters/cbsh2-poster.pdf
-      slides: https://jiaoyang-li.github.io/files/slides/cbsh2.pdf
+    code: https://github.com/Jiaoyang-Li/CBSH2-RTC
+    poster: https://jiaoyang-li.github.io/files/posters/cbsh2-poster.pdf
+    slides: https://jiaoyang-li.github.io/files/slides/cbsh2.pdf
   short_version:
     venue: SoCS
     year: 2019
     pages: 182-183
-    link: https://doi.org/10.1609/socs.v10i1.18481
+    url: https://doi.org/10.1609/socs.v10i1.18481
 
 - key: LiAIAA19
   title: Scheduling and Airport Taxiway Path Planning under Uncertainty
@@ -665,110 +664,90 @@
   year: 2019
   doi: 10.1609/socs.v10i1.18510
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: LiICAPS19fastmap
+  title: Using FastMap to Solve Graph Problems in a Euclidean Space
+  authors: [Jiaoyang Li, Ariel Felner, Sven Koenig, T. K. Satish Kumar]
+  venue: ICAPS
+  pages: 273-278
+  year: 2019
+  doi: 10.1609/icaps.v29i1.3488
+  links:
+    slide: /files/slides/ICAPS19-FastMap.pdf
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: LiICAPS19disjoint
+  title: Disjoint Splitting for Multi-Agent Path Finding with Conflict-Based Search
+  authors: [Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Ariel Felner, Hang Ma, Sven Koenig]
+  venue: ICAPS
+  pages: 279-283
+  year: 2019
+  doi: 10.1609/icaps.v29i1.3487
+  links:
+    poster: /files/posters/disjoint-poster.pdf
+    slides: /files/slides/ICAPS19-Disjoint-CBS.pdf
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: LiuAAMAS19
+  title: Task and Path Planning for Multi-Agent Pickup and Delivery
+  authors: [Minghua Liu, Hang Ma, Jiaoyang Li, Sven Koenig]
+  venue: AAMAS
+  pages: 1152-1160
+  year: 2019
+  url: https://dl.acm.org/doi/10.5555/3306127.3331816
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: LiAAAI19symmetry
+  title: Symmetry-Breaking Constraints for Grid-Based Multi-Agent Path Finding
+  authors: [Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Hang Ma, Sven Koenig]
+  venue: AAAI
+  pages: 6087-6095
+  year: 2019
+  doi: 10.1609/aaai.v33i01.33016087
+  links:
+    code: https://github.com/Jiaoyang-Li/CBSH2-RTC
+    poster: /files/posters/rectangle-poster.pdf
+    slides: /files/slides/rectangle-slides.pdf
+  short_version:
+    venue: SoCS
+    year: 2019
+    pages: 184-185
+    url: https://doi.org/10.1609/socs.v10i1.18482
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: LiAAAI19large
+  title: Multi-Agent Path Finding for Large Agents
+  authors: [Jiaoyang Li, Pavel Surynek, Ariel Felner, Hang Ma, T. K. Satish Kumar, Sven Koenig]
+  venue: AAAI
+  pages: 7627-7634
+  year: 2019
+  doi: 10.1609/aaai.v33i01.33017627
+  links:
+    poster: /files/posters/large-agent-poster.pdf
+    slides: /files/slides/large-agent-slides.pdf
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: MaAAAI19
+  title: Searching with Consistent Prioritization for Multi-Agent Path Finding
+  authors: [Hang Ma, Daniel Harabor, Peter J. Stuckey, Jiaoyang Li, Sven Koenig]
+  venue: AAAI
+  pages: 7643-7650
+  year: 2019
+  doi: 10.1609/aaai.v33i01.33017643
+  links:
+      code: https://github.com/Jiaoyang-Li/PBS
+  short_version:
+    venue: SoCS
+    year: 2019
+    pages: 188-189
+    url: https://doi.org/10.1609/socs.v10i1.18484
 
-#- key: null
-#  title: null
-#  authors: []
-#  co_first_authors: []
-#  venue: nul
-#  volume: null
-#  number: null
-#  pages: null
-#  year: null
-#  award: null
-#  doi: null
-#  links:
-#      arXiv: null
-#      code: null
+- key: MaIJCAI18
+  title: Multi-Agent Path Finding with Deadlines
+  authors: [Hang Ma, Glenn Wagner, Ariel Felner, Jiaoyang Li, T. K. Satish Kumar and Sven Koenig]
+  venue: IJCAI
+  pages: 417-423
+  year: 2018
+  url: https://dl.acm.org/doi/abs/10.5555/3304415.3304475
+  short_version:
+    venue: AAMAS
+    year: 2019
+    pages: 2004-2006
+    url: https://dl.acm.org/doi/10.5555/3237383.3238052
 
 #- key: null
 #  title: null
