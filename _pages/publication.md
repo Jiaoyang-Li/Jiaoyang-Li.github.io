@@ -41,7 +41,6 @@ You can also find my articles on
     {% endif %}
     {% include pub.html %}
 {% endfor %}
-</ul>
 
 <h2>Preprints</h2><a name="preprints"></a>
 <ul>
