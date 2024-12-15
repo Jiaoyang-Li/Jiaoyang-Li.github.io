@@ -11,15 +11,11 @@ You can also find my articles on
 <a href="https://scholar.google.com/citations?user=F5qzvmkAAAAJ&hl=en">my Google Scholar profile</a>.
 <br>
 
-<a href="#year2025">2025</a> |
-<a href="#year2024">2024</a> |
-<a href="#year2023">2023</a> |
-<a href="#year2022">2022</a> |
-<a href="#year2021">2021</a> |
-<a href="#year2020">2020</a> |
-<a href="#year2019">2019</a> |
-<a href="#year2018">2018</a> |
-<a href="#year2017">2017</a> |
+{% assign years = (2025..2017) | reverse %}
+
+{% for year in years %}
+    <a href="#year{{ year }}">{{ year }}</a> |
+{% endfor %}
 <a href="#preprints">Preprints</a> |
 <a href="#thesis">Thesis</a>
 
@@ -28,19 +24,16 @@ You can also find my articles on
 {% assign current_year = first_pub.year %}
 {% assign display_links = "true" %}
 
-<h2>{{ first_pub.year }}</h2><a name="year{{ pub.year }}"></a>
-<ul>
-    {% for pub in site.data.pubs %}
-        {% if pub.year != current_year %}
-            </ul>
-            <h2>{{ pub.year }}</h2><a name="year{{ pub.year }}"></a>
-            <ul>
-            {% assign current_year = pub.year %}
-        {% endif %}
-        {% include pub.html %}
-    {% endfor %}
-</ul>
-
+{% for year in years %}
+    <h2>{{ year }}</h2><a name="year{{ year }}"></a>
+    <ul>
+        {% for pub in site.data.pubs %}
+            {% if pub.year == year %}
+                {% include pub.html %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endfor %}
 
 <h2>Preprints</h2><a name="preprints"></a>
 <ul>
