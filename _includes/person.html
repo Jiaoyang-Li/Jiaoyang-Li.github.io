@@ -17,7 +17,7 @@
         <details style="margin-top: 0; margin-bottom: 0;">
             <summary style="color: #A9A9A9;">Publications</summary>
             {% assign highlighted_names = person.name %}
-            <ul>
+            <ul style="margin-bottom: 0;">
                 {% for pub in person_pubs %}
                     {% include pub.html %}
                 {% endfor %}
