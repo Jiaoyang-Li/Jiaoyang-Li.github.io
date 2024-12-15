@@ -30,18 +30,17 @@ You can also find my articles on
 
 <div style="clear: both;"></div>
 
-<ul>
-    {% for pub in site.data.pubs %}
-        {% if pub.year != current_year %}
-            {% unless current_year == "" %}
-                </ul>
-            {% endunless %}
-            <h2>{{ pub.year }}</h2><a name="year{{ pub.year }}"></a>
-            <ul>
-            {% assign current_year = pub.year %}
-        {% endif %}
-        {% include pub.html %}
-    {% endfor %}
+{% for pub in site.data.pubs %}
+    {% if pub.year != current_year %}
+        {% unless current_year == "" %}
+            </ul>
+        {% endunless %}
+        <h2>{{ pub.year }}</h2><a name="year{{ pub.year }}"></a>
+        <ul>
+        {% assign current_year = pub.year %}
+    {% endif %}
+    {% include pub.html %}
+{% endfor %}
 </ul>
 
 <h2>Preprints</h2><a name="preprints"></a>
