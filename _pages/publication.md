@@ -41,6 +41,9 @@ You can also find my articles on
     {% endif %}
     {% include pub.html %}
 {% endfor %}
+{% if site.data.pubs.size > 0 %}
+    </ul>
+{% endif %}
 
 <h2>Preprints</h2><a name="preprints"></a>
 <ul>
