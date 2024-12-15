@@ -1,5 +1,5 @@
 {% assign preferred_name = person.preferred_name | default: person.name %}
-<li style="margin-bottom: 1px;">
+<li style="margin-bottom: 0;">
     {% if person.webpage %}
         <a href="{{ person.webpage }}">{{ preferred_name }}</a>
     {% else %}
@@ -7,16 +7,14 @@
     {% endif %}
     ({{ person.enrollment }})
 </li>
-
 {% if person.headshot %}
      <img src="{{ person.headshot }}" style="float:left;width:100pt;padding-right:10px;"  alt="{{ preferred_name }}"/>
 {% endif %}
-
 <p>
     {{ person.bio }}
     {% assign person_pubs = site.data.pubs | where: "authors", person.name %}
     {% if person_pubs.size > 0 %}
-        <details>
+        <details style="margin-top: 0;">
             <summary>Publications</summary>
             {% assign highlighted_names = person.name %}
             <ul>
