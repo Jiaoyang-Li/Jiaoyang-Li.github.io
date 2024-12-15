@@ -11,7 +11,7 @@ You can also find my articles on
 <a href="https://scholar.google.com/citations?user=F5qzvmkAAAAJ&hl=en">my Google Scholar profile</a>.
 <br>
 
-{% assign years = (2025..2017) | reverse %}
+{% assign years = (2017..2025) | reverse %}
 
 {% for year in years %}
     <a href="#year{{ year }}">{{ year }}</a> |
