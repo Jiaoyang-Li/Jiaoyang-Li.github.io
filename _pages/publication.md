@@ -12,6 +12,8 @@ You can also find my articles on
 <br>
 
 {% assign years = (2017..2025) | reverse %}
+{% assign highlighted_names = "Jiaoyang Li" %}
+{% assign display_links = "true" %}
 
 <p>
     {% for year in years %}
@@ -21,13 +23,8 @@ You can also find my articles on
     <a href="#thesis">Thesis</a>
 </p>
 
-{% assign highlighted_names = "Jiaoyang Li" | split: "," %}
-{% assign first_pub = site.data.pubs | first %}
-{% assign current_year = first_pub.year %}
-{% assign display_links = "true" %}
-
 {% for year in years %}
-    <h2>{{ year }}</h2><a name="year{{ year }}"></a>
+    <h2>{{ year }}</h2><a id="year{{ year }}"></a>
     <ul>
         {% for pub in site.data.pubs %}
             {% if pub.year == year %}
@@ -37,14 +34,14 @@ You can also find my articles on
     </ul>
 {% endfor %}
 
-<h2>Preprints</h2><a name="preprints"></a>
+<h2>Preprints</h2><a id="preprints"></a>
 <ul>
     {% for pub in site.data.preprints %}
         {% include pub.html %}
     {% endfor %}
 </ul>
 
-<h2>PhD Thesis</h2><a name="thesis"></a>
+<h2>PhD Thesis</h2><a id="thesis"></a>
 <ul>
     <li>
         <a href="/publications/LiPhD22">Efficient and Effective Techniques for Large-Scale Multi-Agent Path Finding</a>.
