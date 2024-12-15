@@ -23,23 +23,21 @@ You can also find my articles on
 <a href="#preprints">Preprints</a> |
 <a href="#thesis">Thesis</a>
 
-<!--{% assign sorted_pubs = site.data.pubs | sort: "year" | reverse %}-->
-{% assign current_year = "" %}
 {% assign highlighted_names = "Jiaoyang Li" | split: "," %}
+{% assign first_pub = site.data.pubs | first %}
+{% assign current_year = first_pub.year %}
 {% assign display_links = "true" %}
 
-<ul style="margin:0;">
-{% for pub in site.data.pubs %}
-    {% if pub.year != current_year %}
-        {% unless current_year == "" %}
-            </ul>
-        {% endunless %}
-        <h2>{{ pub.year }}</h2><a name="year{{ pub.year }}"></a>
-        <ul>
-        {% assign current_year = pub.year %}
-    {% endif %}
-    {% include pub.html %}
-{% endfor %}
+<h2>{{ first_pub.year }}</h2><a name="year{{ pub.year }}"></a>
+<ul>
+    {% for pub in site.data.pubs %}
+        {% if pub.year != current_year %}
+            <h2>{{ pub.year }}</h2><a name="year{{ pub.year }}"></a>
+            <ul>
+            {% assign current_year = pub.year %}
+        {% endif %}
+        {% include pub.html %}
+    {% endfor %}
 </ul>
 
 
