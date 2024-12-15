@@ -28,8 +28,7 @@ You can also find my articles on
 {% assign highlighted_names = "Jiaoyang Li" | split: "," %}
 {% assign display_links = "true" %}
 
-<div style="clear: both;"></div>
-
+<ul style="margin:0;">
 {% for pub in site.data.pubs %}
     {% if pub.year != current_year %}
         {% unless current_year == "" %}
@@ -41,9 +40,8 @@ You can also find my articles on
     {% endif %}
     {% include pub.html %}
 {% endfor %}
-{% if site.data.pubs.size > 0 %}
-    </ul>
-{% endif %}
+</ul>
+
 
 <h2>Preprints</h2><a name="preprints"></a>
 <ul>
