@@ -18,7 +18,7 @@ A summary of each member's ongoing research can be found
 <!-- ## Current Members -->
 
 <h2>Ph.D. Students</h2>
-<ul>
+<ul style="margin-bottom: 1px">
     {% for person in site.data.people %}
         {% if person.role=="PhD student" %}
             {% include person.html %}
@@ -27,7 +27,7 @@ A summary of each member's ongoing research can be found
 </ul>
 
 <h2>Masters Students</h2>
-<ul>
+<ul style="margin-bottom: 1px">
     {% for person in site.data.people %}
         {% if person.role=="masters student" %}
             {% include person.html %}
@@ -36,7 +36,7 @@ A summary of each member's ongoing research can be found
 </ul>
 
 <h2>Undergraduate Students</h2>
-<ul>
+<ul style="margin-bottom: 1px">
     {% for person in site.data.people %}
         {% if person.role=="undergraduate student" %}
             {% include person.html %}
@@ -45,7 +45,7 @@ A summary of each member's ongoing research can be found
 </ul>
 
 <h2>Visitors</h2>
-<ul>
+<ul style="margin-bottom: 1px">
     {% for person in site.data.people %}
         {% if person.role=="visitor" %}
             {% include person.html %}
@@ -54,7 +54,7 @@ A summary of each member's ongoing research can be found
 </ul>
 
 <h2>Alumni</h2>
-<ul>
+<ul style="margin-bottom: 1px">
     {% for person in site.data.people %}
         {% if person.role=="alumnus" %}
             {% include person.html %}
