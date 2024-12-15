@@ -10,7 +10,7 @@
 {% if person.headshot %}
      <img src="{{ person.headshot }}" style="float:left;width:100pt;padding-right:10px;"  alt="{{ preferred_name }}"/>
 {% endif %}
-<p>
+<p style="margin-top: 0; margin-bottom: 0;">
     {{ person.bio }}
     {% assign person_pubs = site.data.pubs | where: "authors", person.name %}
     {% if person_pubs.size > 0 %}
