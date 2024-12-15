@@ -17,8 +17,8 @@ author_profile: true
 [[pdf](/files/phd-thesis-final.pdf)]
 <div id="bibtex-LiPhD22" style="display:none">
 <pre>@phdthesis{LiPhD22,
-  title={Efficient and Effective Techniques for Large-Scale Multi-Agent Path Finding},
-  author={Jiaoyang Li},
+  title     = {Efficient and Effective Techniques for Large-Scale Multi-Agent Path Finding},
+  author    = {Jiaoyang Li},
   school    = {University of Southern California},
   year={2022}
 }

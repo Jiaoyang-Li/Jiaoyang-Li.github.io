@@ -1,5 +1,5 @@
 {% assign preferred_name = person.preferred_name | default: person.name %}
-<li>
+<li style="margin-bottom: 1px;">
     {% if person.webpage %}
         <a href="{{ person.webpage }}">{{ preferred_name }}</a>
     {% else %}

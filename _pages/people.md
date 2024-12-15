@@ -54,7 +54,7 @@ A summary of each member's ongoing research can be found
 </ul>
 
 <h2>Alumni</h2>
-<ul style="margin-bottom: 1px">
+<ul style="margin-bottom: 1px; font-size:small">
     {% for person in site.data.people %}
         {% if person.role=="alumnus" %}
             {% include person.html %}
