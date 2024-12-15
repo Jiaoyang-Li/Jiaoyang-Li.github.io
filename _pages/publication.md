@@ -13,11 +13,13 @@ You can also find my articles on
 
 {% assign years = (2017..2025) | reverse %}
 
-{% for year in years %}
-    <a href="#year{{ year }}">{{ year }}</a> |
-{% endfor %}
-<a href="#preprints">Preprints</a> |
-<a href="#thesis">Thesis</a>
+<p>
+    {% for year in years %}
+        <a href="#year{{ year }}">{{ year }}</a> |
+    {% endfor %}
+    <a href="#preprints">Preprints</a> |
+    <a href="#thesis">Thesis</a>
+</p>
 
 {% assign highlighted_names = "Jiaoyang Li" | split: "," %}
 {% assign first_pub = site.data.pubs | first %}
