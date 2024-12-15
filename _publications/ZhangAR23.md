@@ -1,25 +1,16 @@
 ---
-layout: archive
-title: "Multi-Robot Geometric Task-and-Motion Planning for Collaborative Manipulation Tasks"
+layout: publication
 permalink: /publications/ZhangAR23/
 author_profile: true
 ---
+{% assign pub_key = "ZhangAR23" %}
 
 {% include base_path %}
-
-      
-Hejia Zhang, Shao-Hung Chan, Jie Zhong,  **Jiaoyang Li**, Peter Kolapo, Sven Koenig, Zach Agioutantis, Steven Schafrik and Stefanos Nikolaidis.            
-<i>Autonomous Robots</i>, volume 47, pages 1537-1558, 2023.               
-[<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-ZhangAR23');">bibtex</a>]
-[[publisher](https://doi.org/10.1007/s10514-023-10148-y)]
-<div id="bibtex-ZhangAR23" style="display:none">
-<pre>@article{ZhangAR23,
-  author    = {Hejia Zhang and Shao-Hung Chan and Jie Zhong and Jiaoyang Li and Peter Kolapo and Sven Koenig and Zach Agioutantis and Steven Schafrik and Stefanos Nikolaidis.},
-  title     = {Multi-robot geometric task-and-motion planning for collaborative manipulation tasks},
-  journal   = {Autonomous Robots},
-  year      = {2023},
-  volume    = {47},
-  pages     = {1537--1558},
-  doi       = {10.1007/s10514-023-10148-y},
-}
-</pre></div>
+{% assign pub = null %}
+{% for p in site.data.pubs %}
+  {% if p.key == pub_key %}
+    {% assign pub = p %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% include pub-page.html %}
