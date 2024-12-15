@@ -28,6 +28,8 @@ You can also find my articles on
 {% assign highlighted_names = "Jiaoyang Li" | split: "," %}
 {% assign display_links = "true" %}
 
+<div style="clear: both;"></div>
+
 <ul>
     {% for pub in site.data.pubs %}
         {% if pub.year != current_year %}
@@ -58,7 +60,7 @@ You can also find my articles on
         <i>{PhD thesis, Department of Computer Science, University of Southern California, Los Angeles (California)</i>, 2022.<br/>
         [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, 'bibtex-LiPhD22');">bibtex</a>]
         [<a href="/files/phd-thesis-final.pdf">pdf</a>]
-        <div id="bibtex-{{pub.key}}" style="display:none; font-size:small">
+        <div id="bibtex-LiPhD22" style="display:none; font-size:small">
             <pre>@phdthesis{LiPhD22,
   title     = {Efficient and Effective Techniques for Large-Scale Multi-Agent Path Finding},
   author    = {Jiaoyang Li},
