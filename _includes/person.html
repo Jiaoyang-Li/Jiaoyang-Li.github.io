@@ -15,7 +15,7 @@
     {% assign person_pubs = site.data.pubs | where: "authors", person.name %}
     {% if person_pubs.size > 0 %}
         <details style="margin-top: 0; margin-bottom: 0;">
-            <summary>Publications</summary>
+            <summary style="color: #A9A9A9;">Publications</summary>
             {% assign highlighted_names = person.name %}
             <ul>
                 {% for pub in person_pubs %}
