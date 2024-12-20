@@ -5,7 +5,7 @@
 #  title: null
 #  site: null  # project page
 #  authors: []
-#  co_first_authors: []
+#  equal_contributions: []
 #  venue: null
 #  volume: null
 #  number: null
@@ -51,7 +51,7 @@
 - key: ZangAAAI25
   title: Online Guidance Graph Optimization for Lifelong Multi-Agent Path Finding
   authors: [Hongzhi Zang, Yulun Zhang, He Jiang, Zhe Chen, Daniel Harabor, Peter J. Stuckey, Jiaoyang Li]
-  co_first_authors: []
+  equal_contributions: [Hongzhi Zang, Yulun Zhang]
   venue: AAAI
   pages: null
   year: 2025
@@ -75,7 +75,6 @@
 
 - key: VeerapaneniAAAI25
   title: Windowed MAPF with Completeness Guarantees
-  site: null  # project page
   authors: [Rishi Veerapaneni, Muhammad Suhail Saleem, Jiaoyang Li, Maxim Likhachev]
   venue: AAAI
   pages: null
@@ -85,21 +84,22 @@
     arXiv: https://arxiv.org/abs/2410.01798
 
 
-- key: QianAAAI25
-  title: A Quality Diversity Approach to Automatically Generate Multi-Agent Path Finding Benchmark Maps
-  site: null  # project page
-  authors: [Cheng Qian, Yulun Zhang, Varun Bhatt, Matthew Christopher Fontaine, Stefanos Nikolaidis, Jiaoyang Li]
-  venue: AAAI
-  pages: null
-  year: 2025
-  doi: null
-  links:
-    arXiv: https://arxiv.org/abs/2409.06888
-  short_version:
-    venue: SoCS
-    year: 2024
-    pages: 279-280
-    url: https://doi.org/10.1609/socs.v17i1.31580
+#- key: QianAAAI25
+#  title: A Quality Diversity Approach to Automatically Generate Multi-Agent Path Finding Benchmark Maps
+#  site: null  # project page
+#  authors: [Cheng Qian, Yulun Zhang, Varun Bhatt, Matthew Christopher Fontaine, Stefanos Nikolaidis, Jiaoyang Li]
+#  equal_contributions: [Cheng Qian, Yulun Zhang]
+#  venue: AAAI
+#  pages: null
+#  year: 2025
+#  doi: null
+#  links:
+#    arXiv: https://arxiv.org/abs/2409.06888
+#  short_version:
+#    venue: SoCS
+#    year: 2024
+#    pages: 279-280
+#    url: https://doi.org/10.1609/socs.v17i1.31580
 
 - key: WangAAAI25
   title: "LNS2+RL: Combining Multi-agent Reinforcement Learning with Large Neighborhood Search in Multi-agent Path Finding"
@@ -127,7 +127,7 @@
 - key: FriedrichIJCAI24
   title: Scalable Mechanism Design for Multi-Agent Path Finding
   authors: [Paul Friedrich, Yulun Zhang, Michael Curry, Ludwig Dierks, Stephen McAleer, Jiaoyang Li, Tuomas Sandholm, Sven Seuken]
-  co_first_authors: [Paul Friedrich, Yulun Zhang]
+  equal_contributions: [Paul Friedrich, Yulun Zhang]
   venue: IJCAI
   pages: 58-66
   year: 2024
@@ -188,7 +188,7 @@
 - key: WangICAPS24mapf3d
   title: "MAPF in 3D Warehouses: Dataset and Analysis"
   authors: [Qian Wang, Rishi Veerapaneni, Yu Wu, Jiaoyang Li, Maxim Likhachev]
-  co_first_authors: [Qian Wang, Rishi Veerapaneni]
+  equal_contributions: [Qian Wang, Rishi Veerapaneni]
   venue: ICAPS
   pages: 623-632
   year: 2024
@@ -199,7 +199,7 @@
 - key: VeerapaneniICAPS24
   title: "Improving Learnt Local MAPF Policies with Heuristic Search"
   authors: [Rishi Veerapaneni, Qian Wang, Kevin Ren, Arthur Jakobsson, Jiaoyang Li, Maxim Likhachev]
-  co_first_authors: [Rishi Veerapaneni, Qian Wang, Kevin Ren]
+  equal_contributions: [Rishi Veerapaneni, Qian Wang, Kevin Ren]
   venue: ICAPS
   pages: 597-606
   year: 2024
@@ -221,7 +221,7 @@
 - key: WangICAPS24momapf
   title: "Efficient Approximate Search for Multi-Objective Multi-Agent Path Finding"
   authors: [Fangji Wang, Han Zhang, Sven Koenig, Jiaoyang Li]
-  co_first_authors: [Fangji Wang, Han Zhang]
+  equal_contributions: [Fangji Wang, Han Zhang]
   venue: ICAPS
   pages: 613-622
   year: 2024
@@ -251,6 +251,7 @@
   links:
     arXiv: https://arxiv.org/abs/2401.00315
     code: https://github.com/YifanSu1301/BTPG
+    talk: https://underline.io/lecture/92560-bidirectional-temporal-plan-graph-enabling-switchable-passing-orders-for-more-efficient-multi-agent-path-finding-plan-execution
 
 - key: ChenAAAI24
   title: "Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding"
@@ -351,7 +352,7 @@
 - key: GeICAPS23
   title: "Cost Splitting for Multi-Objective Conflict-Based Search"
   authors: [Cheng Ge, Han Zhang, Jiaoyang Li, Sven Koenig]
-  co_first_authors: [Cheng Ge, Han Zhang]
+  equal_contributions: [Cheng Ge, Han Zhang]
   venue: ICAPS
   pages: 128-137
   year: 2023
@@ -377,6 +378,7 @@
   doi: 10.1609/aaai.v37i10.26368
   links:
     code: https://github.com/theanhhoang/AIM
+    talk: https://underline.io/lecture/67972-intersection-coordination-with-priority-based-search-for-autonomous-vehicles
 
 
 ############### 2022 ##################
@@ -450,7 +452,7 @@
 - key: ZhangAAMAS22
   title: Multi-Agent Path Finding for Precedence-Constrained Goal Sequences
   authors: [Han Zhang, Jingkai Chen, Jiaoyang Li, Brian Williams, Sven Koenig]
-  co_first_authors: [Han Zhang, Jingkai Chen]
+  equal_contributions: [Han Zhang, Jingkai Chen]
   venue: AAMAS
   pages: 1464-1472
   year: 2022
@@ -579,7 +581,7 @@
 - key: ChenAAAI21s2m2
   title: Scalable and Safe Multi-Agent Motion Planning with Nonlinear Dynamics and Bounded Disturbances
   authors: [Jingkai Chen, Jiaoyang Li, Chuchu Fan, Brian Williams]
-  co_first_authors: []
+  equal_contributions: []
   venue: AAAI
   pages: 11237-11245
   year: 2021
@@ -621,7 +623,7 @@
 - key: Laurent21
   title: "Flatland Competition 2020: MAPF and MARL for Efficient Train Coordination on a Grid World"
   authors: [Florian Laurent, Manuel Schneider, Christian Scheller, Jeremy Watson, Jiaoyang Li, Zhe Chen, Yi Zheng, Shao-Hung Chan, Konstantin Makhnev, Oleg Svidchenko, Vladimir Egorov, Dmitry Ivanov, Aleksei Shpilman, Evgenija Spirovska, Oliver Tanevski, Aleksandar Nikov, Ramon Grunder, David Galevski, Jakov Mitrovski, Guillaume Sartoretti, Zhiyao Luo, Mehul Damani, Nilabha Bhattacharya, Shivam Agarwal, Adrian Egli, Erik Nygren, Sharada Mohanty]
-  co_first_authors: []
+  equal_contributions: []
   venue: NeurIPS 2020 Competition and Demonstration Track, RMLR
   volume: 133
   pages: 275-301

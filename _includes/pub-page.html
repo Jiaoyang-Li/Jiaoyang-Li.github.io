@@ -7,7 +7,7 @@
 
 <p>
     {% for author in pub.authors %}
-        {{ author }}{% if pub.co_first_authors contains author %}*{% endif %}{% if forloop.last %}. {% else %}, {% endif %}
+        {{ author }}{% if pub.equal_contributions contains author %}*{% endif %}{% if forloop.last %}. {% else %}, {% endif %}
     {% endfor %}
     <br>
     <i>{{site.data.venues[pub.venue].name | default: pub.venue}}{% if site.data.venues[pub.venue].short_name %} (<b>{{site.data.venues[pub.venue].short_name}}</b>){% endif %}</i>,
