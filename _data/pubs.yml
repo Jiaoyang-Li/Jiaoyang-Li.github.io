@@ -42,8 +42,8 @@
   award: null
   doi: null
   links:
-    arXiv: null
-    code: null
+    arXiv: https://arxiv.org/abs/2412.15908
+    code: https://github.com/DiligentPanda/STPG
     poster: null
     slides: null
     talk: null
