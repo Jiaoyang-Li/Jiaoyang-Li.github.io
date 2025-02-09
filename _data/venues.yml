@@ -29,6 +29,10 @@ ICAPS:
   name: "International Conference on Automated Planning and Scheduling"
   short_name: ICAPS
   type: conference
+ICLR:
+  name: "International Conference on Learning Representations"
+  short_name: ICLR
+  type: conference
 ICRA:
   name: "IEEE International Conference on Robotics and Automation"
   short_name: ICRA
