@@ -33,7 +33,7 @@
 
 ############### 2025 ##################
 
-- key: VeerapaneniICRA25
+- key: JiangICRA25
   title: "Deploying Ten Thousand Robots: Scalable Imitation Learning for Lifelong Multi-Agent Path Finding"
   authors: [He Jiang, Yutong Wang, Rishi Veerapaneni, Tanishq Harish Duhan, Guillaume Adrien Sartoretti, Jiaoyang Li]
   equal_contributions: [He Jiang, Yutong Wang]
