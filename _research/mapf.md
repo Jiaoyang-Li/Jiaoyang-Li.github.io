@@ -169,8 +169,9 @@ and to select subsets of agents
 and determine the stopping criterion for LNS. 
 
 Relevant publications: 
-[1] [ML-guided LNS for MAPF](/publications/HuangAAAI22), and
-[2] [ML-guided prioritized planning for MAPF](/publications/ZhangSoCS22). 
+[1] [ML-guided LNS for MAPF](/publications/HuangAAAI22),
+[2] [ML-guided prioritized planning for MAPF](/publications/ZhangSoCS22), and
+[3] [combining RL with LNS](/publications/WangAAAI25).
 
 ## Learning individual policies for agents
 An appealing alternative approach to using heuristic search methods is to use machine learning to directly learn a MAPF
@@ -179,8 +180,9 @@ decentralized (e.g. each agent running its own policy and communicating with a s
 fast (just the time required for a neural network inference), and 
 result in efficient paths.
 
-[1] [Imitation learning for MAPF](https://jiaoyangli.me/publications/VeerapaneniICRA25), and
-[2] [Imitation learning for large-scale lifelong MAPF](/publications/JiangICRA25).
+[1] [Collision sheilding for learning-based MAPF](/publications/VeerapaneniICAPS24),
+[2] [Imitation learning for MAPF](/publications/VeerapaneniICRA25), and
+[3] [Imitation learning for large-scale lifelong MAPF](/publications/JiangICRA25).
 
 <div style="float: right;">
     <a href="https://jiaoyangli.me/research/"><strong>Back to the Research page</strong></a>

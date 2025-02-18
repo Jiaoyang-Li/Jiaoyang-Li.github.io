@@ -26,7 +26,7 @@ author_profile: true
 Today, in automated warehouses, 
 mobile robots already autonomously move inventory pods or flat packages from one location to another. 
 Finding low-cost paths for the robots in real-time is essential for the effectiveness of such systems. 
-However, Multi-Agent Path Finding (MAPF)[^1] is only the “one-shot” variant of the actual problem in many applications. 
+However, Multi-Agent Path Finding (MAPF)<a href="#footnote-1"></a> is only the “one-shot” variant of the actual problem in many applications. 
 Typically, after an agent reaches its goal location, it does not stop and wait there forever. 
 Instead, it is assigned a new goal location and required to keep moving, 
 which is referred to as lifelong MAPF and characterized by agents constantly being assigned new goal locations. 
@@ -35,11 +35,7 @@ how to assign tasks to agents,
 how to decompose the lifelong problem to one-shot MAPF problems and solve it efficiently, and
 how to handle robot dynamics and uncertainties during execution.
 
-<div id="footnote-1"></div>
-<p style="font-size: 0.8em;>
-1. More details on MAPF can be found in our research on 
-<a href="https://jiaoyangli.me/research/mapf/">Foundations of MAPF</a>.
-</p>
+(Details on MAPF can be found in our research on <a href="https://jiaoyangli.me/research/mapf/">Foundations of MAPF</a>.)
 
 ## Combined Task and Path Planning
 
@@ -98,11 +94,12 @@ The two videos below show two challenging instances from the competition.
 
 Relevant publications: 
 [1] [rolling-horizon collision resolution](publications/LiAAAI21lifelong),
-[2] [Winning solution for the 2023 League of Robot Runners](publications/JiangSoCS24), and
-[3] [Imitation learning for 10k agents](publications/JiangICRA25).
+[2] [Winning solution for the 2023 League of Robot Runners](publications/JiangSoCS24), 
+[3] [Imitation learning for 10k agents](publications/JiangICRA25), and
+[4] [Traffic flow optimization](/publications/ChenAAAI24).
+
 
 ## Combined Planning and Execution
-
 
 <img src="https://jiaoyangli.me/images/warehouse-5x.gif" style="float:left;width:200pt;padding:10px;"  alt="warehouse"/>
 MAPF algorithms can find high-quality collision-free plans for automated warehousing 
@@ -118,9 +115,22 @@ and how we design effective execution policies that is robust to uncertainty.
 
 Relevant publications: 
 [1] [Different MAPF models for warehouse robots](/publications/VaramballySoCS22), 
-[2] [Online re-cheduling of agents' execution](/publications/JiangAAAI25), and
-[3] [Offline re-scheduling of agents' execution](/publications/SuAAAI24).
+[2] [Online re-scheduling of agents' execution](/publications/JiangAAAI25),
+[3] [Offline re-scheduling of agents' execution](/publications/SuAAAI24), and
+[4] [A motion planning algorithm designed for Differential drive robots](/publications/YanAAAI25).
 
 <div style="float: right;">
     <button onclick="location.href='https://jiaoyangli.me/research/'" type="button">Back to the Research page</button>
 </div>
+
+## Environment Optimization for Multi-Robot Coordination
+The environment that the robots navigate in significantly influence their coordination efficiency and effectiveness. 
+We study how to design good warehouse layouts to improve the coordination efficiency. 
+We also study how to optimize virtual environments, such as guidance graphs, for the robots to enhance their performance.  
+
+Relevant publications: 
+[1] [Direct layout optimization](/publications/ZhangIJCAI23), 
+[2] [Optimizing a layout generator](/publications/ZhangNeurIPS23),
+[3] [Offline guidance graph optimization](/publications/JiangAAAI25),
+[4] [Online guidance graph optimization](/publications/ZangAAAI25), and
+[5] [Dataset and analysis for MAPF in 3D warehouses](/publications/WangICAPS24mapf3d).
