@@ -26,16 +26,15 @@ author_profile: true
 Today, in automated warehouses, 
 mobile robots already autonomously move inventory pods or flat packages from one location to another. 
 Finding low-cost paths for the robots in real-time is essential for the effectiveness of such systems. 
-However, Multi-Agent Path Finding (MAPF)<a href="#footnote-1"></a> is only the “one-shot” variant of the actual problem in many applications. 
-Typically, after an agent reaches its goal location, it does not stop and wait there forever. 
-Instead, it is assigned a new goal location and required to keep moving, 
-which is referred to as lifelong MAPF and characterized by agents constantly being assigned new goal locations. 
-There are three challenges in this problem, namely 
+Multi-Agent Path Finding (MAPF) technologies
+(see more details in our research on <a href="https://jiaoyangli.me/research/mapf/">Foundations of MAPF</a>)
+provide a promising solution for coordinating these robots.
+However, to apply MAPF in this scenario, we need to address four challenges, namely 
 how to assign tasks to agents, 
-how to decompose the lifelong problem to one-shot MAPF problems and solve it efficiently, and
-how to handle robot dynamics and uncertainties during execution.
+how to decompose the lifelong problem to one-shot MAPF problems and solve it efficiently,
+how to handle robot dynamics and uncertainties during execution, and
+how to design the warehouse layouts. 
 
-(Details on MAPF can be found in our research on <a href="https://jiaoyangli.me/research/mapf/">Foundations of MAPF</a>.)
 
 ## Combined Task and Path Planning
 
@@ -57,7 +56,7 @@ Relevant publications:
 ## Scalability and Solution Quality
 
 <img src="https://jiaoyangli.me/images/single-vs-mapf.png" style="float:left;width:250pt;padding:10px;"  alt="Single vs MAPF"/>
-The principled way of solving this challenge is to develop efficient and effective MAPF algorithms. 
+The principled way of solving this challenge is to develop more efficient and effective MAPF algorithms. 
 More details can be found in our research on [Foundations of MAPF](https://jiaoyangli.me/research/mapf/).
 
 Additionally, MAPF is only the “one-shot” variant of the actual problem in the automated warehouses. 
@@ -108,10 +107,10 @@ However, these simplifying assumptions pose challenging implementational issues
 since the robots cannot follow the plans precisely. 
 Therefore, some recent  research  has  focused  on  more  complicated MAPF models to close the gap.
 But, robot dynamics are complex and almost impossible to be modeled perfectly.
-We therefore study how  to combine (task and path) planning with execution control from two perspectives,
+We therefore study how  to combine (task and path) planning with execution control from three perspectives,
 namely what planning model works best in terms of maximizing final throughput and minimizing planning time,
 how we overlap planning and execution to avoid robot idle time during replanning, 
-and how we design effective execution policies that is robust to uncertainty.
+and how we design effective execution policies that is robust to unmodeled robot dynamics and uncertainty.
 
 Relevant publications: 
 [1] [Different MAPF models for warehouse robots](/publications/VaramballySoCS22), 
