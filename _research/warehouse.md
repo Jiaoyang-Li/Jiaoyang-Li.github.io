@@ -70,10 +70,10 @@ The videos shown at the top of the page
 show the performance of 800 agents on the same map with traditional single-agent solver and RHCR, and 
 the figure on the left summarizes the throughput results with different numbers of agents.
 
-We recently also developed a solution, summarized in [2], that won a competition sponsored by Amazon Robotics, 
-hich can coordinate up to **10,000 agents with planning time below a second**. 
+We recently developed a complex planner, summarized in [2], that won a competition sponsored by Amazon Robotics. 
+This planner can coordinate up to **10,000 agents with planning times under a second**. 
 The two videos below show two challenging instances from the competition.
-[3] further improved the solution by imitation learning. 
+A follow-up work [3] further improved the planner through imitation learning. 
 
 <div style="display: flex; flex-wrap: wrap; text-align: center">
     <div style="min-height:200px;flex: 1;margin: 5px;">
@@ -101,10 +101,10 @@ Relevant publications:
 ## Combined Planning and Execution
 
 <img src="https://jiaoyangli.me/images/warehouse-5x.gif" style="float:left;width:200pt;padding:10px;"  alt="warehouse"/>
-MAPF algorithms can find high-quality collision-free plans for automated warehousing 
+MAPF algorithms can find high-quality collision-free paths for automated warehousing 
 under simplified assumptions about the robot dynamics. 
 However, these simplifying assumptions pose challenging implementational issues 
-since the robots cannot follow the plans precisely. 
+since the robots cannot follow the paths precisely. 
 Therefore, some recent  research  has  focused  on  more  complicated MAPF models to close the gap.
 But, robot dynamics are complex and almost impossible to be modeled perfectly.
 We therefore study how  to combine (task and path) planning with execution control from three perspectives,
