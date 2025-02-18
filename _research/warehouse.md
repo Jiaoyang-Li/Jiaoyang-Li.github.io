@@ -26,7 +26,7 @@ author_profile: true
 Today, in automated warehouses, 
 mobile robots already autonomously move inventory pods or flat packages from one location to another. 
 Finding low-cost paths for the robots in real-time is essential for the effectiveness of such systems. 
-However, MAPF is only the “one-shot” variant of the actual problem in many applications. 
+However, Multi-Agent Path Finding (MAPF)[^1] is only the “one-shot” variant of the actual problem in many applications. 
 Typically, after an agent reaches its goal location, it does not stop and wait there forever. 
 Instead, it is assigned a new goal location and required to keep moving, 
 which is referred to as lifelong MAPF and characterized by agents constantly being assigned new goal locations. 
@@ -35,6 +35,7 @@ how to assign tasks to agents,
 how to decompose the lifelong problem to one-shot MAPF problems and solve it efficiently, and
 how to handle robot dynamics and uncertainties during execution.
 
+[^1]: More details on MAPF can be found in our research on [Foundations of MAPF](https://jiaoyangli.me/research/mapf/)
 
 ## Combined Task and Path Planning
 
@@ -70,9 +71,31 @@ The videos shown at the top of the page
 show the performance of 800 agents on the same map with traditional single-agent solver and RHCR, and 
 the figure on the left summarizes the throughput results with different numbers of agents.
 
-Relevant publications: 
-[1] [rolling-horizon collision resolution](https://jiaoyangli.me/publications/LiAAAI21lifelong).
+We recently also developed a solution, summarized in [2], that won a competition sponsored by Amazon Robotics, 
+hich can coordinate up to **10,000 agents with planning time below a second**. 
+The two videos below show two challenging instances from the competition.
+[3] further improved the solution by imitation learning. 
 
+<div style="display: flex; flex-wrap: wrap; text-align: center">
+    <div style="min-width:300px;flex: 1;margin: 5px;">
+        <video height="200px" autoplay loop controls> 
+            <source type="video/mp4" src="/images/random-800agents.mp4" /> 
+        </video>
+        <figcaption>Coordinating 800 agents on a 32x32 map with 819 empty cells</figcaption>
+    </div>
+    <div style="min-width:300px;flex: 1;margin: 5px;">
+        <video height="200px" autoplay loop controls> 
+            <source type="video/mp4" src="/images/warehouse-10kagents.mp4" /> 
+        </video>
+        <figcaption>Coordinating 10,000 agents on a 180x320 warehouse map</figcaption>
+    </div>
+</div>
+<div style="clear:both;"></div>
+
+Relevant publications: 
+[1] [rolling-horizon collision resolution](publications/LiAAAI21lifelong),
+[2] [Winning solution for the 2023 League of Robot Runners](publications/JiangSoCS24), and
+[3] [Imitation learning for 10k agents](publications/JiangICRA25).
 
 ## Combined Planning and Execution
 
@@ -85,12 +108,14 @@ since the robots cannot follow the plans precisely.
 Therefore, some recent  research  has  focused  on  more  complicated MAPF models to close the gap.
 But, robot dynamics are complex and almost impossible to be modeled perfectly.
 We therefore study how  to combine (task and path) planning with execution control from two perspectives,
-namely what planning model works best in terms of maximizing final throughput and minimizing planning time, and
-how we overlap planning and execution to avoid robot idle time during replanning.
+namely what planning model works best in terms of maximizing final throughput and minimizing planning time,
+how we overlap planning and execution to avoid robot idle time during replanning, 
+and how we design effective execution policies that is robust to uncertainty.
 
 Relevant publications: 
-[1] [Different MAPF models for warehouse robots](https://jiaoyangli.me/publications/VaramballySoCS22).
-
+[1] [Different MAPF models for warehouse robots](/publications/VaramballySoCS22), 
+[2] [Online re-cheduling of agents' execution](/publications/JiangAAAI25), and
+[3] [Offline re-scheduling of agents' execution](/publications/SuAAAI24).
 
 <div style="float: right;">
     <button onclick="location.href='https://jiaoyangli.me/research/'" type="button">Back to the Research page</button>

@@ -38,10 +38,11 @@ The challenge is how to build such graphs and connect the discretized MAPF world
 
 
 Relevant publications: 
-[1] [agents of different shapes](https://jiaoyangli.me/publications/LiAAAI19large),
-[2] [agents of nonholonomic dynamics](https://jiaoyangli.me/publications/ChenAAAI21s2m2), 
-[3] [time-robust plans](https://jiaoyangli.me/publications/ChenAAAI21robust), and
-[4] [snake-like agents](https://jiaoyangli.me/publications/ChenSoCS22).
+[1] [agents of different shapes](/publications/LiAAAI19large),
+[2] [agents of nonholonomic dynamics](/publications/ChenAAAI21s2m2), 
+[3] [time-robust plans](/publications/ChenAAAI21robust), 
+[4] [snake-like agents](/publications/ChenSoCS22), and
+[5] [motions planned by diffusion models](/publications/ShaoulICLR25).
 
 
 ## Moving in formation
