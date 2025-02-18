@@ -118,10 +118,6 @@ Relevant publications:
 [3] [Offline re-scheduling of agents' execution](/publications/SuAAAI24), and
 [4] [A motion planning algorithm designed for Differential drive robots](/publications/YanAAAI25).
 
-<div style="float: right;">
-    <button onclick="location.href='https://jiaoyangli.me/research/'" type="button">Back to the Research page</button>
-</div>
-
 ## Environment Optimization for Multi-Robot Coordination
 The environment that the robots navigate in significantly influence their coordination efficiency and effectiveness. 
 We study how to design good warehouse layouts to improve the coordination efficiency. 
@@ -133,3 +129,7 @@ Relevant publications:
 [3] [Offline guidance graph optimization](/publications/JiangAAAI25),
 [4] [Online guidance graph optimization](/publications/ZangAAAI25), and
 [5] [Dataset and analysis for MAPF in 3D warehouses](/publications/WangICAPS24mapf3d).
+
+<div style="float: right;">
+    <button onclick="location.href='https://jiaoyangli.me/research/'" type="button">Back to the Research page</button>
+</div>
