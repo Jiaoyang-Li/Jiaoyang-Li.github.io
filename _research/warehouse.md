@@ -35,7 +35,11 @@ how to assign tasks to agents,
 how to decompose the lifelong problem to one-shot MAPF problems and solve it efficiently, and
 how to handle robot dynamics and uncertainties during execution.
 
-[^1]: More details on MAPF can be found in our research on [Foundations of MAPF](https://jiaoyangli.me/research/mapf/)
+<div id="footnote-1"></div>
+<p style="font-size: 0.8em;>
+1. More details on MAPF can be found in our research on 
+<a href="https://jiaoyangli.me/research/mapf/">Foundations of MAPF</a>.
+</p>
 
 ## Combined Task and Path Planning
 
@@ -77,17 +81,17 @@ The two videos below show two challenging instances from the competition.
 [3] further improved the solution by imitation learning. 
 
 <div style="display: flex; flex-wrap: wrap; text-align: center">
-    <div style="min-width:300px;flex: 1;margin: 5px;">
+    <div style="min-height:200px;flex: 1;margin: 5px;">
         <video height="200px" autoplay loop controls> 
             <source type="video/mp4" src="/images/random-800agents.mp4" /> 
         </video>
-        <figcaption>Coordinating 800 agents on a 32x32 map with 819 empty cells</figcaption>
+        <figcaption>800 agents on a 32x32 map with 819 empty cells</figcaption>
     </div>
-    <div style="min-width:300px;flex: 1;margin: 5px;">
+    <div style="min-height:200px;flex: 1;margin: 5px;">
         <video height="200px" autoplay loop controls> 
             <source type="video/mp4" src="/images/warehouse-10kagents.mp4" /> 
         </video>
-        <figcaption>Coordinating 10,000 agents on a 180x320 warehouse map</figcaption>
+        <figcaption>10,000 agents on a 180x320 warehouse map</figcaption>
     </div>
 </div>
 <div style="clear:both;"></div>
