@@ -10,6 +10,13 @@ author_profile: true
 
 <img src="https://jiaoyangli.me/images/logo-white-background.png" title="logo" width="800pt" alt="ARCS Lab"/>
 
+<div style="background-color: #f9f9f9; border-left: 4px solid #ccc; padding: 1em; margin-bottom: 1.5em;">
+    <strong>Note:</strong>
+    This page is no longer actively updated.
+    For the most recent information, please visit
+    <a href="https://arcs-group.github.io/">ARCS’s website</a>.
+</div>
+
 A summary of each member's ongoing research can be found 
 [here](https://jiaoyang-li.github.io/files/ARCS-2024-Orientation-Poster.pdf "Download poster") 
 (updated date: August 2024).
