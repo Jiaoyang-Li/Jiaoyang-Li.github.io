@@ -30,33 +30,70 @@ please send me an [email](mailto:jiaoyanl@andrew.cmu.edu) with your CV and a sho
 I currently do not have any funding for postdoc positions.
 
 ## News 
-* \[2024/06\] Our paper [Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences](https://jiaoyangli.me/publications/ShaoulICAPS24) won the best student paper award of [ICAPS-24](https://icaps24.icaps-conference.org/).
-* \[2024/06\] Organized the [System Demonstration track](https://icaps24.icaps-conference.org/calls/demos/) at [ICAPS-24](https://icaps24.icaps-conference.org/).
-* \[2024/06\] Organized [17th International Symposium on Combinatorial Search (SoCS)](https://socs24.search-conference.org/).
-* \[2024/05\] Organized [15th Workshop on Optimization and Learning in Multiagent Systems (OptLearnMAS)](https://optlearnmas.github.io/) at [AAMAS-24](https://www.aamas2024-conference.auckland.ac.nz/). 
-* \[2024/04\] Two papers (one on [guidance graph optimization](https://jiaoyangli.me/publications/ZhangIJCAI24) and one on [mechanism design](https://jiaoyangli.me/publications/FriedrichIJCAI24)) accepted to [IJCAI-24](https://ijcai24.org/).
-* \[2024/03\] Three papers (one on [combined target assignment and pathfinding](https://jiaoyangli.me/publications/TangSoCS24),
-              one on [MAPF competition](https://jiaoyangli.me/publications/JiangSoCS24), and 
-              one on [multi-arm motion planning](https://jiaoyangli.me/publications/ShaoulSoCS24)) accepted to [SoCS-24](https://socs24.search-conference.org/).
-* \[2024/02\] Five papers (one on [multi-robot plan execution](https://jiaoyangli.me/publications/FengICAPS24), 
-              one on [multi-arm motion planning](https://jiaoyangli.me/publications/ShaoulICAPS24), 
-              one on [3D warehouses](https://jiaoyangli.me/publications/WangICAPS24mapf3d), 
-              one on [multi-objective search](https://jiaoyangli.me/publications/WangICAPS24momapf), and 
-              one on [learnt policy postprocessing](https://jiaoyangli.me/publications/VeerapaneniICAPS24)) accepted to [ICAPS-24](https://icaps24.icaps-conference.org/).
-* \[2024/02\] Seminar talks at CCFAI, [Autonomy Talks](https://youtu.be/QnQj3I2dfS0?feature=shared), CMU RI seminar, and Simon Fraser University.
-* \[2023/12\] Invited talk at Amazon Robotics.
-* \[2023/12\] Two papers ([one](https://jiaoyangli.me/publications/SuAAAI24) on multi-agent plan execution and [the other](https://jiaoyangli.me/publications/ChenAAAI24) on traffic assignment) accepted to [AAAI-24](https://aaai.org/aaai-conference/).
-* \[2023/12\] Our team was the winner of [The League of Robot Runners](https://www.leagueofrobotrunners.org/), a competition sponsored by Amazon Robotics that focuses on the coordination of multiple moving robots. 
-              We ranked the first in both the overall best and the fast mover categories, as well as the second in line honours. See more details [here](https://www.leagueofrobotrunners.org/news). 
-* \[2023/12\] Our paper [Solving Multi-Agent Target Assignment and Path Finding with a Single Constraint Tree](https://jiaoyangli.me/publications/TangMRS23) was selected as the finalist for the [MRS-23](https://sites.bu.edu/mrs2023/program/awards/) Best Paper.
-* \[2023/10\] [One paper](https://jiaoyangli.me/publications/ZhangNeurIPS23) on environment generation accepted to [NeurIPS 2023](https://nips.cc/), 
-              [one paper](https://jiaoyangli.me/publications/TangMRS23) on target assignment and pathfinding accepted to [MRS 2023](https://sites.bu.edu/mrs2023/),
-              [one paper](https://jiaoyangli.me/publications/ZhangAR23) on task and motion planning published at [Autonomous Robots](https://www.springer.com/journal/10514), and
-              [one paper](https://jiaoyangli.me/publications/AtzmonAIJ23) on multi-agent meeting published at [Artificial Intelligence](https://www.sciencedirect.com/journal/artificial-intelligence).
-* \[2023/10\] Organized AAAI-23 Fall Symposium Series on [Agent Teaming in Mixed-Motive Situations](https://successmuri.org/workshops/fss23/).
+* [2026/01] Organized the AAAI 2026 Bridge Program on *Combining AI and OR/MS for Better Trustworthy Decision Making*.
+* [2026/01] Co-chaired the workshop program at [AAAI-26](https://aaai.org/conference/aaai/aaai-26/).
+* [2025/11] Co-chaired the system demonstration track at [ICAPS-25](https://icaps25.icaps-conference.org/).
+* [2025/11] Gave an invited seminar talk at the CMU Robotics Institute.
+* [2025/11] Our demo *Advancing MAPF towards the Real World: A Scalable Multi-Agent Realistic Testbed (SMART)* won the *ICAPS 2025 Best System Demonstration Award*.
+* [2025/10] Gave invited talks at the IROS Workshop on Multi-Robot Perception and Navigation Challenges in Logistics and Inspection Tasks, the NRI/FRR Annual Meeting Robot Learning and Planning Workshop, and the Amazon Robotics Research Symposium.
+* [2025/08] Gave an invited talk on *AI for Collaborative Autonomy: Multi-Robot Systems in Manufacturing* at the CMU Manufacturing Futures Institute Workshop.
+* [2025/05] Co-chaired the RSS 2025 Workshop on *Large Foundation Model for Interactive Robot Learning*.
+* [2025/04] Received the *NSF CAREER Award*.
+* [2025/03] Our paper [Deploying Ten Thousand Robots: Scalable Imitation Learning for Lifelong Multi-Agent Path Finding](https://diligentpanda.github.io/SILLM/) won the *ICRA 2025 Best Student Paper Award* and the *Best Paper Award on Multi-Robot Systems*.
+* [2025/02] Gave invited talks at the University of Macau and Amazon Robotics, and a guest lecture for the University of Virginia course on multi-robot navigation.
+* [2025/02] Co-chaired the Job Fair at [AAAI-25](https://aaai.org/conference/aaai/aaai-25/).
+
 <details>
   <summary>Show more</summary>
   <ul>
+    <li>
+        [2024.12] Five papers were accepted to <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a>, including works on <a href="https://arcs-group.github.io/publications/VeerapaneniAAAI25/">windowed MAPF with completeness guarantees</a>, <a href="https://arcs-group.github.io/publications/YanAAAI25/">multi-agent motion planning for differential-drive robots</a>, <a href="https://arcs-group.github.io/publications/JiangAAAI25/">temporal plan graph optimization</a>, <a href="https://sites.google.com/view/onlineggo">online guidance graph optimization</a>, and <a href="https://arcs-group.github.io/publications/WangAAAI25/">LNS2+RL</a>.
+    </li>
+    <li>
+        [2024.08] Gave an invited talk on <i>Layout Design for Large-Scale Multi-Robot Coordination</i> at the 7th YinzOR Conference.
+    </li>
+    <li>
+        [2024.06] Our paper <a href="https://jiaoyangli.me/publications/ShaoulICAPS24">Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences</a> won the best student paper award at <a href="https://icaps24.icaps-conference.org/">ICAPS-24</a>.
+    </li>
+    <li>
+        [2024.06] Co-chaired the <a href="https://icaps24.icaps-conference.org/calls/demos/">System Demonstration track</a> at <a href="https://icaps24.icaps-conference.org/">ICAPS-24</a>.
+    </li>
+    <li>
+        [2024.06] Co-chaired the <a href="https://socs24.search-conference.org/">17th International Symposium on Combinatorial Search (SoCS)</a>.
+    </li>
+    <li>
+        [2024.05] Organized the <a href="https://optlearnmas.github.io/">15th Workshop on Optimization and Learning in Multiagent Systems (OptLearnMAS)</a> at <a href="https://www.aamas2024-conference.auckland.ac.nz/">AAMAS-24</a>.
+    </li>
+    <li>
+        [2024.04] Two papers (one on <a href="https://jiaoyangli.me/publications/ZhangIJCAI24">guidance graph optimization</a> and one on <a href="https://jiaoyangli.me/publications/FriedrichIJCAI24">mechanism design</a>) were accepted to <a href="https://ijcai24.org/">IJCAI-24</a>.
+    </li>
+    <li>
+        [2024.03] Three papers (one on <a href="https://jiaoyangli.me/publications/TangSoCS24">combined target assignment and pathfinding</a>, one on <a href="https://jiaoyangli.me/publications/JiangSoCS24">MAPF competition</a>, and one on <a href="https://jiaoyangli.me/publications/ShaoulSoCS24">multi-arm motion planning</a>) were accepted to <a href="https://socs24.search-conference.org/">SoCS-24</a>.
+    </li>
+    <li>
+        [2024.02] Five papers (on <a href="https://jiaoyangli.me/publications/FengICAPS24">multi-robot plan execution</a>, <a href="https://jiaoyangli.me/publications/ShaoulICAPS24">multi-arm motion planning</a>, <a href="https://jiaoyangli.me/publications/WangICAPS24mapf3d">3D warehouses</a>, <a href="https://jiaoyangli.me/publications/WangICAPS24momapf">multi-objective search</a>, and <a href="https://jiaoyangli.me/publications/VeerapaneniICAPS24">learned policy postprocessing</a>) were accepted to <a href="https://icaps24.icaps-conference.org/">ICAPS-24</a>.
+    </li>
+    <li>
+        [2024.02] Gave seminar talks at CCFAI, <a href="https://youtu.be/QnQj3I2dfS0?feature=shared">Autonomy Talks</a>, the CMU RI seminar, and Simon Fraser University.
+    </li>
+    <li>
+        [2023.12] Invited talk at Amazon Robotics.
+    </li>
+    <li>
+        [2023.12] Two papers (<a href="https://jiaoyangli.me/publications/SuAAAI24">one</a> on multi-agent plan execution and <a href="https://jiaoyangli.me/publications/ChenAAAI24">the other</a> on traffic assignment) were accepted to <a href="https://aaai.org/aaai-conference/">AAAI-24</a>.
+    </li>
+    <li>
+        [2023.12] Our team won <a href="https://www.leagueofrobotrunners.org/">The League of Robot Runners</a>, a competition sponsored by Amazon Robotics on multi-robot coordination. We ranked first overall and in the fast mover category, and second in line honours. See more details <a href="https://www.leagueofrobotrunners.org/news">here</a>.
+    </li>
+    <li>
+        [2023.12] Our paper <a href="https://jiaoyangli.me/publications/TangMRS23">Solving Multi-Agent Target Assignment and Path Finding with a Single Constraint Tree</a> was selected as a finalist for the <a href="https://sites.bu.edu/mrs2023/program/awards/">MRS-23 Best Paper Award</a>.
+    </li>
+    <li>
+        [2023.10] One paper on <a href="https://jiaoyangli.me/publications/ZhangNeurIPS23">environment generation</a> was accepted to <a href="https://nips.cc/">NeurIPS 2023</a>; one on <a href="https://jiaoyangli.me/publications/TangMRS23">target assignment and pathfinding</a> was accepted to <a href="https://sites.bu.edu/mrs2023/">MRS 2023</a>; one on <a href="https://jiaoyangli.me/publications/ZhangAR23">task and motion planning</a> was published in <a href="https://www.springer.com/journal/10514">Autonomous Robots</a>; and one on <a href="https://jiaoyangli.me/publications/AtzmonAIJ23">multi-agent meeting</a> was published in <a href="https://www.sciencedirect.com/journal/artificial-intelligence">Artificial Intelligence</a>.
+    </li>
+    <li>
+        [2023.10] Organized the AAAI-23 Fall Symposium Series on <a href="https://successmuri.org/workshops/fss23/">Agent Teaming in Mixed-Motive Situations</a>.
+    </li>
     <li>
         [2023.07] Honored to receive the <a href="https://www.icaps-conference.org/icaps-awards/">ICAPS-23 Best Dissertation Award</a> for <a href="https://jiaoyangli.me/publications/LiPhD22">my dissertation</a>.
     </li>
