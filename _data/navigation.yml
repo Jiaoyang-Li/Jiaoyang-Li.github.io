@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "Research"
-    url: /research/
+    url: https://arcs-group.github.io/research/
 
   - title: "ARCS Lab"
-    url: /people/
+    url: https://arcs-group.github.io/
 
   - title: "Publications"
-    url: /publications/
+    url: https://arcs-group.github.io/publications/
 
   - title: "Teaching"
     url: /teaching/
